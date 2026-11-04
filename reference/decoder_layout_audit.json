@@ -1,0 +1,1121 @@
+{
+  "summary": {
+    "unclassified_for_this_decoder": 92,
+    "bounded_image_metadata": 29
+  },
+  "sections": [
+    {
+      "file": "0_section_00.bin",
+      "resource": "0.f",
+      "section": 0,
+      "bytes": 2486,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4641 exceeds payload 2486"
+    },
+    {
+      "file": "0_section_01.bin",
+      "resource": "0.f",
+      "section": 1,
+      "bytes": 1262,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 14641 exceeds payload 1262"
+    },
+    {
+      "file": "0_section_02.bin",
+      "resource": "0.f",
+      "section": 2,
+      "bytes": 8995,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 26468 exceeds payload 8995"
+    },
+    {
+      "file": "0_section_03.bin",
+      "resource": "0.f",
+      "section": 3,
+      "bytes": 336,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 48,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "1_section_00.bin",
+      "resource": "1.f",
+      "section": 0,
+      "bytes": 1105,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 3"
+    },
+    {
+      "file": "1_section_01.bin",
+      "resource": "1.f",
+      "section": 1,
+      "bytes": 1059,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 14658 exceeds payload 1059"
+    },
+    {
+      "file": "1_section_02.bin",
+      "resource": "1.f",
+      "section": 2,
+      "bytes": 9077,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 25704 exceeds payload 9077"
+    },
+    {
+      "file": "1_section_03.bin",
+      "resource": "1.f",
+      "section": 3,
+      "bytes": 332,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 9,
+      "metadata_end": 44,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "2_section_00.bin",
+      "resource": "2.f",
+      "section": 0,
+      "bytes": 2470,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 13395 exceeds payload 2470"
+    },
+    {
+      "file": "2_section_01.bin",
+      "resource": "2.f",
+      "section": 1,
+      "bytes": 1139,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 22229 exceeds payload 1139"
+    },
+    {
+      "file": "2_section_02.bin",
+      "resource": "2.f",
+      "section": 2,
+      "bytes": 9290,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 26422 exceeds payload 9290"
+    },
+    {
+      "file": "2_section_03.bin",
+      "resource": "2.f",
+      "section": 3,
+      "bytes": 328,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 7,
+      "metadata_end": 40,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "b0_section_00.bin",
+      "resource": "b0.f",
+      "section": 0,
+      "bytes": 4003,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 32727 exceeds payload 4003"
+    },
+    {
+      "file": "b0_section_01.bin",
+      "resource": "b0.f",
+      "section": 1,
+      "bytes": 350,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 13523 exceeds payload 350"
+    },
+    {
+      "file": "b1_section_00.bin",
+      "resource": "b1.f",
+      "section": 0,
+      "bytes": 16241,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 29429 exceeds payload 16241"
+    },
+    {
+      "file": "cm_section_00.bin",
+      "resource": "cm.f",
+      "section": 0,
+      "bytes": 634,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "cm_section_01.bin",
+      "resource": "cm.f",
+      "section": 1,
+      "bytes": 1258,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "cm_section_02.bin",
+      "resource": "cm.f",
+      "section": 2,
+      "bytes": 805,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4657 exceeds payload 805"
+    },
+    {
+      "file": "cm_section_03.bin",
+      "resource": "cm.f",
+      "section": 3,
+      "bytes": 1236,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 25712 exceeds payload 1236"
+    },
+    {
+      "file": "cm_section_04.bin",
+      "resource": "cm.f",
+      "section": 4,
+      "bytes": 632,
+      "status": "bounded_image_metadata",
+      "image_count": 2,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 13,
+      "metadata_end": 56,
+      "pixel_data_bytes_after_metadata": 576
+    },
+    {
+      "file": "cm_section_05.bin",
+      "resource": "cm.f",
+      "section": 5,
+      "bytes": 335,
+      "status": "bounded_image_metadata",
+      "image_count": 2,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 13,
+      "metadata_end": 88,
+      "pixel_data_bytes_after_metadata": 247
+    },
+    {
+      "file": "cm_section_06.bin",
+      "resource": "cm.f",
+      "section": 6,
+      "bytes": 1026,
+      "status": "bounded_image_metadata",
+      "image_count": 3,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 162,
+      "pixel_data_bytes_after_metadata": 864
+    },
+    {
+      "file": "cm_section_07.bin",
+      "resource": "cm.f",
+      "section": 7,
+      "bytes": 4153,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 6585 exceeds payload 4153"
+    },
+    {
+      "file": "cr_section_00.bin",
+      "resource": "cr.f",
+      "section": 0,
+      "bytes": 41,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 6676 bytes at 8; payload=41"
+    },
+    {
+      "file": "demo_section_00.bin",
+      "resource": "demo.f",
+      "section": 0,
+      "bytes": 1290,
+      "status": "unclassified_for_this_decoder",
+      "reason": "table3 records: need 12805 bytes at 356; payload=1290"
+    },
+    {
+      "file": "demoui_section_00.bin",
+      "resource": "demoui.f",
+      "section": 0,
+      "bytes": 322,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 21770 exceeds payload 322"
+    },
+    {
+      "file": "gen0_section_00.bin",
+      "resource": "gen0.f",
+      "section": 0,
+      "bytes": 323,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 13295 exceeds payload 323"
+    },
+    {
+      "file": "gen0_section_01.bin",
+      "resource": "gen0.f",
+      "section": 1,
+      "bytes": 382,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "gen0_section_02.bin",
+      "resource": "gen0.f",
+      "section": 2,
+      "bytes": 254,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 2,
+      "palette_colors": 13,
+      "metadata_end": 78,
+      "pixel_data_bytes_after_metadata": 176
+    },
+    {
+      "file": "gen0_section_03.bin",
+      "resource": "gen0.f",
+      "section": 3,
+      "bytes": 2785,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 17497 exceeds payload 2785"
+    },
+    {
+      "file": "gen0_section_04.bin",
+      "resource": "gen0.f",
+      "section": 4,
+      "bytes": 2542,
+      "status": "bounded_image_metadata",
+      "image_count": 8,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 238,
+      "pixel_data_bytes_after_metadata": 2304
+    },
+    {
+      "file": "gen0_section_05.bin",
+      "resource": "gen0.f",
+      "section": 5,
+      "bytes": 406,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "gen0_section_06.bin",
+      "resource": "gen0.f",
+      "section": 6,
+      "bytes": 350,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 12,
+      "metadata_end": 62,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "gen0_section_07.bin",
+      "resource": "gen0.f",
+      "section": 7,
+      "bytes": 1244,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 11048 exceeds payload 1244"
+    },
+    {
+      "file": "gen0_section_08.bin",
+      "resource": "gen0.f",
+      "section": 8,
+      "bytes": 1205,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "gen0_section_09.bin",
+      "resource": "gen0.f",
+      "section": 9,
+      "bytes": 370,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 82,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "gen1_section_00.bin",
+      "resource": "gen1.f",
+      "section": 0,
+      "bytes": 5175,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 3"
+    },
+    {
+      "file": "gen1_section_01.bin",
+      "resource": "gen1.f",
+      "section": 1,
+      "bytes": 494,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 14820 exceeds payload 494"
+    },
+    {
+      "file": "gen1_section_02.bin",
+      "resource": "gen1.f",
+      "section": 2,
+      "bytes": 1386,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 3"
+    },
+    {
+      "file": "gen1_section_03.bin",
+      "resource": "gen1.f",
+      "section": 3,
+      "bytes": 4024,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 5"
+    },
+    {
+      "file": "gen1_section_04.bin",
+      "resource": "gen1.f",
+      "section": 4,
+      "bytes": 1991,
+      "status": "bounded_image_metadata",
+      "image_count": 6,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 68,
+      "pixel_data_bytes_after_metadata": 1923
+    },
+    {
+      "file": "gen1_section_05.bin",
+      "resource": "gen1.f",
+      "section": 5,
+      "bytes": 4247,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 7440 exceeds payload 4247"
+    },
+    {
+      "file": "gen1_section_06.bin",
+      "resource": "gen1.f",
+      "section": 6,
+      "bytes": 281,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4992 exceeds payload 281"
+    },
+    {
+      "file": "gen1_section_07.bin",
+      "resource": "gen1.f",
+      "section": 7,
+      "bytes": 1596,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 21113 exceeds payload 1596"
+    },
+    {
+      "file": "gen1_section_08.bin",
+      "resource": "gen1.f",
+      "section": 8,
+      "bytes": 232,
+      "status": "bounded_image_metadata",
+      "image_count": 2,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 6,
+      "metadata_end": 66,
+      "pixel_data_bytes_after_metadata": 166
+    },
+    {
+      "file": "gen1_section_09.bin",
+      "resource": "gen1.f",
+      "section": 9,
+      "bytes": 808,
+      "status": "bounded_image_metadata",
+      "image_count": 3,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 15,
+      "metadata_end": 64,
+      "pixel_data_bytes_after_metadata": 744
+    },
+    {
+      "file": "gen2_section_00.bin",
+      "resource": "gen2.f",
+      "section": 0,
+      "bytes": 778,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4879 exceeds payload 778"
+    },
+    {
+      "file": "gen2_section_01.bin",
+      "resource": "gen2.f",
+      "section": 1,
+      "bytes": 2542,
+      "status": "bounded_image_metadata",
+      "image_count": 8,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 238,
+      "pixel_data_bytes_after_metadata": 2304
+    },
+    {
+      "file": "gen2_section_02.bin",
+      "resource": "gen2.f",
+      "section": 2,
+      "bytes": 527,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 1690 exceeds payload 527"
+    },
+    {
+      "file": "gen2_section_03.bin",
+      "resource": "gen2.f",
+      "section": 3,
+      "bytes": 1846,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "gen2_section_04.bin",
+      "resource": "gen2.f",
+      "section": 4,
+      "bytes": 906,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 5519 exceeds payload 906"
+    },
+    {
+      "file": "gen2_section_05.bin",
+      "resource": "gen2.f",
+      "section": 5,
+      "bytes": 1216,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 31414 exceeds payload 1216"
+    },
+    {
+      "file": "gen2_section_06.bin",
+      "resource": "gen2.f",
+      "section": 6,
+      "bytes": 3326,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 3696 exceeds payload 3326"
+    },
+    {
+      "file": "gen2_section_07.bin",
+      "resource": "gen2.f",
+      "section": 7,
+      "bytes": 336,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 48,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "gen2_section_08.bin",
+      "resource": "gen2.f",
+      "section": 8,
+      "bytes": 727,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 30663 exceeds payload 727"
+    },
+    {
+      "file": "gen2_section_09.bin",
+      "resource": "gen2.f",
+      "section": 9,
+      "bytes": 214,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 58,
+      "pixel_data_bytes_after_metadata": 156
+    },
+    {
+      "file": "gen3_section_00.bin",
+      "resource": "gen3.f",
+      "section": 0,
+      "bytes": 1371,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 17570 exceeds payload 1371"
+    },
+    {
+      "file": "gen3_section_01.bin",
+      "resource": "gen3.f",
+      "section": 1,
+      "bytes": 346,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 16,
+      "metadata_end": 58,
+      "pixel_data_bytes_after_metadata": 288
+    },
+    {
+      "file": "gen3_section_02.bin",
+      "resource": "gen3.f",
+      "section": 2,
+      "bytes": 983,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "gen3_section_03.bin",
+      "resource": "gen3.f",
+      "section": 3,
+      "bytes": 592,
+      "status": "bounded_image_metadata",
+      "image_count": 4,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 15,
+      "metadata_end": 172,
+      "pixel_data_bytes_after_metadata": 420
+    },
+    {
+      "file": "gen3_section_04.bin",
+      "resource": "gen3.f",
+      "section": 4,
+      "bytes": 754,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 26186 exceeds payload 754"
+    },
+    {
+      "file": "gen3_section_05.bin",
+      "resource": "gen3.f",
+      "section": 5,
+      "bytes": 4421,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 2"
+    },
+    {
+      "file": "gen3_section_06.bin",
+      "resource": "gen3.f",
+      "section": 6,
+      "bytes": 316,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4680 exceeds payload 316"
+    },
+    {
+      "file": "gen3_section_07.bin",
+      "resource": "gen3.f",
+      "section": 7,
+      "bytes": 3876,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 8"
+    },
+    {
+      "file": "gen3_section_08.bin",
+      "resource": "gen3.f",
+      "section": 8,
+      "bytes": 355,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 5050 exceeds payload 355"
+    },
+    {
+      "file": "gen3_section_09.bin",
+      "resource": "gen3.f",
+      "section": 9,
+      "bytes": 808,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4402 exceeds payload 808"
+    },
+    {
+      "file": "gen4_section_00.bin",
+      "resource": "gen4.f",
+      "section": 0,
+      "bytes": 1138,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 8740 exceeds payload 1138"
+    },
+    {
+      "file": "gen4_section_01.bin",
+      "resource": "gen4.f",
+      "section": 1,
+      "bytes": 930,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4562 exceeds payload 930"
+    },
+    {
+      "file": "gen4_section_02.bin",
+      "resource": "gen4.f",
+      "section": 2,
+      "bytes": 280,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 60,
+      "pixel_data_bytes_after_metadata": 220
+    },
+    {
+      "file": "mm0_section_00.bin",
+      "resource": "mm0.f",
+      "section": 0,
+      "bytes": 3421,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 9"
+    },
+    {
+      "file": "mm0_section_01.bin",
+      "resource": "mm0.f",
+      "section": 1,
+      "bytes": 4223,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 28969 exceeds payload 4223"
+    },
+    {
+      "file": "mm0_section_02.bin",
+      "resource": "mm0.f",
+      "section": 2,
+      "bytes": 296,
+      "status": "bounded_image_metadata",
+      "image_count": 2,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 9,
+      "metadata_end": 48,
+      "pixel_data_bytes_after_metadata": 248
+    },
+    {
+      "file": "mm1_section_00.bin",
+      "resource": "mm1.f",
+      "section": 0,
+      "bytes": 13945,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 21992 exceeds payload 13945"
+    },
+    {
+      "file": "mmv_section_00.bin",
+      "resource": "mmv.f",
+      "section": 0,
+      "bytes": 5287,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 21910 exceeds payload 5287"
+    },
+    {
+      "file": "mmv_section_01.bin",
+      "resource": "mmv.f",
+      "section": 1,
+      "bytes": 452,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 74,
+      "pixel_data_bytes_after_metadata": 378
+    },
+    {
+      "file": "mmv_section_02.bin",
+      "resource": "mmv.f",
+      "section": 2,
+      "bytes": 460,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 15,
+      "metadata_end": 82,
+      "pixel_data_bytes_after_metadata": 378
+    },
+    {
+      "file": "mmv_section_03.bin",
+      "resource": "mmv.f",
+      "section": 3,
+      "bytes": 452,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 74,
+      "pixel_data_bytes_after_metadata": 378
+    },
+    {
+      "file": "mmv_section_04.bin",
+      "resource": "mmv.f",
+      "section": 4,
+      "bytes": 296,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 9087 exceeds payload 296"
+    },
+    {
+      "file": "mmv_section_05.bin",
+      "resource": "mmv.f",
+      "section": 5,
+      "bytes": 636,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4396 exceeds payload 636"
+    },
+    {
+      "file": "ms_section_00.bin",
+      "resource": "ms.f",
+      "section": 0,
+      "bytes": 2000,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4749 exceeds payload 2000"
+    },
+    {
+      "file": "ms_section_01.bin",
+      "resource": "ms.f",
+      "section": 1,
+      "bytes": 1595,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 4369 exceeds payload 1595"
+    },
+    {
+      "file": "ms_section_02.bin",
+      "resource": "ms.f",
+      "section": 2,
+      "bytes": 340,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 100,
+      "pixel_data_bytes_after_metadata": 240
+    },
+    {
+      "file": "ms_section_03.bin",
+      "resource": "ms.f",
+      "section": 3,
+      "bytes": 567,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 11,
+      "metadata_end": 100,
+      "pixel_data_bytes_after_metadata": 467
+    },
+    {
+      "file": "ms_section_04.bin",
+      "resource": "ms.f",
+      "section": 4,
+      "bytes": 491,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 8,
+      "metadata_end": 94,
+      "pixel_data_bytes_after_metadata": 397
+    },
+    {
+      "file": "o_section_00.bin",
+      "resource": "o.f",
+      "section": 0,
+      "bytes": 19846,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 4"
+    },
+    {
+      "file": "o_section_01.bin",
+      "resource": "o.f",
+      "section": 1,
+      "bytes": 1849,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 13760 exceeds payload 1849"
+    },
+    {
+      "file": "snd_section_00.bin",
+      "resource": "snd.f",
+      "section": 0,
+      "bytes": 190,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=190"
+    },
+    {
+      "file": "snd_section_01.bin",
+      "resource": "snd.f",
+      "section": 1,
+      "bytes": 421,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=421"
+    },
+    {
+      "file": "snd_section_02.bin",
+      "resource": "snd.f",
+      "section": 2,
+      "bytes": 806,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=806"
+    },
+    {
+      "file": "snd_section_03.bin",
+      "resource": "snd.f",
+      "section": 3,
+      "bytes": 174,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=174"
+    },
+    {
+      "file": "snd_section_04.bin",
+      "resource": "snd.f",
+      "section": 4,
+      "bytes": 566,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=566"
+    },
+    {
+      "file": "snd_section_05.bin",
+      "resource": "snd.f",
+      "section": 5,
+      "bytes": 163,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=163"
+    },
+    {
+      "file": "snd_section_06.bin",
+      "resource": "snd.f",
+      "section": 6,
+      "bytes": 149,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=149"
+    },
+    {
+      "file": "snd_section_07.bin",
+      "resource": "snd.f",
+      "section": 7,
+      "bytes": 185,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=185"
+    },
+    {
+      "file": "snd_section_08.bin",
+      "resource": "snd.f",
+      "section": 8,
+      "bytes": 427,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=427"
+    },
+    {
+      "file": "snd_section_09.bin",
+      "resource": "snd.f",
+      "section": 9,
+      "bytes": 521,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=521"
+    },
+    {
+      "file": "snd_section_10.bin",
+      "resource": "snd.f",
+      "section": 10,
+      "bytes": 185,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=185"
+    },
+    {
+      "file": "snd_section_11.bin",
+      "resource": "snd.f",
+      "section": 11,
+      "bytes": 348,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=348"
+    },
+    {
+      "file": "snd_section_12.bin",
+      "resource": "snd.f",
+      "section": 12,
+      "bytes": 113,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=113"
+    },
+    {
+      "file": "snd_section_13.bin",
+      "resource": "snd.f",
+      "section": 13,
+      "bytes": 443,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=443"
+    },
+    {
+      "file": "snd_section_14.bin",
+      "resource": "snd.f",
+      "section": 14,
+      "bytes": 233,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=233"
+    },
+    {
+      "file": "snd_section_15.bin",
+      "resource": "snd.f",
+      "section": 15,
+      "bytes": 1345,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=1345"
+    },
+    {
+      "file": "snd_section_16.bin",
+      "resource": "snd.f",
+      "section": 16,
+      "bytes": 1656,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=1656"
+    },
+    {
+      "file": "snd_section_17.bin",
+      "resource": "snd.f",
+      "section": 17,
+      "bytes": 2340,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=2340"
+    },
+    {
+      "file": "snd_section_18.bin",
+      "resource": "snd.f",
+      "section": 18,
+      "bytes": 2544,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=2544"
+    },
+    {
+      "file": "snd_section_19.bin",
+      "resource": "snd.f",
+      "section": 19,
+      "bytes": 6735,
+      "status": "unclassified_for_this_decoder",
+      "reason": "table1 records: need 59400 bytes at 3082; payload=6735"
+    },
+    {
+      "file": "snd_section_20.bin",
+      "resource": "snd.f",
+      "section": 20,
+      "bytes": 1855,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 3072 bytes at 8; payload=1855"
+    },
+    {
+      "file": "spl_section_00.bin",
+      "resource": "spl.f",
+      "section": 0,
+      "bytes": 15178,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative table1 count"
+    },
+    {
+      "file": "spl_section_01.bin",
+      "resource": "spl.f",
+      "section": 1,
+      "bytes": 5032,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 5172 bytes at 8; payload=5032"
+    },
+    {
+      "file": "spl_section_02.bin",
+      "resource": "spl.f",
+      "section": 2,
+      "bytes": 324,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 5172 bytes at 8; payload=324"
+    },
+    {
+      "file": "tips_section_00.bin",
+      "resource": "tips.f",
+      "section": 0,
+      "bytes": 2219,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 3623 exceeds payload 2219"
+    },
+    {
+      "file": "tips_section_01.bin",
+      "resource": "tips.f",
+      "section": 1,
+      "bytes": 470,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 655 exceeds payload 470"
+    },
+    {
+      "file": "tips_section_02.bin",
+      "resource": "tips.f",
+      "section": 2,
+      "bytes": 632,
+      "status": "bounded_image_metadata",
+      "image_count": 2,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 20,
+      "metadata_end": 94,
+      "pixel_data_bytes_after_metadata": 538
+    },
+    {
+      "file": "tips_section_03.bin",
+      "resource": "tips.f",
+      "section": 3,
+      "bytes": 1001,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 66,
+      "metadata_end": 170,
+      "pixel_data_bytes_after_metadata": 831
+    },
+    {
+      "file": "tips_section_04.bin",
+      "resource": "tips.f",
+      "section": 4,
+      "bytes": 1311,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 2085 exceeds payload 1311"
+    },
+    {
+      "file": "tipst_section_00.bin",
+      "resource": "tipst.f",
+      "section": 0,
+      "bytes": 902,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image dimension table: need 49664 bytes at 8; payload=902"
+    },
+    {
+      "file": "ui_section_00.bin",
+      "resource": "ui.f",
+      "section": 0,
+      "bytes": 3356,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 17544 exceeds payload 3356"
+    },
+    {
+      "file": "ui_section_01.bin",
+      "resource": "ui.f",
+      "section": 1,
+      "bytes": 5719,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 8766 exceeds payload 5719"
+    },
+    {
+      "file": "ui_section_02.bin",
+      "resource": "ui.f",
+      "section": 2,
+      "bytes": 7330,
+      "status": "unclassified_for_this_decoder",
+      "reason": "negative image offset delta at 1"
+    },
+    {
+      "file": "ui_section_03.bin",
+      "resource": "ui.f",
+      "section": 3,
+      "bytes": 597,
+      "status": "unclassified_for_this_decoder",
+      "reason": "image offset table cumulative size 13155 exceeds payload 597"
+    },
+    {
+      "file": "ui_section_04.bin",
+      "resource": "ui.f",
+      "section": 4,
+      "bytes": 228,
+      "status": "bounded_image_metadata",
+      "image_count": 1,
+      "palette_format": 21781,
+      "palette_groups": 1,
+      "palette_colors": 3,
+      "metadata_end": 32,
+      "pixel_data_bytes_after_metadata": 196
+    }
+  ]
+}
