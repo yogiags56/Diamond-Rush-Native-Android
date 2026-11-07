@@ -2,7 +2,11 @@
 name: Extract Build 273 Export
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - build-273-integration
+    paths:
+      - .github/workflows/extract-build273.yml
 
 permissions:
   contents: write
@@ -39,4 +43,3 @@ jobs:
           else
             echo "No extracted file changes."
           fi
-          
