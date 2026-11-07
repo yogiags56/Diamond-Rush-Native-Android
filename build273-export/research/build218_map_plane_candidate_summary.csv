@@ -1,0 +1,6 @@
+field,conservative_role_label,candidate_store_count,methods_with_candidate_stores,byte_store_count,int_store_count,interpretation_status
+a:[[B,serialized_primary_byte_plane,129,30,129,0,candidate attribution; confirm operand stack before implementation
+b:[[B,runtime_byte_plane_b,68,14,68,0,candidate attribution; confirm operand stack before implementation
+c:[[B,runtime_byte_plane_c,79,20,79,0,candidate attribution; confirm operand stack before implementation
+a:[[I,serialized_int_plane_a,63,19,1,62,candidate attribution; confirm operand stack before implementation
+b:[[I,serialized_int_plane_b,119,20,1,118,candidate attribution; confirm operand stack before implementation

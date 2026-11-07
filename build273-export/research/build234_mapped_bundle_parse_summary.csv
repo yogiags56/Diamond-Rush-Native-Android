@@ -1,0 +1,11 @@
+global_f_slot,bundle,entry_index,payload_bytes,sprite_count,four_byte_table_count,metadata_row_count,paired_four_byte_table_count,five_byte_table_count,byte_short_row_count,palette_format,palette_count,colors_per_palette,pixel_format,encoded_pixel_bytes,trailing_bytes
+10,mmv.f,0,5287,23,84,29,29,0,0,21781,2,32,5632,4541,0
+46,mmv.f,5,636,12,12,4,4,0,0,21781,1,30,5632,456,0
+55,mmv.f,4,296,3,15,5,5,8,1,21781,1,14,5632,104,0
+18,ui.f,3,597,5,7,6,6,0,0,21781,1,28,5632,451,0
+54,mmv.f,1,452,1,1,1,1,2,1,21781,1,22,5632,378,0
+53,mmv.f,2,460,1,1,1,1,2,1,21781,1,30,5632,378,0
+52,mmv.f,3,452,1,1,1,1,2,1,21781,1,22,5632,378,0
+59,cm.f,2,805,4,7,4,4,0,0,21781,2,24,5632,659,0
+17,ms.f,0,2000,20,23,19,19,0,0,21781,1,30,5632,1624,0
+9,cm.f,7,4153,17,692,71,71,71,6,21781,1,28,5632,320,0

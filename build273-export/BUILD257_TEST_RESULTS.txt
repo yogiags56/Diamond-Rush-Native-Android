@@ -1,0 +1,13 @@
+BUILD 257 TEST RESULTS
+
+CFG blocks: 322
+Reachable blocks: 247
+Worklist visits: 881
+Stack-shape conflict blocks: 20
+Callsite snapshots: 13/25
+Snapshots with sufficient descriptor stack depth: 13/25
+Promoted argument tuples: 0
+Promoted composite groups: 0
+
+pytest: 257 passed, 4 warnings.
+No Kotlin/Android/device/room-rendering/APK validation claimed.

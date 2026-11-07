@@ -1,0 +1,17 @@
+class,method,bundle,entry,bytecode_callsite,status,detail
+i,private void f();,ms.f,0,5201: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 1114, need 1016, size 2000"
+i,private void f();,ms.f,1,5213: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,unpack_from requires a buffer of at least 1597 bytes for unpacking 2 bytes at offset 1595 (actual buffer size is 1595)
+i,private void f();,ms.f,2,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_completed,sprites=1; pixel=-21504; payloads=1
+i,private void f();,ms.f,3,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_completed,sprites=1; pixel=-21504; payloads=1
+i,private void f();,ms.f,4,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_completed,sprites=1; pixel=-21504; payloads=1
+i,private void f();,mmv.f,1,5306: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+i,private void f();,mmv.f,2,5362: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,unpack_from requires a buffer of at least 461 bytes for unpacking 2 bytes at offset 459 (actual buffer size is 460)
+i,private void f();,mmv.f,3,5386: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+i,private void f();,ui.f,0,6845: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 2182, need 21775, size 3356"
+i,private void f();,ui.f,3,6948: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 597, need 1, size 597"
+i,private void f();,ui.f,3,7177: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 597, need 1, size 597"
+i,private void f();,cm.f,7,7517: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,unpack_from requires a buffer of at least 4154 bytes for unpacking 2 bytes at offset 4152 (actual buffer size is 4153)
+i,private void f();,ui.f,2,7531: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,palette count 35 exceeds 16
+i,private void j();,mm1.f,0,7323: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 13945, need 1, size 13945"
+i,private void j();,b1.f,0,7451: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,negative sprite length -4317 at sprite 1
+i,private void D();,mmv.f,0,6365: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,trace_exception,"truncated at 5287, need 1, size 5287"

@@ -1,0 +1,21 @@
+Build270 validation
+===================
+pytest: 328 passed, 4 warnings
+Warnings: four existing Pillow Image.getdata() deprecation warnings from Build213 tests.
+
+Build270 focused coverage:
+- signed 16-bit narrowing (i2s) boundary behavior
+- signed 32-bit integer wraparound for iadd/isub/imul
+- JVM idiv truncation toward zero
+- JVM INT_MIN / -1 corner case
+- division-by-zero ArithmeticException behavior
+- case-4 interpolation arithmetic for both renderer operands
+- min(this.b, v14) interpolation-weight clamp
+- signed-short input narrowing before arithmetic
+
+Scope limitations:
+- arithmetic model covers only the bytecode-observed interpolation slice
+- no full JVM verifier claim
+- runtime byte-array contents, index and this.b remain unknown
+- no Kotlin compilation, Android Gradle build, device runtime, full-room rendering,
+  visual parity, or playable APK claimed

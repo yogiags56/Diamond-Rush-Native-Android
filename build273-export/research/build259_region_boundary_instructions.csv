@@ -1,0 +1,92 @@
+offset,instruction
+6122,iload_3
+6123,baload
+6124,iload         4
+6126,iload         5
+6128,iconst_0
+6129,iconst_0
+6130,iconst_0
+6131,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+6134,"iinc          3, 1"
+6137,iload_3
+6138,bipush        7
+6140,iand
+6141,goto          6030
+6144,aload_0
+6145,getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+6148,iconst_0
+6149,iconst_0
+6150,sipush        320
+6153,sipush        240
+6156,invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+6159,aload_1
+6160,iconst_0
+6161,bipush        -31
+6163,invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+6166,aload_0
+6167,invokespecial #854                // Method G:()V
+6170,return
+6171,aload_0
+6172,invokespecial #863                // Method P:()V
+6175,aload_0
+6176,getfield      #749                // Field l:Z
+6179,ifeq          6194
+6182,aload_0
+6183,aload_0
+6184,getfield      #572                // Field cK:I
+6187,aload_0
+6188,getfield      #573                // Field cL:I
+6191,invokespecial #1003               // Method d:(II)V
+6194,aload_0
+6195,getfield      #472                // Field aw:I
+6198,ifle          6205
+6201,aload_0
+6202,invokespecial #852                // Method E:()V
+6205,aload_0
+6206,getfield      #741                // Field k:B
+6209,ifeq          6489
+6212,aload_0
+6213,dup
+6214,astore_3
+6215,getfield      #741                // Field k:B
+6218,tableswitch   { // 1 to 5
+6252,aload_3
+6253,dup
+6254,astore        4
+6256,getfield      #783                // Field t:Z
+6259,ifeq          6317
+6262,aload         4
+6264,getfield      #378                // Field a:Lc;
+6267,ifnonnull     6317
+6270,aload         4
+6272,getfield      #533                // Field bm:I
+6275,iconst_m1
+6276,if_icmpne     6317
+6279,getstatic     #394                // Field a:[Lf;
+6282,bipush        15
+6284,aaload
+6285,aload         4
+6287,getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+6290,iconst_0
+6291,getstatic     #420                // Field aS:I
+6294,iconst_1
+6295,ishr
+6296,iconst_3
+6297,iand
+6298,aload         4
+6300,getfield      #542                // Field bv:I
+6303,aload         4
+6305,getfield      #543                // Field bw:I
+6308,bipush        24
+6310,isub
+6311,iconst_0
+6312,iconst_0
+6313,iconst_0
+6314,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+6317,aload_3
+6318,dup
+6319,astore        4
+6321,getfield      #375                // Field a:I
+6324,sipush        320
+6327,iadd
+6328,sipush        1440

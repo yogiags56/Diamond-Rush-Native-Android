@@ -1,0 +1,11 @@
+Build 213 validation
+====================
+Python tests: 58 passed, 0 failed.
+Kotlin 1.9.0 source compilation: PASS.
+Kotlin runtime audit: 78 resources containing groups; 1,129 groups; 1,125 non-empty composites; 10,258 leaf commands.
+Kotlin/Python exact RGBA parity: 1,125/1,125.
+Kotlin/Python palette selector parity: 5/5 rows for o.f entry 0 group 0.
+Transform histogram: none 7,820; mirror+180 1,642; mirror 439; rotate180 357.
+Groups containing transforms: 528.
+Multi-palette resources: 10; total palette rows: 110.
+No Android Gradle build, device rendering, original-game visual parity, or APK claim.

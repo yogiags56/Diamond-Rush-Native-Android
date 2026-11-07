@@ -1,0 +1,22 @@
+Build 235 targeted Kotlin validation
+====================================
+Compiler: kotlinc (installed Kotlin toolchain)
+Compiled source set:
+- LegacySpriteResourceBundleParser.kt
+- LegacyBundleSpriteSlotCatalog.kt
+- LegacySpriteResourceConsumerCatalog.kt
+- CompositeSpriteRecord.kt
+- LegacySpriteFieldLayout.kt
+- LegacySpriteAnimationTable.kt
+- LegacySpriteResourceBindingCatalog.kt
+- Build234SpriteResourceParserChecks.kt
+- Build235SpriteResourceBindingChecks.kt
+
+Execution:
+- Build234SpriteResourceParserChecks.runAll()
+- Build235SpriteResourceBindingChecks.runAll()
+
+Result: BUILD235_KOTLIN_CHECKS_PASSED
+
+Scope limitation:
+This was a targeted Kotlin compile/runtime check for the parser and binding layer, not a full Android Gradle build. Android Gradle build, device runtime, visual parity, and APK packaging were not performed.

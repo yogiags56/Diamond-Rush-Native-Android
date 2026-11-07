@@ -1,0 +1,149 @@
+method,offset,target_plane,stored_value_abstract,dispatch_domain_relation,reason
+aj,3649,UNKNOWN,CONST(bipush 18),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4813,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,1972,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7733,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,6110,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3280,UNKNOWN,CONST(iconst_1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5588,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3662,UNKNOWN,CONST(bipush 46),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7272,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5193,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,1988,UNKNOWN,"EXPR(ior,EXPR(ishl,TOP,CONST(bipush 8)),CONST(iconst_3))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4832,UNKNOWN,"EXPR(ior,TOP,EXPR(ishl,TOP,CONST(iconst_5)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5598,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4388,UNKNOWN,CONST(bipush 21),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3672,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7781,UNKNOWN,"EXPR(ior,ARRAY_VALUE(TOP,TOP),CONST(bipush 8))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,480,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7819,UNKNOWN,PHI{CONST(bipush 24)|CONST(bipush 48)},NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,501,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4398,UNKNOWN,CONST(iconst_4),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3329,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3685,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7791,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5615,UNKNOWN,"EXPR(ior,TOP,TOP)",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,7296,UNKNOWN,"EXPR(i2b,EXPR(iadd,ARRAY_VALUE(TOP,TOP),CONST(iconst_1)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,1435,a:[[I,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4409,UNKNOWN,CONST(bipush 18),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3340,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,3052,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,4575,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5636,UNKNOWN,"EXPR(iand,ARRAY_VALUE(TOP,TOP),CONST(#10                 // int -2088961))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,239,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,5647,UNKNOWN,CONST(bipush 45),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aj,2733,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,191,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,227,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1641,b:[[B,"PHI{EXPR(i2b,EXPR(isub,ARRAY_VALUE(ROW(FIELD(b:[[B),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I)),CONST(bipush 6)))|EXPR(i2b,EXPR(isub,ARRAY_VALUE(ROW(FIELD(b:[[B),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I)),EXPR(iand,FIELD(aS:I),CONST(iconst_1))))}",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,578,UNKNOWN,"EXPR(ior,EXPR(iand,TOP,CONST(bipush -8)),CONST(iconst_3))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1650,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,640,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,359,UNKNOWN,CONST(bipush 32),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1398,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,857,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1279,a:[[B,CONST(bipush 54),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,487,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1326,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,588,UNKNOWN,CONST(bipush 18),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1728,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,379,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,2031,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,785,UNKNOWN,"EXPR(ior,TOP,CONST(#1                  // int -2147483648))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,866,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1287,b:[[I,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,597,UNKNOWN,CONST(iconst_1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1737,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1021,a:[[B,CONST(bipush 54),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,928,UNKNOWN,"EXPR(ior,EXPR(iand,TOP,CONST(bipush -8)),CONST(iconst_3))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,2040,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,795,UNKNOWN,CONST(bipush 18),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,605,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1746,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1029,b:[[I,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,2049,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1058,UNKNOWN,CONST(bipush 54),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,805,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,2315,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1248,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1067,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,813,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,949,b:[[I,"EXPR(ior,ARRAY_VALUE(ROW(FIELD(b:[[I),FIELD_VALUE(LOCAL0,bE:I)),EXPR(iadd,FIELD_VALUE(LOCAL0,bF:I),CONST(iconst_1))),CONST(#1                  // int -2147483648))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,960,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1979,b:[[B,"PHI{ARRAY_VALUE(ROW(FIELD(b:[[B),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I))|EXPR(i2b,EXPR(iadd,ARRAY_VALUE(ROW(FIELD(b:[[B),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I)),CONST(iconst_1)))}",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,832,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1132,UNKNOWN,"EXPR(i2b,EXPR(iadd,EXPR(ishr,EXPR(iand,TOP,CONST(sipush 28672)),CONST(bipush 12)),CONST(iconst_1)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1988,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,971,b:[[B,CONST(bipush 18),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1209,UNKNOWN,"EXPR(i2b,EXPR(iadd,EXPR(ishr,EXPR(iand,TOP,CONST(sipush 28672)),CONST(bipush 12)),CONST(iconst_1)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1141,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1861,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1997,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,979,a:[[B,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1218,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1920,UNKNOWN,"EXPR(ior,TOP,CONST(#1                  // int -2147483648))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,2374,b:[[I,"EXPR(ior,EXPR(iand,ARRAY_VALUE(ROW(FIELD(b:[[I),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I)),CONST(sipush -449)),EXPR(iand,EXPR(iadd,ARRAY_VALUE(ROW(FIELD(b:[[I),FIELD_VALUE(LOCAL0,bE:I)),FIELD_VALUE(LOCAL0,bF:I)),CONST(bipush 64)),CONST(sipush 448)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1934,UNKNOWN,PHI{CONST(bipush 12)|CONST(bipush 6)|CONST(iconst_0)},NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1949,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+as,1968,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2682,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5337,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2701,UNKNOWN,CONST(bipush 30),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5356,UNKNOWN,CONST(bipush 30),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,617,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2712,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5367,UNKNOWN,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2435,a:[[B,CONST(bipush 45),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2722,UNKNOWN,CONST(iconst_4),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5377,UNKNOWN,CONST(iconst_4),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2392,a:[[B,CONST(bipush 45),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2350,a:[[B,CONST(bipush 45),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2446,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,264,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2403,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2361,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2456,b:[[B,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2413,b:[[B,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2371,b:[[B,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2466,b:[[I,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2381,b:[[I,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2516,b:[[I,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2485,a:[[B,CONST(bipush 45),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2496,c:[[B,CONST(bipush 24),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,2506,b:[[B,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5694,UNKNOWN,CONST(bipush 34),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5764,UNKNOWN,PHI{CONST(bipush 15)|CONST(bipush 16)},NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5723,UNKNOWN,CONST(bipush 35),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+W,5774,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,1982,UNKNOWN,CONST(bipush 49),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,1993,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,1248,UNKNOWN,"EXPR(i2b,FIELD_VALUE(LOCAL1,h:I))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,1265,UNKNOWN,"EXPR(i2b,FIELD_VALUE(LOCAL1,i:I))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,2737,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,2768,UNKNOWN,"EXPR(ior,TOP,EXPR(ishl,TOP,CONST(bipush 10)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,2793,UNKNOWN,"EXPR(ior,EXPR(iand,ARRAY_VALUE(TOP,TOP),CONST(sipush -249)),CONST(bipush 120))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+aa,2803,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,6927,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,7074,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5020,UNKNOWN,"EXPR(i2b,TOP)",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5744,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,2119,UNKNOWN,"EXPR(ior,EXPR(ishl,TOP,CONST(bipush 8)),CONST(iconst_2))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,6704,UNKNOWN,LOCAL1,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1516,UNKNOWN,"EXPR(ior,EXPR(ishl,TOP,CONST(bipush 8)),CONST(bipush 31))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,6722,UNKNOWN,"ROW(FIELD_VALUE(LOCAL1,f.a:[[Ljavax/microedition/lcdui/Image;),CONST(iconst_0))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1533,UNKNOWN,"EXPR(ior,EXPR(ishl,TOP,CONST(bipush 8)),CONST(bipush 19))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1727,UNKNOWN,CONST(iconst_m1),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5319,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5154,UNKNOWN,"EXPR(i2b,TOP)",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5187,UNKNOWN,TOP,NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,3023,UNKNOWN,PHI{CONST(bipush 16)|CONST(iconst_0)},NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5165,UNKNOWN,"EXPR(i2b,TOP)",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,5214,UNKNOWN,"EXPR(ior,TOP,EXPR(ishl,TOP,CONST(bipush 24)))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,3074,UNKNOWN,CONST(bipush 48),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,3085,UNKNOWN,CONST(bipush 8),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1276,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1286,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,4439,UNKNOWN,CONST(iconst_0),NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,922,UNKNOWN,"ARRAY_VALUE(TOP,EXPR(iadd,TOP,EXPR(imul,TOP,FIELD_VALUE(LOCAL2,e:I))))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1018,UNKNOWN,"ARRAY_VALUE(TOP,EXPR(iadd,TOP,EXPR(imul,TOP,FIELD_VALUE(LOCAL2,e:I))))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established
+j,1084,UNKNOWN,"ARRAY_VALUE(TOP,EXPR(iadd,TOP,EXPR(imul,TOP,FIELD_VALUE(LOCAL2,e:I))))",NOT_PROVEN_IN_THIS_MILESTONE,No complete producer-to-consumer chain has been established

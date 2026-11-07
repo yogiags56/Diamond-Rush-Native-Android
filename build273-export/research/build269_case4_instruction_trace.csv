@@ -1,0 +1,95 @@
+offset,opcode,operand
+729,aload_0,
+730,getfield,#50                 // Field b:I
+733,istore,10
+735,aload_2,
+736,iload_3,
+737,iconst_2,
+738,iadd,
+739,invokestatic,#107                // Method i.a:([BI)I
+742,i2s,
+743,istore,6
+745,aload_2,
+746,iload_3,
+747,iconst_4,
+748,iadd,
+749,invokestatic,#107                // Method i.a:([BI)I
+752,i2s,
+753,istore,7
+755,aload_2,
+756,iload_3,
+757,bipush,6
+759,iadd,
+760,invokestatic,#107                // Method i.a:([BI)I
+763,i2s,
+764,istore,4
+766,aload_2,
+767,iload_3,
+768,bipush,6
+770,iadd,
+771,invokestatic,#107                // Method i.a:([BI)I
+774,i2s,
+775,istore,5
+777,aload_2,
+778,iload_3,
+779,bipush,14
+781,iadd,
+782,invokestatic,#107                // Method i.a:([BI)I
+785,i2s,
+786,istore,8
+788,iload,10
+790,iload,8
+792,if_icmple,799
+795,iload,8
+797,istore,10
+799,iload,4
+801,iload,10
+803,imul,
+804,iload,6
+806,iload,8
+808,iload,10
+810,isub,
+811,imul,
+812,iadd,
+813,iload,8
+815,idiv,
+816,i2s,
+817,istore_0,
+818,iload,5
+820,iload,10
+822,imul,
+823,iload,7
+825,iload,8
+827,iload,10
+829,isub,
+830,imul,
+831,iadd,
+832,iload,8
+834,idiv,
+835,i2s,
+836,istore,4
+838,aload_2,
+839,iload_3,
+840,bipush,10
+842,iadd,
+843,invokestatic,#107                // Method i.a:([BI)I
+846,i2s,
+847,istore,5
+849,aload_2,
+850,iload_3,
+851,bipush,12
+853,iadd,
+854,invokestatic,#107                // Method i.a:([BI)I
+857,i2s,
+858,istore_2,
+859,getstatic,#47                 // Field a:[Lf;
+862,iload,5
+864,aaload,
+865,aload_1,
+866,iload_2,
+867,iload_0,
+868,iload,4
+870,iconst_0,
+871,iconst_0,
+872,iconst_0,
+873,invokevirtual,#98                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V

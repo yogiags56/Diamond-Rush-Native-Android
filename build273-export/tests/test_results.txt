@@ -1,0 +1,45 @@
+test_all_original_df03_payloads_parse (test_build206_payloads.Build206PayloadTests.test_all_original_df03_payloads_parse) ... ok
+test_group_table_truncation_rejected (test_build206_payloads.Build206PayloadTests.test_group_table_truncation_rejected) ... ok
+test_non_df03_rejected (test_build206_payloads.Build206PayloadTests.test_non_df03_rejected) ... ok
+test_record_table_truncation_rejected (test_build206_payloads.Build206PayloadTests.test_record_table_truncation_rejected) ... ok
+test_truncated_dimension_table_rejected (test_build206_payloads.Build206PayloadTests.test_truncated_dimension_table_rejected) ... ok
+test_control_xor_kept_separate (test_build207_resolver.Build207ResolverTests.test_control_xor_kept_separate) ... ok
+test_depth_guard (test_build207_resolver.Build207ResolverTests.test_depth_guard) ... ok
+test_empty_group_emits_no_commands (test_build207_resolver.Build207ResolverTests.test_empty_group_emits_no_commands) ... ok
+test_every_group_in_every_df03_payload_expands (test_build207_resolver.Build207ResolverTests.test_every_group_in_every_df03_payload_expands) ... ok
+test_flagged_component_position_and_leaf_anchor (test_build207_resolver.Build207ResolverTests.test_flagged_component_position_and_leaf_anchor) ... ok
+test_leaf_dimension_bounds_guard (test_build207_resolver.Build207ResolverTests.test_leaf_dimension_bounds_guard) ... ok
+test_nested_cycle_guard (test_build207_resolver.Build207ResolverTests.test_nested_cycle_guard) ... ok
+test_nested_payloads_expand (test_build207_resolver.Build207ResolverTests.test_nested_payloads_expand) ... ok
+test_5602_raw_indices (test_build208_pixel_formats.Build208PixelFormatTests.test_5602_raw_indices) ... ok
+test_56f2_literal_run (test_build208_pixel_formats.Build208PixelFormatTests.test_56f2_literal_run) ... ok
+test_56f2_mixed_runs (test_build208_pixel_formats.Build208PixelFormatTests.test_56f2_mixed_runs) ... ok
+test_56f2_repeat_run (test_build208_pixel_formats.Build208PixelFormatTests.test_56f2_repeat_run) ... ok
+test_overrun_rejected (test_build208_pixel_formats.Build208PixelFormatTests.test_overrun_rejected) ... ok
+test_zero_run_rejected (test_build208_pixel_formats.Build208PixelFormatTests.test_zero_run_rejected) ... ok
+test_acyclic_chain (test_composite_graph_reference.CompositeGraphTests.test_acyclic_chain) ... ok
+test_invalid_nested_target_retained_for_diagnostics (test_composite_graph_reference.CompositeGraphTests.test_invalid_nested_target_retained_for_diagnostics) ... ok
+test_leaf_is_not_graph_edge (test_composite_graph_reference.CompositeGraphTests.test_leaf_is_not_graph_edge) ... ok
+test_multiple_edges_preserve_component_order (test_composite_graph_reference.CompositeGraphTests.test_multiple_edges_preserve_component_order) ... ok
+test_nested_cycle_detected (test_composite_graph_reference.CompositeGraphTests.test_nested_cycle_detected) ... ok
+test_nested_target_is_group_edge (test_composite_graph_reference.CompositeGraphTests.test_nested_target_is_group_edge) ... ok
+test_non_nested_control_bit_does_not_create_edge (test_composite_graph_reference.CompositeGraphTests.test_non_nested_control_bit_does_not_create_edge) ... ok
+test_truncated_payload_rejected (test_composite_graph_reference.CompositeGraphTests.test_truncated_payload_rejected) ... ok
+test_flag_dependent_position (test_composite_reference.CompositeRecordTests.test_flag_dependent_position) ... ok
+test_nested_flag_bit_0x10 (test_composite_reference.CompositeRecordTests.test_nested_flag_bit_0x10) ... ok
+test_record_stride_and_component_offset (test_composite_reference.CompositeRecordTests.test_record_stride_and_component_offset) ... ok
+test_reject_bad_group (test_composite_reference.CompositeRecordTests.test_reject_bad_group) ... ok
+test_reject_negative_slot (test_composite_reference.CompositeRecordTests.test_reject_negative_slot) ... ok
+test_reject_truncated (test_composite_reference.CompositeRecordTests.test_reject_truncated) ... ok
+test_signed_offsets_negative (test_composite_reference.CompositeRecordTests.test_signed_offsets_negative) ... ok
+test_signed_offsets_positive (test_composite_reference.CompositeRecordTests.test_signed_offsets_positive) ... ok
+test_transform_low_nibble_only (test_composite_reference.CompositeRecordTests.test_transform_low_nibble_only) ... ok
+test_unsigned_sprite_index (test_composite_reference.CompositeRecordTests.test_unsigned_sprite_index) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.106s
+
+OK
+
+Kotlin compilation:
+PASS — kotlinc android/src/main/kotlin/com/diamondrush/legacy/*.kt -d build208-kotlin.jar

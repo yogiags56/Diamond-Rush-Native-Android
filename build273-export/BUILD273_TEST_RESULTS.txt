@@ -1,0 +1,21 @@
+Build273 validation
+===================
+
+Full pytest: 343 passed, 4 warnings (6.74 seconds).
+Focused Build273 tests: 5 passed.
+
+Static selector dataflow:
+- W0 room0 cells traced: 90.
+- Raw bJ selector values: 6 (3, 4, 5, 6, 7, 8), 15 cells each.
+- Selector 4: aJ=20 conditionally resolves through a(int) to f[43].
+- Selector 7: aJ=4 resolves to f[56], plus a separate guarded direct f[56] draw.
+- Selector 8: aJ=23 resolves through a(int) to f[45].
+- Selectors 3 and 6 resolve through a(int) to -1; selector 5 makes no new aJ assignment.
+- No f[27]/f[30] selected-slot proof for these six W0 room0 selector cases.
+- Resource bundle identities and runtime predicate values remain unresolved.
+
+Warnings: four existing Pillow Image.getdata() deprecation warnings in
+Build213 draw-flag/palette tests. No new Build273 warnings.
+
+No Kotlin compilation, Android Gradle build, original-game execution,
+full-room rasterization, visual parity, device runtime, or playable APK is claimed.

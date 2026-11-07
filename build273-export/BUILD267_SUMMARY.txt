@@ -1,0 +1,9 @@
+Build267 — original classfile exception-table audit
+
+Parsed Code attributes directly from b.class, c.class, and g.class in original.jar for the four cross-class renderer-caller methods. Found four java/lang/Exception handler entries in c.a(Graphics, byte[], int): protected ranges [912,936), [945,961), [1105,1129), and [1138,1154), with handlers at 939, 964, 1132, and 1157. The other three selected methods have no exception handlers.
+
+Expanded the exact protected intervals into 116 conservative instruction-level potential exception edges. These edges are intentionally labeled conservative: they do not claim every instruction can throw. This avoids falsely treating Build264's normal-flow CFG as already containing exception-handler leaders.
+
+Important correction: Build258 established that i.D()V has no exception table. That remains true. Build267 found handlers in a different method, c.a(Graphics, byte[], int); the earlier no-handler result must not be generalized to every renderer-related method.
+
+Scope: exact classfile Code metadata and conservative exception-edge inventory. The Build265 abstract interpreter has not yet been upgraded to consume these edges or the Build266 category-aware stack forms. Local 0/local 4 provenance at c offset 873 remains unresolved. No Android Gradle build, device runtime, room render, visual parity, or APK is claimed.

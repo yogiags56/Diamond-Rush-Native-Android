@@ -1,0 +1,15 @@
+Diamond Rush Native Android Port — Build264
+
+Milestone: Method-local CFG and renderer callsite reachability.
+
+Eight cross-class Graphics renderer callsites from Build261/263 were checked against their own method-local normal-flow CFGs. All eight are reachable from their respective method entry:
+- b.a(Graphics): offsets 87, 113, 141
+- c.a(Graphics): offsets 280, 304, 382
+- c.a(Graphics, byte[], int): offset 873
+- g.a(Graphics): offset 80
+
+Generated 847 basic-block intervals and 862 instruction-level CFG edges across four selected caller methods.
+
+This is structural reachability only. No operand values were evaluated, no runtime execution was observed, and no Android APK/playable milestone is claimed.
+
+Validation: 282 pytest passed; 4 existing Pillow deprecation warnings.

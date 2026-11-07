@@ -1,0 +1,4 @@
+signature,role,evidence,confirmed
+Graphics + 7 ints,COMPOSITE_COMPONENT_ENTRY,Indexes composite offset table; selects one component; applies component flags/offsets; delegates to six-int routine.,True
+Graphics + 6 ints,COMPOSITE_GROUP_EXPANSION,Reads group component count; iterates component refs; applies per-component offsets/flags; recurses for nested composites or delegates leaves to four-int routine.,True
+Graphics + 4 ints,LEAF_SPRITE_DRAW,Resolves sprite image/pixels and dimensions; calls Graphics.drawRegion with selected transform and destination coordinates.,True

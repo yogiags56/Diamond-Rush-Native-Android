@@ -1,0 +1,3 @@
+tail,start_offset,end_offset_exclusive,evidence
+PASS_1_SHARED_TAIL,1995,2201,"aJ/aK cached-image queue; fallback resolves aJ through a(I)I then f.a(Graphics,...); otherwise draws b:Lf; via f.a(Graphics,...); resets bP/aJ and restores clip (0,-bk,320,178)."
+PASS_2_SHARED_TAIL,5676,5976,"aL/aM cached-image queue; fallback resolves aL through a(I)I then f.a(Graphics,...); otherwise draws b:Lf; resets aL/bP; additional conditional b static composite draw; resets bN/bO."

@@ -1,0 +1,9 @@
+unreachable_component_count: 1
+unreachable_block_count: 75
+unreachable_instruction_count: 926
+reachable_to_unreachable_cfg_edges: 0
+renderer_callsites_in_unreachable_region: 12
+renderer_callsites_in_reachable_region: 13
+detached_region_start: 6171
+detached_region_end_block_start: 8021
+boundary_return_offset: 6170

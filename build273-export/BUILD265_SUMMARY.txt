@@ -1,0 +1,21 @@
+Diamond Rush Native Android Port — Build265
+
+Milestone: Conservative CFG-aware abstract operand-stack interpreter for the eight cross-class Graphics renderer callsites.
+
+Results:
+- 8/8 renderer callsites reached in method-local normal-flow CFGs.
+- 8/8 pre-invoke stack depths meet the corresponding descriptor slot requirements.
+- 7/8 callsites have symbolic expressions for every operand; c.a(Graphics, byte[], int) at offset 873 retains UNKNOWN values for two operands.
+- 881 instruction-entry abstract states emitted.
+- No unsupported opcode encountered in the four selected method bodies.
+- No stack-depth merge conflict encountered.
+
+Important limitations:
+- This is not a JVM verifier and does not implement complete category-2 value semantics.
+- Exception-handler edges are not modeled in this milestone.
+- Field/array values are symbolic expressions, not concrete runtime values.
+- Calls are represented as opaque CALL expressions; callee effects are not interpreted.
+- UNKNOWN is retained where producer provenance is not established.
+- No Kotlin/Android build, device runtime, complete room rasterization, visual parity, or playable APK is claimed.
+
+Validation: see BUILD265_TEST_RESULTS.txt.

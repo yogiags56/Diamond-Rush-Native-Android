@@ -1,0 +1,36 @@
+Build 237 validation results
+============================
+
+Python regression suite:
+  203 passed
+  4 warnings (existing Pillow Image.getdata() deprecation warnings in Build213 tests)
+
+Kotlin validation:
+  All android/src/main/kotlin/com/diamondrush/legacy/*.kt sources compiled with kotlinc.
+  Build234SpriteResourceParserChecks.runAll() executed successfully.
+  Build236ConcreteSpriteDrawOperationChecks.runAll() executed successfully.
+  Build237PaletteAwareSpriteChecks.runAll() executed successfully.
+  Result: BUILD237_KOTLIN_CHECKS_PASSED
+
+Original JAR Kotlin parser/pixel audit:
+  24 .f bundles
+  94 DF03 payloads
+  1,372 sprite records
+  112 palette rows
+  2,604 sprite/palette combinations decoded
+  415,896 ARGB pixels decoded and palette-index validated
+  0 failures
+
+Build235 mapped resource audit:
+  10 static global f[] slots
+  12 palette variants
+  114 sprite/palette instances
+  28,932 ARGB pixels decoded
+
+Not performed:
+  - Android Gradle build
+  - Android device runtime
+  - MIDP transform execution in the new draw-operation pipeline
+  - Full original-room rasterization
+  - Visual parity comparison
+  - APK packaging

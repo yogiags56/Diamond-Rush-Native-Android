@@ -1,0 +1,16 @@
+Build261 validation
+
+Command: python research/build261_renderer_invocation_audit.py
+Result: PASS
+- 175 actual f.a invocation instructions across classes b, c, f, g, i
+- 111 Graphics renderer-family invocation instructions
+- 103 Graphics renderer calls in class i
+- 8 cross-class Graphics renderer calls: b=3, c=4, g=1
+- 4 caller methods outside class i
+
+Command: pytest -q
+Result: PASS — 270 passed, 4 warnings in 4.10s.
+Warnings: existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+
+Method: JDK javap -p -c over original.jar. Extracted bytecode offsets, invoke opcodes, constant-pool indices, caller method signatures, and target descriptors.
+No Kotlin/Gradle/device/APK validation was run for this milestone.

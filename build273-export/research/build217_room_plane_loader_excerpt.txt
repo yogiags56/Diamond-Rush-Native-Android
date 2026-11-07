@@ -1,0 +1,223 @@
+BUILD 217 ROOM PLANE LOADER EXCERPT
+Source: i_build214_full.javap.txt, private void j(), state branch 9
+
+     700: getstatic     #625                // Field d:[Ljava/lang/String;
+     703: aload_2
+     704: getfield      #402                // Field aA:I
+     707: aaload
+     708: invokevirtual #1085               // Method java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+     711: putfield      #382                // Field a:Ljava/io/InputStream;
+     714: aload_2
+     715: getfield      #382                // Field a:Ljava/io/InputStream;
+     718: invokevirtual #1079               // Method java/io/InputStream.read:()I
+     721: pop
+     722: iconst_0
+     723: istore_0
+     724: iload_0
+     725: ifne          1125
+     728: aload_2
+     729: getfield      #382                // Field a:Ljava/io/InputStream;
+     732: invokevirtual #1079               // Method java/io/InputStream.read:()I
+     735: istore        4
+     737: iconst_0
+     738: istore        5
+     740: iconst_4
+     741: newarray       byte
+     743: astore_3
+     744: iload         5
+     746: iload         4
+     748: if_icmpge     724
+     751: iload_0
+     752: ifne          724
+     755: aload_2
+     756: getfield      #382                // Field a:Ljava/io/InputStream;
+     759: aload_3
+     760: invokevirtual #1080               // Method java/io/InputStream.read:([B)I
+     763: pop
+     764: aload_3
+     765: iconst_0
+     766: invokestatic  #934                // Method a:([BI)I
+     769: istore_1
+     770: aload_3
+     771: iconst_2
+     772: invokestatic  #934                // Method a:([BI)I
+     775: istore        6
+     777: iload         5
+     779: aload_2
+     780: getfield      #403                // Field aB:I
+     783: if_icmpne     1104
+     786: aload_2
+     787: iload_1
+     788: putfield      #681                // Field e:I
+     791: aload_2
+     792: iload         6
+     794: putfield      #711                // Field f:I
+     797: aconst_null
+     798: putstatic     #397                // Field a:[[B
+     801: aconst_null
+     802: putstatic     #560                // Field c:[[B
+     805: aconst_null
+     806: putstatic     #398                // Field a:[[I
+     809: invokestatic  #1114               // Method java/lang/System.gc:()V
+     812: aload_2
+     813: getfield      #681                // Field e:I
+     816: aload_2
+     817: getfield      #711                // Field f:I
+     820: multianewarray #128,  2           // class "[[B"
+     824: putstatic     #397                // Field a:[[B
+     827: aload_2
+     828: getfield      #681                // Field e:I
+     831: aload_2
+     832: getfield      #711                // Field f:I
+     835: multianewarray #128,  2           // class "[[B"
+     839: putstatic     #560                // Field c:[[B
+     842: aload_2
+     843: getfield      #681                // Field e:I
+     846: aload_2
+     847: getfield      #711                // Field f:I
+     850: multianewarray #129,  2           // class "[[I"
+     854: putstatic     #398                // Field a:[[I
+     857: aload_2
+     858: getfield      #681                // Field e:I
+     861: aload_2
+     862: getfield      #711                // Field f:I
+     865: imul
+     866: newarray       byte
+     868: astore_3
+     869: aload_2
+     870: getfield      #382                // Field a:Ljava/io/InputStream;
+     873: aload_3
+     874: invokevirtual #1080               // Method java/io/InputStream.read:([B)I
+     877: pop
+     878: iconst_0
+     879: istore        7
+     881: iload         7
+     883: aload_2
+     884: getfield      #681                // Field e:I
+     887: if_icmpge     935
+     890: iconst_0
+     891: istore        8
+     893: iload         8
+     895: aload_2
+     896: getfield      #711                // Field f:I
+     899: if_icmpge     929
+     902: getstatic     #397                // Field a:[[B
+     905: iload         7
+     907: aaload
+     908: iload         8
+     910: aload_3
+     911: iload         7
+     913: iload         8
+     915: aload_2
+     916: getfield      #681                // Field e:I
+     919: imul
+     920: iadd
+     921: baload
+     922: bastore
+     923: iinc          8, 1
+     926: goto          893
+     929: iinc          7, 1
+     932: goto          881
+     935: aload_2
+     936: getfield      #681                // Field e:I
+     939: aload_2
+     940: getfield      #711                // Field f:I
+     943: multianewarray #128,  2           // class "[[B"
+     947: putstatic     #492                // Field b:[[B
+     950: aload_2
+     951: getfield      #681                // Field e:I
+     954: aload_2
+     955: getfield      #711                // Field f:I
+     958: multianewarray #129,  2           // class "[[I"
+     962: putstatic     #493                // Field b:[[I
+     965: aload_2
+     966: getfield      #382                // Field a:Ljava/io/InputStream;
+     969: aload_3
+     970: invokevirtual #1080               // Method java/io/InputStream.read:([B)I
+     973: pop
+     974: iconst_0
+     975: istore        7
+     977: iload         7
+     979: aload_2
+     980: getfield      #681                // Field e:I
+     983: if_icmpge     1031
+     986: iconst_0
+     987: istore        8
+     989: iload         8
+     991: aload_2
+     992: getfield      #711                // Field f:I
+     995: if_icmpge     1025
+     998: getstatic     #493                // Field b:[[I
+    1001: iload         7
+    1003: aaload
+    1004: iload         8
+    1006: aload_3
+    1007: iload         7
+    1009: iload         8
+    1011: aload_2
+    1012: getfield      #681                // Field e:I
+    1015: imul
+    1016: iadd
+    1017: baload
+    1018: iastore
+    1019: iinc          8, 1
+    1022: goto          989
+    1025: iinc          7, 1
+    1028: goto          977
+    1031: aload_2
+    1032: getfield      #382                // Field a:Ljava/io/InputStream;
+    1035: aload_3
+    1036: invokevirtual #1080               // Method java/io/InputStream.read:([B)I
+    1039: pop
+    1040: iconst_0
+    1041: istore        7
+    1043: iload         7
+    1045: aload_2
+    1046: getfield      #681                // Field e:I
+    1049: if_icmpge     1097
+    1052: iconst_0
+    1053: istore        8
+    1055: iload         8
+    1057: aload_2
+    1058: getfield      #711                // Field f:I
+    1061: if_icmpge     1091
+    1064: getstatic     #398                // Field a:[[I
+    1067: iload         7
+    1069: aaload
+    1070: iload         8
+    1072: aload_3
+    1073: iload         7
+    1075: iload         8
+    1077: aload_2
+    1078: getfield      #681                // Field e:I
+    1081: imul
+    1082: iadd
+    1083: baload
+    1084: iastore
+    1085: iinc          8, 1
+    1088: goto          1055
+    1091: iinc          7, 1
+    1094: goto          1043
+    1097: aconst_null
+    1098: astore_3
+    1099: iconst_1
+    1100: istore_0
+    1101: goto          1119
+    1104: aload_2
+    1105: getfield      #382                // Field a:Ljava/io/InputStream;
+    1108: iload_1
+    1109: iload         6
+    1111: imul
+    1112: iconst_3
+    1113: imul
+    1114: i2l
+    1115: invokevirtual #1081               // Method java/io/InputStream.skip:(J)J
+    1118: pop2
+    1119: iinc          5, 1
+    1122: goto          744
+    1125: aload_2
+    1126: getfield      #382                // Field a:Ljava/io/InputStream;
+    1129: invokevirtual #1078               // Method java/io/InputStream.close:()V
+    1132: aload_2
+    1133: aconst_null
+    1134: putfield      #382                // Field a:Ljava/io/InputStream;

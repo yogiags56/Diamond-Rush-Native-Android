@@ -1,0 +1,14 @@
+Build260 validation
+
+Command: python research/build260_cross_method_reference_audit.py
+Result: PASS
+- 12 class files
+- 322 methods (322 with Code)
+- 568 method-reference constant-pool entries
+- 234 references to class i
+- 23 constant-pool references to f.a
+
+Command: pytest -q
+Result: PASS — 267 passed, 4 warnings in 3.67s.
+Warnings: existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+No Kotlin/Gradle/device/APK validation was run for this milestone.

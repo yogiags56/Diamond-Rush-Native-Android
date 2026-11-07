@@ -1,0 +1,19 @@
+Build268 full validation
+
+pytest -q
+315 passed, 4 warnings in 4.81s
+
+Warnings: four existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+
+Build268 interpreter summary:
+- 8/8 renderer callsites reachable.
+- 8/8 callsites have stack depth matching descriptor requirements.
+- 0 unsupported opcode transfer handlers encountered on traversed paths.
+- 0 stack-depth merge conflicts.
+- 4 classfile exception handlers modeled.
+- 116 conservative protected-instruction edge candidates from Build267.
+- 69 reachable exceptional transfers propagated by Build268 worklist.
+- Handler-entry stack is one EXCEPTION(java/lang/Exception) reference at offsets 939, 964, 1132, and 1157.
+- Formerly UNKNOWN operand provenance at c.a(Graphics, byte[], int) offset 873 is represented by PHI#028 and PHI#047; concrete runtime values remain unresolved.
+
+No Kotlin compilation, Android Gradle build, device execution, full room rendering, visual parity, or playable APK is claimed.

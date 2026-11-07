@@ -1,0 +1,30 @@
+BUILD 242 — TEST RESULTS
+
+Python regression suite: 219 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+Kotlin compilation: all production and test Kotlin source files compiled together.
+Kotlin regression execution: BUILD223_TO_242_KOTLIN_REGRESSION_PASS.
+
+Dynamic resource origin evidence:
+- 12 records across /0.f, /1.f, /2.f (selected by runtime aA).
+- 43 records across gen0.f through gen4.f.
+- 8 records in cm.f.
+- All 63 payloads have DF03 signature.
+- All nine original bundle directory payload-length sums match exact file sizes.
+
+Build241 selector bJ=6 candidate origins confirmed:
+- f[27] <- /gen3.f record 4 (global record 34), 754 bytes.
+- f[30] <- /gen2.f record 3 (global record 23), 1,846 bytes.
+- f[56] <- /cm.f record 1, 1,258 bytes.
+
+Kotlin parser checks on the three exact payload fixtures:
+- f[27]: 11 sprites, 1 palette row, 9 colors, no trailing bytes.
+- f[30]: 11 sprites, 1 palette row, 16 colors, no trailing bytes.
+- f[56]: 6 sprites, 3 palette rows, 15 colors, no trailing bytes.
+
+Not performed:
+- exact per-cell branch selection of all candidate resources;
+- direct f[42] six-int draw semantics;
+- full-room rasterization or visual parity;
+- Android Gradle build, device runtime, APK packaging.

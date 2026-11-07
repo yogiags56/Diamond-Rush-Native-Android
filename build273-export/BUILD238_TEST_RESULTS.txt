@@ -1,0 +1,24 @@
+BUILD 238 — TEST RESULTS
+
+Python:
+209 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin compilation:
+All android/src/main/kotlin and android/src/test/kotlin source files compiled together with kotlinc.
+
+Kotlin regression execution:
+BUILD224_KOTLIN_CHECKS_PASSED
+BUILD225_KOTLIN_CHECKS_PASSED
+BUILD226_KOTLIN_CHECKS_PASSED
+BUILD227_KOTLIN_CHECKS_PASSED
+BUILD223_TO_238_KOTLIN_REGRESSION_PASS
+
+Coverage includes Build228-231 and Build234-238 runAll checks, in addition to Build224-227 main checks.
+
+Not performed:
+- Android Gradle build
+- Android device/emulator runtime
+- Complete original-room rasterization
+- Screenshot visual parity
+- APK packaging

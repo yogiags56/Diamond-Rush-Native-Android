@@ -1,0 +1,3 @@
+condition,resource_index,offset,note
+(packed_cell_value & 0xF0000000) >> 28 > 0,13,6900,drawn after the primary overlay branch
+byte_plane_value == 54,7,6932,drawn after optional resource 13

@@ -1,0 +1,5 @@
+Diamond Rush Native Android Port — Build265
+
+Full test suite: 287 passed, 4 warnings.
+Warnings: four existing Pillow Image.getdata deprecation warnings in Build213 tests.
+Interpreter: 8/8 reachable; 8/8 descriptor stack-depth sufficient; 7/8 fully symbolic; 1/8 retains two UNKNOWN operands; 881 instruction-entry states; 0 unsupported opcodes in selected methods; 0 stack-depth merge conflicts.

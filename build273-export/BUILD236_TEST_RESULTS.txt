@@ -1,0 +1,18 @@
+Build 236 validation results
+============================
+
+Python regression suite:
+  195 passed
+  4 warnings (existing Pillow Image.getdata() deprecation warnings in Build213 tests)
+
+Kotlin validation:
+  All android/src/main/kotlin/com/diamondrush/legacy/*.kt sources compiled with kotlinc.
+  Build236ConcreteSpriteDrawOperationChecks.runAll() executed successfully.
+  Result: BUILD236_KOTLIN_CHECKS_PASSED
+
+Not performed:
+  - Android Gradle build
+  - Android device runtime
+  - Full original-room rasterization
+  - Visual parity comparison
+  - APK packaging

@@ -1,0 +1,73 @@
+BUILD 222 — Render dispatch provenance audit
+
+Method: D()V
+
+PASS 1: selector field bJ:I, tableswitch offset 783, explicit cases 3..37.
+PASS 2: selector field bI:I, tableswitch offset 2239, explicit cases 0..49.
+The bytecode before pass 2 also reads b:[[I into local 8; this is a separate read, not proof that the lookup result selects the switch.
+
+PASS 1 pre-switch instructions:
+726: iand
+727: putfield      #504                // Field bJ:I
+730: aload_3
+731: iload         6
+733: bipush        24
+735: imul
+736: aload_3
+737: getfield      #572                // Field cK:I
+740: isub
+741: putfield      #544                // Field bx:I
+744: aload_3
+745: iload         5
+747: bipush        24
+749: imul
+750: aload_3
+751: getfield      #573                // Field cL:I
+754: isub
+755: putfield      #545                // Field by:I
+758: aload_3
+759: invokespecial #850                // Method C:()V
+762: aload_3
+763: getfield      #504                // Field bJ:I
+766: iconst_m1
+767: if_icmple     2201
+770: aload_3
+771: getfield      #504                // Field bJ:I
+774: bipush        38
+776: if_icmpge     2201
+779: aload_3
+780: getfield      #504                // Field bJ:I
+
+PASS 2 pre-switch instructions:
+2183: iconst_m1
+2184: putfield      #505                // Field bK:I
+2187: aconst_null
+2188: putstatic     #480                // Field b:Lf;
+2191: aload_3
+2192: aload_3
+2193: iconst_0
+2194: dup_x1
+2195: putfield      #509                // Field bO:I
+2198: putfield      #508                // Field bN:I
+2201: aload_3
+2202: getfield      #503                // Field bI:I
+2205: iconst_m1
+2206: if_icmpeq     5976
+2209: aload_3
+2210: getfield      #503                // Field bI:I
+2213: bipush        80
+2215: isub
+2216: i2b
+2217: ifge          5676
+2220: getstatic     #493                // Field b:[[I
+2223: aload_3
+2224: getfield      #501                // Field bG:I
+2227: aaload
+2228: aload_3
+2229: getfield      #502                // Field bH:I
+2232: iaload
+2233: istore        8
+2235: aload_3
+2236: getfield      #503                // Field bI:I
+
+Case values are preserved numerically; no gameplay meanings are inferred. The domains remain separate.

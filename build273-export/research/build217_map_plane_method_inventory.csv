@@ -1,0 +1,67 @@
+method,primary_byte_a_references,runtime_byte_b_references,runtime_byte_c_references,packed_int_a_references,packed_int_b_references,bastore_count,iastore_count,multianewarray_count
+"private void a(int, int, int);",2,0,1,1,1,2,1,0
+private void f();,4,1,0,9,4,19,38,1
+private void j();,16,3,18,35,33,34,47,10
+private void p();,1,1,1,1,1,0,0,0
+"private void b(int, int);",1,0,0,1,0,0,0,0
+"private void a(int, int, int, int, boolean);",1,2,0,1,0,0,0,0
+private void D();,10,16,0,14,22,0,0,0
+private void E();,2,4,0,0,4,0,0,0
+private void F();,0,1,0,1,1,0,0,0
+private void M();,1,1,1,1,1,3,2,0
+private void P();,1,1,0,0,2,0,0,0
+private void Q();,1,1,0,2,3,0,1,0
+private void c(byte);,0,1,0,0,1,0,0,0
+private void g(int);,2,0,0,0,0,0,0,0
+private boolean d();,0,0,0,1,0,0,0,0
+"private void b(int, int, int);",1,0,0,0,2,1,1,0
+"private void e(int, int);",3,0,0,3,1,2,3,0
+private void W();,30,7,7,9,12,27,8,0
+"private static byte a(int, int, int, int);",4,0,0,0,0,0,0,0
+"private boolean a(int, int);",2,0,0,0,2,1,1,0
+"private static int d(int, int);",2,0,0,0,0,0,0,0
+private void h(int);,0,0,1,6,0,1,2,0
+"private void f(int, int);",3,0,1,3,0,2,1,0
+private void aa();,13,3,0,5,16,13,20,0
+private void ab();,11,5,0,0,6,10,3,0
+"private static void h(int, int);",2,0,0,0,0,2,0,0
+"private static void i(int, int);",2,0,0,0,0,2,0,0
+"private boolean b(int, int);",2,0,0,0,0,1,0,0
+private boolean e();,2,0,0,0,0,1,0,0
+private void ae();,4,0,0,0,0,2,0,0
+"private void b(int, int, byte);",0,0,0,2,0,0,1,0
+"private boolean a(int, int, boolean);",17,2,3,10,15,11,6,1
+private void ah();,1,0,0,0,1,0,0,0
+"private void j(int, int);",0,0,0,2,0,0,2,0
+"private void a(int, int, int, int, int);",0,0,0,3,0,0,1,0
+private void ai();,0,0,0,1,0,0,0,0
+private void aj();,77,33,27,45,55,72,40,0
+private void ak();,1,0,0,0,2,3,0,0
+private void d(byte);,3,4,5,2,5,9,3,0
+"private static boolean d(int, int);",1,0,0,1,0,0,0,0
+"private static boolean e(int, int);",1,0,0,1,0,0,0,0
+"private static boolean f(int, int);",1,0,0,2,0,0,0,0
+private void al();,1,1,1,2,0,2,1,0
+private void am();,7,10,1,2,10,11,7,0
+private void l(int);,4,0,0,2,3,5,2,0
+"private boolean g(int, int);",5,0,0,0,2,0,0,0
+"private int a(int, int, int, int, boolean);",1,0,0,0,0,0,0,0
+private void e(byte);,3,7,1,1,3,8,2,0
+private void an();,0,0,1,6,0,2,2,0
+private void m(int);,1,0,0,2,0,4,0,0
+private void ao();,11,8,1,0,14,12,8,0
+private void ap();,4,3,2,1,3,5,1,0
+"private void k(int, int);",0,0,0,2,0,0,1,0
+private void n(int);,0,1,1,4,0,1,3,0
+"private static boolean h(int, int);",7,3,0,0,5,0,0,0
+"private static boolean i(int, int);",2,0,0,0,0,0,0,0
+"private static void l(int, int);",0,0,9,0,0,9,0,0
+private void aq();,1,1,0,1,1,0,0,1
+private void ar();,4,1,0,2,2,2,3,0
+"public static void a(short, short, byte, int);",1,0,0,0,1,1,1,0
+private void as();,27,14,9,7,26,35,19,0
+"private static void a(int, int, byte, byte, byte, byte);",0,0,2,0,0,2,1,0
+private void au();,100,0,0,0,1,0,0,0
+"private byte a(byte, int, int, byte, byte, byte, boolean);",10,0,0,0,0,0,0,0
+"private static void c(int, int, byte);",0,0,1,0,0,1,1,0
+"private void n(int, int);",1,0,0,0,0,1,0,0

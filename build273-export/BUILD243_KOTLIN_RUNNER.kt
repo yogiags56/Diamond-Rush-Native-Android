@@ -1,0 +1,23 @@
+import com.diamondrush.legacy.*
+fun main() {
+    Build223RoomDecoderChecks.main(emptyArray())
+    Build224ViewportChecks.main(emptyArray())
+    Build225CameraChecks.main(emptyArray())
+    Build226RenderDispatchChecks.main(emptyArray())
+    Build227RenderDispatchResolverChecks.main(emptyArray())
+    Build228PerCellTraceChecks.runAll()
+    Build229RoomSceneTraceChecks.runAll()
+    Build230DrawCommandPlannerChecks.runAll()
+    Build231WorldRoomArchiveChecks.runAll()
+    Build234SpriteResourceParserChecks.runAll()
+    Build235SpriteResourceBindingChecks.runAll()
+    Build236ConcreteSpriteDrawOperationChecks.runAll()
+    Build237PaletteAwareSpriteChecks.runAll()
+    Build238SpriteRasterExecutionChecks.runAll()
+    Build239CompositeFrameRasterPipelineChecks.runAll()
+    Build240RoomRenderAssemblyChecks.runAll()
+    Build241MainDispatchArtEvidenceChecks.runAll()
+    Build242DynamicSpriteResourceOriginChecks.runAll()
+    Build243DynamicSpriteCompositeIndexChecks.runAll()
+    println("BUILD223_TO_243_KOTLIN_REGRESSION_PASS")
+}

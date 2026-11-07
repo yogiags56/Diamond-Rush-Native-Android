@@ -1,0 +1,8 @@
+Build262 validation report
+
+Full Python suite: 273 passed, 4 warnings.
+Warnings: four existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+New Build262 tests: 3 passed.
+
+Scope: cross-class renderer invocation context windows and descriptor-level stack contracts.
+No Kotlin/Android/device validation is claimed.

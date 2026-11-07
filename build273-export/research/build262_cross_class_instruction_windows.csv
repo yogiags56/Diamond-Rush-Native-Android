@@ -1,0 +1,153 @@
+caller_class,caller_method,callsite_offset,instruction_index_in_window,bytecode_offset,opcode,operand_or_comment,is_renderer_invoke
+b,public final void a(javax.microedition.lcdui.Graphics);,87,0,56,istore,4,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,1,58,istore_3,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,2,59,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,3,60,getfield,#12                 // Field f:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,4,63,iflt,91,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,5,66,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,6,67,getfield,#7                  // Field a:Lf;,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,7,70,aload_1,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,8,71,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,9,72,getfield,#10                 // Field d:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,10,75,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,11,76,getfield,#11                 // Field e:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,12,79,iload_2,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,13,80,iload_3,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,14,81,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,15,82,getfield,#9                  // Field c:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,16,85,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,17,86,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,18,87,invokevirtual,#21                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,True
+b,public final void a(javax.microedition.lcdui.Graphics);,113,0,81,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,1,82,getfield,#9                  // Field c:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,2,85,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,3,86,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,4,87,invokevirtual,#21                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,5,90,return,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,6,91,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,7,92,getfield,#10                 // Field d:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,8,95,iflt,117,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,9,98,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,10,99,getfield,#7                  // Field a:Lf;,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,11,102,aload_1,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,12,103,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,13,104,getfield,#10                 // Field d:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,14,107,iload_2,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,15,108,iload_3,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,16,109,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,17,110,getfield,#9                  // Field c:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,18,113,invokevirtual,#19                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIII)V,True
+b,public final void a(javax.microedition.lcdui.Graphics);,141,0,109,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,1,110,getfield,#9                  // Field c:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,2,113,invokevirtual,#19                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIII)V,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,3,116,return,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,4,117,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,5,118,getfield,#11                 // Field e:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,6,121,iflt,144,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,7,124,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,8,125,getfield,#7                  // Field a:Lf;,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,9,128,aload_1,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,10,129,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,11,130,getfield,#11                 // Field e:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,12,133,iload_2,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,13,134,iload_3,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,14,135,aload_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,15,136,getfield,#9                  // Field c:I,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,16,139,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,17,140,iconst_0,,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,18,141,invokevirtual,#20                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,True
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,0,847,istore,5,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,1,849,aload_2,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,2,850,iload_3,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,3,851,bipush,12,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,4,853,iadd,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,5,854,invokestatic,#107                // Method i.a:([BI)I,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,6,857,i2s,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,7,858,istore_2,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,8,859,getstatic,#47                 // Field a:[Lf;,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,9,862,iload,5,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,10,864,aaload,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,11,865,aload_1,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,12,866,iload_2,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,13,867,iload_0,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,14,868,iload,4,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,15,870,iconst_0,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,16,871,iconst_0,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,17,872,iconst_0,,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,18,873,invokevirtual,#98                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,True
+c,public final void a(javax.microedition.lcdui.Graphics);,280,0,250,aload_1,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,1,251,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,2,252,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,3,253,getfield,#50                 // Field b:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,4,256,getstatic,#47                 // Field a:[Lf;,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,5,259,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,6,260,getfield,#57                 // Field f:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,7,263,aaload,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,8,264,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,9,265,invokevirtual,#96                 // Method f.a:(I)I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,10,268,irem,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,11,269,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,12,270,getfield,#54                 // Field c:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,13,273,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,14,274,getfield,#55                 // Field d:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,15,277,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,16,278,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,17,279,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,18,280,invokevirtual,#99                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,True
+c,public final void a(javax.microedition.lcdui.Graphics);,304,0,274,getfield,#55                 // Field d:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,1,277,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,2,278,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,3,279,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,4,280,invokevirtual,#99                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,5,283,getstatic,#47                 // Field a:[Lf;,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,6,286,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,7,287,aaload,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,8,288,aload_1,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,9,289,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,10,290,getfield,#56                 // Field e:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,11,293,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,12,294,getfield,#54                 // Field c:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,13,297,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,14,298,getfield,#55                 // Field d:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,15,301,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,16,302,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,17,303,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,18,304,invokevirtual,#98                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,True
+c,public final void a(javax.microedition.lcdui.Graphics);,382,0,352,putfield,#58                 // Field g:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,1,355,getstatic,#47                 // Field a:[Lf;,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,2,358,iconst_1,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,3,359,aaload,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,4,360,aload_1,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,5,361,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,6,362,getfield,#58                 // Field g:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,7,365,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,8,366,getfield,#54                 // Field c:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,9,369,bipush,90,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,10,371,iadd,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,11,372,aload_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,12,373,getfield,#55                 // Field d:I,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,13,376,bipush,-6,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,14,378,iadd,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,15,379,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,16,380,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,17,381,iconst_0,,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,18,382,invokevirtual,#98                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,True
+g,public static void a(javax.microedition.lcdui.Graphics);,80,0,56,iconst_2,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,1,57,invokestatic,#19                 // Method i.a:(I)I,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,2,60,aaload,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,3,61,aload_0,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,4,62,iconst_0,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,5,63,iload_1,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,6,64,bipush,24,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,7,66,imul,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,8,67,iload_2,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,9,68,iconst_1,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,10,69,isub,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,11,70,bipush,24,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,12,72,imul,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,13,73,getstatic,#7                  // Field a:B,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,14,76,iadd,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,15,77,iconst_0,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,16,78,iconst_0,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,17,79,iconst_0,,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,18,80,invokevirtual,#17                 // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,True

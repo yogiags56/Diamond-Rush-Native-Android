@@ -1,0 +1,22 @@
+BUILD 243 — TEST RESULTS
+
+Python regression: 222 passed, 4 warnings.
+The four warnings are pre-existing Pillow Image.getdata() deprecations in Build213 tests.
+
+Kotlin: all production and test Kotlin sources compiled together with kotlinc.
+Kotlin regression runner: BUILD223_TO_243_KOTLIN_REGRESSION_PASS.
+
+Original DF03 fixture audit:
+- f[27]: 7 groups, 31 component records, 11 sprites, 1 palette.
+- f[30]: 8 groups, 12 component records, 11 sprites, 1 palette.
+- f[56]: 6 groups, 8 component records, 6 sprites, 3 palettes.
+- Total: 21 groups, 51 components, 28 sprites, 40 sprite/palette decode instances, 10,256 pixels.
+- All 51 components are leaf sprite references in these three payloads.
+- All sprite indices are in range and all indexed pixels fit the explicitly selected palette.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

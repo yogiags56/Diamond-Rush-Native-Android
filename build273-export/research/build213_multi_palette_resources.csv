@@ -1,0 +1,11 @@
+bundle,entry,palette_count,colors_per_palette,group_count
+cm.f,1,3,15,6
+cm.f,2,2,12,4
+gen0.f,7,2,15,8
+gen1.f,5,3,13,33
+gen1.f,7,2,14,14
+gen2.f,4,2,16,5
+gen2.f,8,2,16,7
+mmv.f,0,2,16,29
+o.f,0,5,16,141
+ui.f,1,3,6,29

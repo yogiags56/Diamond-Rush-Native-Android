@@ -1,0 +1,8 @@
+BUILD 253 — TEST RESULTS
+
+CFG predecessor audit generated for 25 renderer callsites.
+Depth-consistent predecessor targets: 0.
+Missing predecessor state targets: 0.
+Conflicting predecessor depth targets: 0.
+
+No full JVM interpreter, Android Gradle build, device runtime, full-room rasterization, visual parity, or APK packaging is claimed.

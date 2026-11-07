@@ -1,0 +1,4 @@
+global_f_slot,bundle,record_index,local_record_index,length_field_offset,payload_length,payload_signature,branch_offset,condition,status
+27,/gen3.f,34,4,37,754,df030101,6283,record-enabled-by-c-bit,RESOURCE_ORIGIN_CONFIRMED_NOT_RENDER_SELECTION
+30,/gen2.f,23,3,29,1846,df030101,6262,record-enabled-by-c-bit,RESOURCE_ORIGIN_CONFIRMED_NOT_RENDER_SELECTION
+56,/cm.f,1,1,13,1258,df030101,6964,record-enabled-by-bu-bit; aA==1-or-2 applies extra initialization,RESOURCE_ORIGIN_CONFIRMED_NOT_RENDER_SELECTION

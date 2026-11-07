@@ -1,0 +1,22 @@
+BUILD 239 — TEST RESULTS
+
+Python regression suite: 213 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin compilation: all production and test Kotlin sources compiled together using kotlinc 1.9.0.
+Kotlin regression execution: BUILD223_TO_239_KOTLIN_REGRESSION_PASS.
+
+Build239 adds an end-to-end composite-frame pipeline:
+- exact animation-frame selection and global f[] slot validation;
+- concrete composite leaf expansion;
+- explicit palette-bound pixel attachment;
+- deterministic rasterization to the logical canvas;
+- explicit empty output for the 0xFF no-composite-group sentinel;
+- rejection of direct-draw paths and resource-slot mismatches.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

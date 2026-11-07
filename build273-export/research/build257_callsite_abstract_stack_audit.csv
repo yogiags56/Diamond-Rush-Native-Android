@@ -1,0 +1,26 @@
+callsite_offset,descriptor,invoke_instruction,stack_depth_before_invoke,descriptor_consumed_slots_including_receiver,sufficient_depth,argument_values,composite_group,promotion
+961,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,10,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+1058,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,10,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+1527,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,9,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+1951,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,10,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+2055,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,8,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+2179,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,10,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+3985,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,9,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+4285,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,10,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+4394,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,10,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+5736,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,8,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+5913,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,10,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+5954,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,9,7,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6131,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,13,8,TRUE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6314,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6427,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,MISSING,UNKNOWN,7,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6749,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6814,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6854,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6888,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,MISSING,UNKNOWN,7,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6929,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+6973,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+7260,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+7673,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+7993,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,MISSING,UNKNOWN,8,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED
+8018,f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V,MISSING,UNKNOWN,7,FALSE,UNKNOWN,UNKNOWN,NOT_PROMOTED

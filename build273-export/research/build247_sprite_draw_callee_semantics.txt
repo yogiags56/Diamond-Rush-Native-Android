@@ -1,0 +1,22 @@
+Build247 original f.a(Graphics, ...) callee audit
+
+Original JAR: original.jar
+
+PASS: 7-int reads composite offset table a:[S
+PASS: 7-int reads component records c:[B
+PASS: 7-int applies component flag transform and offsets
+PASS: 7-int delegates to 6-int recursive composite routine
+PASS: 6-int reads composite component count g:[B
+PASS: 6-int iterates component reference table b:[S
+PASS: 6-int reads nested component metadata h:[B
+PASS: 6-int supports nested composite recursion
+PASS: 6-int dispatches leaf sprite to 4-int routine
+PASS: 4-int resolves sprite dimensions from f:[B
+PASS: 4-int draws image region
+
+Confirmed call hierarchy:
+Graphics + 7 ints → component selection/offset application → Graphics + 6 ints
+Graphics + 6 ints → composite group expansion → recursive composite or Graphics + 4 ints
+Graphics + 4 ints → leaf sprite image/pixel resolution → Graphics.drawRegion
+
+Argument meaning is established structurally for the callee methods. Caller-side values at individual i.D()V callsites remain a separate provenance task.

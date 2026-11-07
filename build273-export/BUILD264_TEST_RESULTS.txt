@@ -1,0 +1,9 @@
+Build264 validation
+
+Generator: python research/build264_method_local_cfg.py
+Full pytest suite: 282 passed, 4 warnings.
+Warnings: existing Pillow Image.getdata() deprecations in Build213 tests.
+CFG result: 8/8 cross-class renderer callsites structurally reachable.
+CFG outputs: 847 basic-block intervals; 862 instruction-level edges.
+Scope: structural method-local CFG and renderer callsite reachability only.
+No Kotlin/Gradle/device/APK validation claimed.

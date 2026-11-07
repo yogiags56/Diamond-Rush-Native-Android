@@ -1,0 +1,23 @@
+BUILD 246 — TEST RESULTS
+
+Python regression suite: 232 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+Kotlin:
+- All 54 production and test Kotlin source files compiled together with kotlinc.
+- Existing Kotlin regression runner through Build245 executed successfully.
+
+Bytecode provenance audit:
+- 25 sprite draw callsites re-examined.
+- 16 seven-integer and 9 six-integer draw signatures.
+- Explicit `getstatic a:[Lf;` + constant index + `aaload` receiver chains were found at 13 callsites? See generated CSV for exact receiver slot classifications.
+- Other receiver values remain unresolved.
+- Composite-group arguments remain unresolved for all 25 callsites; raw producer slices retained.
+- Tests assert selected known callsite mappings and prohibit promoting unknown composite arguments.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

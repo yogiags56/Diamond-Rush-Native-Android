@@ -1,0 +1,26 @@
+BUILD 241 — MAIN-DISPATCH ART EVIDENCE AUDIT
+
+Python regression suite: 217 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin: all production and test source files compiled together using kotlinc.
+The Build223–240 regression runner was reused and the new Build241 evidence checks were included in its execution.
+
+New evidence catalog: LegacyMainDispatchArtEvidenceCatalog.
+- Records CFG-reachable candidate resource indices for each main dispatch branch.
+- Preserves separate bJ and bI selector domains.
+- Includes actual selector occurrence counts across w0.bin, w1.bin, and w2.bin.
+- Explicitly labels candidate sets as non-exclusive and non-executable.
+- Adds control-flow-only rows for -1 and signed-byte bypass boundary values.
+
+Research CSV: research/build241_main_dispatch_art_evidence.csv (88 rows).
+Original archive selector samples: 100,906 total serialized values, split evenly between the two planes.
+35 bJ cases have CFG-reachable candidate resources; candidate sets remain conditional-path unions.
+
+Important limitation: no main-dispatch case is promoted to an executable art binding in this build. Static resource-slot evidence does not establish that dynamic runtime f[] indices 27, 30, or 56 are the same assets or that any candidate is exclusive. Direct draw route f[42] remains opaque.
+
+Not performed:
+- Dynamic f[] object origin proof for candidate indices 27, 30, 56;
+- exact branch-specific sprite/composite mapping;
+- full room rasterization;
+- Android Gradle build, device runtime, visual parity, APK packaging.

@@ -1,0 +1,15 @@
+Build 214 validation
+====================
+Python tests: 69 passed, 0 failed.
+Original bytecode audit: classes c, f, i.
+DF03 resources: 94.
+Resources with animation records: 37.
+Animation sequences: 188.
+Five-byte frame records: 1,238.
+Valid composite group references: 1,235.
+0xFF no-group sentinel frames: 3.
+Invalid non-sentinel group references: 0.
+Sequence count/range mismatches: 0.
+Confirmed canvas: 320x240; top strip 31px; gameplay viewport 320x178 at y=31; bottom strip 31px.
+Kotlin compilation: NOT RUN (kotlinc unavailable).
+No Android Gradle build, device rendering, original-game visual parity, or APK claim.

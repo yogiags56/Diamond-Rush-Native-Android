@@ -1,0 +1,5 @@
+method,bytecode_offset,global_slot,source_evidence,status
+i.j()V,6618,21,"new f() then aastore; following f.a(byte[],0) uses a byte buffer read from the current InputStream",dynamic_stream_payload; bundle/entry not statically named at this store
+i.j()V,6698,local variable 6,iload 6; aload 1; aastore,dynamic_slot_index; exact slot depends on runtime loop/state
+i.j()V,6920,43,bipush 43; aload 5; aastore,object loaded earlier in method; source chain requires further dataflow
+i.j()V,7040,13,bipush 13; aload 5; aastore,object loaded earlier in method; source chain requires further dataflow

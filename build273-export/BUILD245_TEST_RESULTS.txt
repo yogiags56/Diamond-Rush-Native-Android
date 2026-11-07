@@ -1,0 +1,23 @@
+BUILD 245 — TEST RESULTS
+
+Python regression suite: 229 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+Kotlin: all production and test source files compiled together with kotlinc.
+Kotlin regression runner: BUILD223_TO_245_KOTLIN_REGRESSION_PASS.
+Build242 original DF03 payload fixtures were included in the runner classpath and parsed successfully.
+Build243 dynamic composite attribution checks passed.
+Build245 render-callsite descriptor checks passed.
+
+Original renderer i.D()V callsite inventory:
+- 60 invocation callsites catalogued in the broader renderer API subset.
+- 25 f.a(Graphics, ... ) sprite draw callsites: 16 with seven integer arguments and 9 with six integer arguments.
+- Exact bytecode offsets and JVM descriptors are recorded.
+- Runtime receiver f[] slot and composite-group argument remain unresolved; no cell candidate is promoted to a concrete draw operation.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

@@ -1,0 +1,14 @@
+sprite_draw_callsites=25
+UNRESOLVED=12
+f[13]=1
+f[15]=1
+f[16]=1
+f[20]=1
+f[27]=2
+f[42]=1
+f[56]=1
+f[5]=1
+f[7]=2
+f[9]=2
+
+Composite group arguments remain unresolved; raw producer slices retained.

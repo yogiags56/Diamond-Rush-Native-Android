@@ -1,0 +1,17 @@
+jvm_field,descriptor,parser_population,bytecode_consumer,evidence,confidence
+f,[B,2 bytes per sprite,"a(IIII) image creation reads width and height from pair at spriteIndex*2",f.a(IIII) bytecode 88-205,confirmed
+h,[B,4 bytes per component,"group renderer reads sprite id at +0 signed x/y at +1/+2 and control at +3",f.a(Graphics;IIIIII) bytecode 52-204,confirmed
+ g,[B,1 byte per group,"group renderer loops from zero to unsigned g[groupIndex]",f.a(Graphics;IIIIII) bytecode 0-20,confirmed
+b,[S,1 short per group,"group renderer adds component index to b[groupIndex], then shifts by two to index h",f.a(Graphics;IIIIII) bytecode 55-65,confirmed
+a,[B,4 bytes per group,"public array populated by parser; no read found in class f methods audited",f.a(byte[];int) bytecode 262-305,opaque
+c,[B,5 bytes per record,"component renderer reads sprite id, x/y offsets and low-nibble flags",f.a(Graphics;IIIIIII) bytecode 0-128,confirmed
+b,[B,1 byte per record,"public accessor a(int) returns unsigned b[index]",f.a(int) bytecode 0-10,confirmed
+a,[S,1 short per record,"record renderer uses a[groupOrRecordIndex] as base record index",f.a(Graphics;IIIIIII) bytecode 0-16,confirmed
+b,I,palette count,"allocates palette rows and controls palette loop",f.a(byte[];int) bytecode 526-572,confirmed
+a,[[I,paletteCount x colorsPerPalette,"palette conversion fills ARGB int arrays",f.a(byte[];int) bytecode 547-1051,confirmed
+a,S,pixel format,"selects pixel decoder branches",f.a(byte[];int) bytecode 1057-1083 and later decode routine,confirmed
+c,[S,one cumulative offset per sprite,"stores cumulative pixel payload offsets",f.a(byte[];int) bytecode 1086-1171,confirmed
+d,[B,concatenated pixel payload bytes,"pixel decode routine reads sprite payload from offset c[index]",f.a(byte[];int) bytecode 1171-1247,confirmed
+a,[[Ljavax/microedition/lcdui/Image;,lazy image cache,"image creation/cache methods",f.a(IIII) bytecode 23-65,confirmed
+a,I,current palette index,"temporarily selects palette during image creation",f.a(IIII) bytecode 66-76,confirmed
+a,Z,transparency flag,"set when decoded palette contains non-opaque colors",f.a(byte[];int) bytecode 681-691,confirmed

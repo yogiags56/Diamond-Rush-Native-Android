@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Android / Gradle (future app integration)
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+*.iml
+*.apk
+*.aab
+
+# Proprietary/original game inputs and derived binary assets
+original/
+original.jar
+*.jar
+*.class
+*.bin
+*.png
+*.rgba
+*.meta
+*.zip
+previews/
+
+# Local-only exports and temporary artifacts
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

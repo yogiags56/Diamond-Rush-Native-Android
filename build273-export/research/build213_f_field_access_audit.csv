@@ -1,0 +1,4 @@
+bytecode_offset,instruction,field,interpretation
+273,putfield,a:[B,parser allocates four bytes per composite group
+287,getfield,a:[B,parser copies four bytes per group
+17,putfield,a:[B,resource cleanup nulls the table

@@ -1,0 +1,7 @@
+raw_bj_selector,room_cell_count,switch_offset,branch_target,aj_assignment_or_expression,dynamic_helper_f_slot,dynamic_helper_status,direct_f_slot_call,direct_call_guard,bytecode_evidence,resource_bundle_identity,runtime_predicate_values,status
+3,15,783,1890,12 when (cell_word >> 8) - 1 >= 0; otherwise unchanged(-1),NONE,RESOLVES_TO_MINUS_ONE,NONE,,case 1890-1927; helper switch 0-23/default,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED
+4,15,783,1549,20 when (cell_word >> 8) >= this.aC; otherwise unchanged(-1),43,CONDITIONAL_DYNAMIC_RENDER,NONE,cell high-byte >= this.aC,case 1549-1629; helper case 20 -> 43,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED
+5,15,783,1632,NO_ASSIGNMENT,NONE,NO_NEW_DYNAMIC_RENDER_SELECTION,NONE,,case 1632-1639 diagnostic-only branch,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED
+6,15,783,1064,26,NONE,RESOLVES_TO_MINUS_ONE,NONE,,case 1064-1360; helper default for 26,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED
+7,15,783,1416,4,56,DYNAMIC_RENDER_SLOT_56,56,left-neighbor low byte is neither 9 nor 8,case 1416-1546; direct f[56] at 1501; helper case 4 -> 56,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED
+8,15,783,1796,23,45,DYNAMIC_RENDER_SLOT_45,NONE,,case 1796-1887; helper case 23 -> 45,UNRESOLVED,UNKNOWN,BYTECODE_DATAFLOW_TRACED_RUNTIME_VALUES_NOT_EXECUTED

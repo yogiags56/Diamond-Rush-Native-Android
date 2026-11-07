@@ -1,0 +1,11 @@
+global_f_slot,bundle_path,bundle_entry_index,consumer_method,callsite_offset,assignment_evidence,prior_df03_status,prior_df03_diagnostic
+10,/mmv.f,0,private void b(int);,145,direct aastore into global f[],legacy_df03_parser_failure,"""truncated at 5287, need 1, size 5287"""
+46,/mmv.f,5,private void b(int);,178,direct aastore into global f[],legacy_df03_parser_failure,"""truncated at 636, need 1, size 636"""
+55,/mmv.f,4,private void b(int);,258,direct aastore into global f[],legacy_df03_parser_failure,"""truncated at 66, need 8965, size 296"""
+18,/ui.f,3,private void b(int);,314,direct aastore into global f[],legacy_df03_parser_failure,"""truncated at 597, need 1, size 597"""
+54,/mmv.f,1,private void b(int);,348,direct aastore into global f[],legacy_df03_parser_failure,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+53,/mmv.f,2,private void b(int);,417,direct aastore into global f[],legacy_df03_parser_failure,unpack_from requires a buffer of at least 461 bytes for unpacking 2 bytes at offset 459 (actual buffer size is 460)
+52,/mmv.f,3,private void b(int);,451,direct aastore into global f[],legacy_df03_parser_failure,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+59,/cm.f,2,private void b(int);,533,direct aastore into global f[]; local f object is also used for two setup calls,legacy_df03_parser_failure,palette count 24 exceeds 16
+17,/ms.f,0,private void b(int);,584,direct aastore into global f[],legacy_df03_parser_failure,"""truncated at 1114, need 1016, size 2000"""
+9,/cm.f,7,private void b(int);,621,direct aastore into global f[],legacy_df03_parser_failure,unpack_from requires a buffer of at least 4154 bytes for unpacking 2 bytes at offset 4152 (actual buffer size is 4153)

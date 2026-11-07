@@ -1,0 +1,14 @@
+Diamond Rush Native Android — GitHub source-only export validation
+Build: 273
+
+Command: python -m pytest -q
+Result: 267 passed, 76 skipped, 0 failed.
+
+Skipped tests require one or more local-only research inputs intentionally not
+redistributed in this source export: the original commercial game JAR, derived
+sprite preview images/raw RGBA buffers, or binary payload fixtures. The full
+unfiltered Build 273 workspace (with those local inputs present) was validated
+separately: 343 passed, 4 existing Pillow deprecation warnings.
+
+No Android Gradle build, APK generation, original-game runtime, device test, or
+playable build is claimed.

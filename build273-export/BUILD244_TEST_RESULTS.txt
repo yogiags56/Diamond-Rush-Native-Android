@@ -1,0 +1,23 @@
+BUILD 244 — TEST RESULTS
+
+Python regression suite: 225 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin: all production and test source files compiled together with kotlinc.
+Kotlin regression runner: BUILD223_TO_244_KOTLIN_REGRESSION_PASS.
+Build242 DF03 fixtures were added to the runner classpath and parsed successfully.
+Build243 composite attribution checks passed.
+
+Build244 evidence join:
+- 135 in-bounds cells in w0 room 0 camera 0.
+- 90 cells have at least one CFG-derived dynamic resource candidate.
+- 1,530 cell/resource/composite-group candidate rows.
+- Every row explicitly carries CANDIDATE_ONLY_NO_RUNTIME_SELECTION_PROOF.
+- No candidate was promoted to a confirmed draw operation or rasterized result.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

@@ -1,0 +1,1 @@
+BUILD233_KOTLIN_COMPILE_NOT_RUN\nReason: kotlinc executable unavailable in this environment.\nThe new Kotlin catalog is source-only in Build233; no Kotlin compilation success is claimed.\n

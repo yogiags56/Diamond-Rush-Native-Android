@@ -1,0 +1,7 @@
+Build 209 validation
+====================
+Python regression suite: 41 passed, 0 failed.
+Kotlin compilation: passed with kotlinc; output build209-kotlin.jar.
+DF03 structural trace: 19 completed / 94 DF03 payloads; 75 exceptions.
+Literal-index sprite-bundle call-site audit: 3 completed / 16 call sites; 13 exceptions.
+No Android Gradle build, device runtime, rendering, visual parity, or playable APK claimed.

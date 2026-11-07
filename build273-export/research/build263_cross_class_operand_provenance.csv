@@ -1,0 +1,65 @@
+caller_class,caller_method,callsite_offset,renderer_family,stack_position,operand_role,symbolic_expression,evidence_status,evidence_offsets,runtime_value_known
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,0,receiver,this.a,PROVEN,66–70,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,1,graphics,arg1,PROVEN,70,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,2,int_1,this.d,PROVEN,71–75,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,3,int_2,this.e,PROVEN,75–79,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,4,int_3,local2,PROVEN,79,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,5,int_4,local3,PROVEN,80,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,6,int_5,this.c,PROVEN,81–85,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,7,int_6,0,PROVEN,85,False
+b,public final void a(javax.microedition.lcdui.Graphics);,87,component_7int,8,int_7,0,PROVEN,86,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,0,receiver,this.a,PROVEN,98–102,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,1,graphics,arg1,PROVEN,102,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,2,int_1,this.d,PROVEN,103–107,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,3,int_2,local2,PROVEN,107,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,4,int_3,local3,PROVEN,108,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,leaf_4int,5,int_4,this.c,PROVEN,109–113,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,0,receiver,this.a,PROVEN,124–128,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,1,graphics,arg1,PROVEN,128,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,2,int_1,this.e,PROVEN,129–133,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,3,int_2,local2,PROVEN,133,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,4,int_3,local3,PROVEN,134,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,5,int_4,this.c,PROVEN,135–139,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,6,int_5,0,PROVEN,139,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,composite_6int,7,int_6,0,PROVEN,140,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,0,receiver,a[this.f],PROVEN,242–249,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,1,graphics,arg1,PROVEN,250,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,2,int_1,0,PROVEN,251,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,3,int_2,this.b % a[this.f].a(0),DERIVED,252–268,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,4,int_3,this.c,PROVEN,269–273,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,5,int_4,this.d,PROVEN,273–277,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,6,int_5,0,PROVEN,277,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,7,int_6,0,PROVEN,278,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,component_7int,8,int_7,0,PROVEN,279,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,0,receiver,a[0],PROVEN,283–288,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,1,graphics,arg1,PROVEN,288,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,2,int_1,this.e,PROVEN,289–293,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,3,int_2,this.c,PROVEN,293–297,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,4,int_3,this.d,PROVEN,298–301,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,5,int_4,0,PROVEN,301,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,6,int_5,0,PROVEN,302,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,composite_6int,7,int_6,0,PROVEN,303,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,0,receiver,a[1],PROVEN,355–360,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,1,graphics,arg1,PROVEN,360,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,2,int_1,this.g,PROVEN,361–365,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,3,int_2,this.c + 90,DERIVED,366–372,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,4,int_3,this.d - 6,DERIVED,373–378,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,5,int_4,0,PROVEN,379,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,6,int_5,0,PROVEN,380,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,composite_6int,7,int_6,0,PROVEN,381,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,0,receiver,a[local5],PROVEN,859–865,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,1,graphics,arg1,PROVEN,865,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,2,int_1,local2,PROVEN,866–867,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,3,int_2,local0,PROVEN,867–868,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,4,int_3,local4,PROVEN,868–870,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,5,int_4,0,PROVEN,870,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,6,int_5,0,PROVEN,871,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,composite_6int,7,int_6,0,PROVEN,872,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,0,receiver,i.a(2),PROVEN,27–34,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,1,graphics,arg0,PROVEN,35,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,2,int_1,0,PROVEN,61–63,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,3,int_2,local1 * 24,DERIVED,63–67,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,4,int_3,(local2 - 1) * 24 + static b,DERIVED,67–77,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,5,int_4,0,PROVEN,77,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,6,int_5,0,PROVEN,78,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,composite_6int,7,int_6,0,PROVEN,79,False

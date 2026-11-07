@@ -1,0 +1,17 @@
+class,method,bundle,entry,bytecode_callsite,status,detail
+i,private void f();,ms.f,0,5201: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=20;groups=19;components=23;pixel=5632
+i,private void f();,ms.f,1,5213: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=13;groups=1;components=88;pixel=5632
+i,private void f();,ms.f,2,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=2;components=9;pixel=5632
+i,private void f();,ms.f,3,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=2;components=9;pixel=10225
+i,private void f();,ms.f,4,5282: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=2;components=9;pixel=10225
+i,private void f();,mmv.f,1,5306: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=1;components=1;pixel=5632
+i,private void f();,mmv.f,2,5362: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=1;components=1;pixel=5632
+i,private void f();,mmv.f,3,5386: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=1;groups=1;components=1;pixel=5632
+i,private void f();,ui.f,0,6845: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=21;groups=12;components=47;pixel=5632
+i,private void f();,ui.f,3,6948: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=5;groups=6;components=7;pixel=5632
+i,private void f();,ui.f,3,7177: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=5;groups=6;components=7;pixel=5632
+i,private void f();,cm.f,7,7517: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=17;groups=71;components=692;pixel=5632
+i,private void f();,ui.f,2,7531: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=39;groups=28;components=196;pixel=10225
+i,private void j();,mm1.f,0,7323: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=104;groups=44;components=1460;pixel=5632
+i,private void j();,b1.f,0,7451: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=72;groups=78;components=2777;pixel=5632
+i,private void D();,mmv.f,0,6365: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;,parsed,sprites=23;groups=29;components=84;pixel=5632

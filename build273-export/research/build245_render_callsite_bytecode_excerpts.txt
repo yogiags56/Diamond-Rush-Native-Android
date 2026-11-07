@@ -1,0 +1,629 @@
+      22: getfield      #746                // Field l:B
+      25: goto          29
+      28: iconst_0
+      29: putfield      #511                // Field bQ:I
+      32: aload_1
+      33: iconst_0
+      34: bipush        31
+      36: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+      39: aload_0
+
+                    29: 1995
+                    30: 1995
+                    31: 1995
+                    32: 1995
+                    33: 967
+                    34: 940
+                    35: 936
+                    36: 1995
+                    37: 1930
+
+     950: aload_3
+     951: getfield      #544                // Field bx:I
+     954: aload_3
+     955: getfield      #545                // Field by:I
+     958: iconst_0
+     959: iconst_0
+     960: iconst_0
+     961: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+     964: goto          1995
+
+    1045: aload         7
+    1047: getfield      #544                // Field bx:I
+    1050: aload         7
+    1052: getfield      #545                // Field by:I
+    1055: iconst_0
+    1056: iconst_0
+    1057: iconst_0
+    1058: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    1061: goto          1995
+
+    1082: bipush        26
+    1084: putfield      #411                // Field aJ:I
+    1087: aload         7
+    1089: iconst_0
+    1090: putfield      #412                // Field aK:I
+    1093: iload         8
+    1095: iload         9
+    1097: invokestatic  #1037               // Method i:(II)Z
+    1100: ifeq          1135
+
+    1304: aload         4
+    1306: aload_3
+    1307: getfield      #544                // Field bx:I
+    1310: aload_3
+    1311: getfield      #545                // Field by:I
+    1314: bipush        24
+    1316: bipush        24
+    1318: invokevirtual #1130               // Method javax/microedition/lcdui/Graphics.clipRect:(IIII)V
+    1321: goto          1995
+
+    1514: aload         7
+    1516: getfield      #544                // Field bx:I
+    1519: aload         7
+    1521: getfield      #545                // Field by:I
+    1524: iconst_0
+    1525: iconst_0
+    1526: iconst_0
+    1527: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    1530: aload         7
+
+    1940: aload_3
+    1941: getfield      #544                // Field bx:I
+    1944: aload_3
+    1945: getfield      #545                // Field by:I
+    1948: iconst_0
+    1949: iconst_0
+    1950: iconst_0
+    1951: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    1954: aload_3
+
+    2044: aload_3
+    2045: getfield      #509                // Field bO:I
+    2048: iadd
+    2049: aload_3
+    2050: getfield      #510                // Field bP:I
+    2053: iconst_0
+    2054: iconst_0
+    2055: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    2058: goto          2101
+
+    2085: aload_3
+    2086: getfield      #545                // Field by:I
+    2089: aload_3
+    2090: getfield      #509                // Field bO:I
+    2093: iadd
+    2094: aload_3
+    2095: getfield      #510                // Field bP:I
+    2098: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    2101: aload_3
+
+    2111: aload         4
+    2113: iconst_0
+    2114: aload_3
+    2115: getfield      #531                // Field bk:I
+    2118: ineg
+    2119: sipush        320
+    2122: sipush        178
+    2125: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    2128: goto          2191
+
+    2168: getfield      #545                // Field by:I
+    2171: aload_3
+    2172: getfield      #509                // Field bO:I
+    2175: iadd
+    2176: iconst_0
+    2177: iconst_0
+    2178: iconst_0
+    2179: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    2182: aload_3
+
+                    29: 5676
+                    30: 5417
+                    31: 5676
+                    32: 4912
+                    33: 5676
+                    34: 4060
+                    35: 4101
+                    36: 3915
+                    37: 5450
+
+    2690: aload         7
+    2692: getstatic     #420                // Field aS:I
+    2695: iconst_1
+    2696: ishr
+    2697: getstatic     #480                // Field b:Lf;
+    2700: aload         7
+    2702: getfield      #505                // Field bK:I
+    2705: invokevirtual #826                // Method f.a:(I)I
+    2708: irem
+
+    3458: iload         9
+    3460: istore        10
+    3462: iconst_0
+    3463: istore        11
+    3465: getstatic     #480                // Field b:Lf;
+    3468: aload         7
+    3470: getfield      #505                // Field bK:I
+    3473: invokevirtual #826                // Method f.a:(I)I
+    3476: istore        13
+
+    3481: iload         10
+    3483: ifle          3518
+    3486: iload         10
+    3488: getstatic     #480                // Field b:Lf;
+    3491: aload         7
+    3493: getfield      #505                // Field bK:I
+    3496: iload         12
+    3498: invokevirtual #828                // Method f.a:(II)I
+    3501: isub
+
+    3722: baload
+    3723: iconst_1
+    3724: ishr
+    3725: getstatic     #394                // Field a:[Lf;
+    3728: bipush        27
+    3730: aaload
+    3731: iconst_1
+    3732: invokevirtual #826                // Method f.a:(I)I
+    3735: irem
+
+    3805: iconst_1
+    3806: aaload
+    3807: iload         9
+    3809: bipush        6
+    3811: iadd
+    3812: iload         10
+    3814: iconst_0
+    3815: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    3818: aload         8
+
+    3827: iload         9
+    3829: iconst_3
+    3830: iadd
+    3831: iload         10
+    3833: bipush        7
+    3835: iadd
+    3836: iconst_0
+    3837: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    3840: iconst_0
+
+    3856: iconst_0
+    3857: aaload
+    3858: getfield      #307                // Field f.a:[[Ljavax/microedition/lcdui/Image;
+    3861: iconst_0
+    3862: aaload
+    3863: iconst_0
+    3864: aaload
+    3865: invokevirtual #1148               // Method javax/microedition/lcdui/Image.getWidth:()I
+    3868: iconst_1
+
+    3954: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    3957: iload         8
+    3959: getstatic     #420                // Field aS:I
+    3962: iconst_1
+    3963: ishr
+    3964: aload         9
+    3966: iload         8
+    3968: invokevirtual #826                // Method f.a:(I)I
+    3971: irem
+
+    3972: aload         7
+    3974: getfield      #544                // Field bx:I
+    3977: aload         7
+    3979: getfield      #545                // Field by:I
+    3982: iconst_0
+    3983: iconst_0
+    3984: iconst_0
+    3985: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    3988: goto          5676
+
+    4278: imul
+    4279: isub
+    4280: imul
+    4281: iadd
+    4282: iconst_0
+    4283: iconst_0
+    4284: iconst_0
+    4285: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    4288: iinc          13, 1
+
+    4383: aload         7
+    4385: getfield      #545                // Field by:I
+    4388: bipush        24
+    4390: iadd
+    4391: iconst_0
+    4392: iconst_0
+    4393: iconst_0
+    4394: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    4397: goto          5676
+
+    4507: iload         11
+    4509: ifle          4539
+    4512: iload         11
+    4514: aload         9
+    4516: aload         7
+    4518: getfield      #505                // Field bK:I
+    4521: iload         13
+    4523: invokevirtual #828                // Method f.a:(II)I
+    4526: isub
+
+    4746: getfield      #545                // Field by:I
+    4749: aload         7
+    4751: getfield      #509                // Field bO:I
+    4754: bipush        24
+    4756: iadd
+    4757: iadd
+    4758: bipush        36
+    4760: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    4763: goto          5676
+
+    4841: getfield      #545                // Field by:I
+    4844: aload         7
+    4846: getfield      #509                // Field bO:I
+    4849: bipush        24
+    4851: iadd
+    4852: iadd
+    4853: bipush        36
+    4855: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    4858: iload         8
+
+    4906: putfield      #509                // Field bO:I
+    4909: goto          5676
+    4912: aload_3
+    4913: dup
+    4914: astore        7
+    4916: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    4919: ldc           #50                 // int 13883367
+    4921: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    4924: getstatic     #492                // Field b:[[B
+
+    5025: bipush        12
+    5027: iadd
+    5028: iload         9
+    5030: aload         7
+    5032: getfield      #545                // Field by:I
+    5035: bipush        12
+    5037: iadd
+    5038: invokevirtual #1132               // Method javax/microedition/lcdui/Graphics.drawLine:(IIII)V
+    5041: iload         10
+
+    5066: aload         7
+    5068: getfield      #545                // Field by:I
+    5071: bipush        12
+    5073: iadd
+    5074: iconst_2
+    5075: isub
+    5076: iconst_0
+    5077: invokevirtual #830                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+    5080: goto          5676
+
+    5725: aload_3
+    5726: getfield      #509                // Field bO:I
+    5729: iadd
+    5730: aload_3
+    5731: getfield      #510                // Field bP:I
+    5734: iconst_0
+    5735: iconst_0
+    5736: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    5739: goto          5782
+
+    5766: aload_3
+    5767: getfield      #545                // Field by:I
+    5770: aload_3
+    5771: getfield      #509                // Field bO:I
+    5774: iadd
+    5775: aload_3
+    5776: getfield      #510                // Field bP:I
+    5779: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    5782: aload_3
+
+    5902: getfield      #545                // Field by:I
+    5905: aload_3
+    5906: getfield      #509                // Field bO:I
+    5909: iadd
+    5910: iconst_0
+    5911: iconst_0
+    5912: iconst_0
+    5913: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    5916: aload_3
+
+    5943: getfield      #545                // Field by:I
+    5946: aload_3
+    5947: getfield      #509                // Field bO:I
+    5950: iadd
+    5951: iconst_0
+    5952: iconst_0
+    5953: iconst_0
+    5954: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    5957: aconst_null
+
+    5979: goto          627
+    5982: iinc          5, 1
+    5985: goto          617
+    5988: getstatic     #388                // Field a:Z
+    5991: ifeq          6171
+    5994: aload_1
+    5995: iconst_0
+    5996: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    5999: aload_1
+
+    5995: iconst_0
+    5996: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    5999: aload_1
+    6000: iconst_0
+    6001: iconst_0
+    6002: sipush        320
+    6005: sipush        240
+    6008: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    6011: aload_0
+
+    6122: iload_3
+    6123: baload
+    6124: iload         4
+    6126: iload         5
+    6128: iconst_0
+    6129: iconst_0
+    6130: iconst_0
+    6131: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6134: iinc          3, 1
+
+    6141: goto          6030
+    6144: aload_0
+    6145: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6148: iconst_0
+    6149: iconst_0
+    6150: sipush        320
+    6153: sipush        240
+    6156: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    6159: aload_1
+
+    6149: iconst_0
+    6150: sipush        320
+    6153: sipush        240
+    6156: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    6159: aload_1
+    6160: iconst_0
+    6161: bipush        -31
+    6163: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    6166: aload_0
+
+    6303: aload         4
+    6305: getfield      #543                // Field bw:I
+    6308: bipush        24
+    6310: isub
+    6311: iconst_0
+    6312: iconst_0
+    6313: iconst_0
+    6314: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6317: aload_3
+
+    6416: bipush        48
+    6418: aload         4
+    6420: getfield      #478                // Field b:I
+    6423: isub
+    6424: iconst_0
+    6425: iconst_0
+    6426: iconst_0
+    6427: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    6430: aload         4
+
+    6661: iand
+    6662: irem
+    6663: goto          6922
+    6666: iload         5
+    6668: lookupswitch  { // 3
+                    31: 6755
+                    32: 6820
+                    36: 6704
+               default: 6860
+
+    6739: iconst_0
+    6740: iload         5
+    6742: iload         9
+    6744: iload         10
+    6746: iconst_0
+    6747: iconst_0
+    6748: iconst_0
+    6749: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6752: goto          6891
+
+    6803: iload         5
+    6805: iload         12
+    6807: iload         9
+    6809: iload         10
+    6811: iconst_0
+    6812: iconst_0
+    6813: iconst_0
+    6814: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6817: goto          6891
+
+    6843: sipush        255
+    6846: iand
+    6847: iload         9
+    6849: iload         10
+    6851: iconst_0
+    6852: iconst_0
+    6853: iconst_0
+    6854: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6857: goto          6891
+
+    6878: aload_1
+    6879: iload         5
+    6881: iload         9
+    6883: iload         10
+    6885: iconst_0
+    6886: iconst_0
+    6887: iconst_0
+    6888: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    6891: getstatic     #398                // Field a:[[I
+
+    6919: iconst_0
+    6920: iload         5
+    6922: iload         9
+    6924: iload         10
+    6926: iconst_0
+    6927: iconst_0
+    6928: iconst_0
+    6929: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6932: iload         6
+
+    6962: iaload
+    6963: invokestatic  #912                // Method a:(Lf;II)I
+    6966: iload         9
+    6968: iload         10
+    6970: iconst_0
+    6971: iconst_0
+    6972: iconst_0
+    6973: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6976: iinc          4, 1
+
+    7057: aload_0
+    7058: getfield      #498                // Field bD:I
+    7061: iadd
+    7062: aaload
+    7063: iload_3
+    7064: iload         4
+    7066: iconst_0
+    7067: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7070: aload_0
+
+    7099: aload_0
+    7100: getfield      #543                // Field bw:I
+    7103: bipush        -24
+    7105: iadd
+    7106: iconst_2
+    7107: iadd
+    7108: iconst_3
+    7109: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7112: aload_1
+
+    7130: bipush        -12
+    7132: iadd
+    7133: aload_0
+    7134: getfield      #543                // Field bw:I
+    7137: bipush        -24
+    7139: iadd
+    7140: iconst_3
+    7141: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7144: aload_0
+
+    7251: iload_3
+    7252: baload
+    7253: iload         4
+    7255: iload         5
+    7257: iconst_0
+    7258: iconst_0
+    7259: iconst_0
+    7260: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7263: iinc          3, 1
+
+    7649: aload         4
+    7651: iconst_1
+    7652: getstatic     #420                // Field aS:I
+    7655: getstatic     #394                // Field a:[Lf;
+    7658: bipush        7
+    7660: aaload
+    7661: iconst_1
+    7662: invokevirtual #826                // Method f.a:(I)I
+    7665: irem
+
+    7662: invokevirtual #826                // Method f.a:(I)I
+    7665: irem
+    7666: iload         6
+    7668: iload         7
+    7670: iconst_0
+    7671: iconst_0
+    7672: iconst_0
+    7673: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7676: aload_3
+
+    7771: aload_0
+    7772: aload_1
+    7773: iconst_4
+    7774: invokespecial #926                // Method a:(Ljavax/microedition/lcdui/Graphics;I)V
+    7777: aload_1
+    7778: iconst_0
+    7779: bipush        -31
+    7781: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    7784: aload_1
+
+    7779: bipush        -31
+    7781: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    7784: aload_1
+    7785: iconst_0
+    7786: iconst_0
+    7787: sipush        320
+    7790: sipush        240
+    7793: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    7796: aload_0
+
+    7870: getfield      #532                // Field bl:I
+    7873: ifle          8028
+    7876: aload_0
+    7877: iconst_1
+    7878: putfield      #763                // Field o:Z
+    7881: aload_1
+    7882: iconst_0
+    7883: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    7886: aload_1
+
+    7883: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    7886: aload_1
+    7887: iconst_0
+    7888: iconst_0
+    7889: sipush        320
+    7892: aload_0
+    7893: getfield      #532                // Field bl:I
+    7896: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    7899: aload_1
+
+    7901: sipush        240
+    7904: aload_0
+    7905: getfield      #532                // Field bl:I
+    7908: isub
+    7909: sipush        320
+    7912: aload_0
+    7913: getfield      #532                // Field bl:I
+    7916: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    7919: aload_1
+
+    7909: sipush        320
+    7912: aload_0
+    7913: getfield      #532                // Field bl:I
+    7916: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    7919: aload_1
+    7920: iconst_0
+    7921: bipush        31
+    7923: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    7926: aload_0
+
+    7984: imul
+    7985: aload_0
+    7986: getfield      #573                // Field cL:I
+    7989: isub
+    7990: iconst_0
+    7991: iconst_0
+    7992: iconst_0
+    7993: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7996: goto          8021
+
+    8007: aload_0
+    8008: getfield      #605                // Field cr:I
+    8011: aload_0
+    8012: getfield      #604                // Field cq:I
+    8015: iconst_0
+    8016: iconst_0
+    8017: iconst_0
+    8018: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    8021: aload_1
+
+    8015: iconst_0
+    8016: iconst_0
+    8017: iconst_0
+    8018: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    8021: aload_1
+    8022: iconst_0
+    8023: bipush        -31
+    8025: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    8028: return

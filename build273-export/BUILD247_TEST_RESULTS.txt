@@ -1,0 +1,22 @@
+BUILD 247 — TEST RESULTS
+
+Python regression suite: 234 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin: all production and test source files compiled together with kotlinc.
+Kotlin regression runner: BUILD223_TO_247_KOTLIN_REGRESSION_PASS.
+Build242 DF03 fixture parsing and Build243 composite attribution checks passed.
+
+Original bytecode callee audit: 11 structural assertions passed.
+- Graphics + 7 ints: composite component selection/entry; selects component record and delegates to six-int routine.
+- Graphics + 6 ints: composite group expansion; iterates component references, supports nested composite recursion, and dispatches leaf sprites.
+- Graphics + 4 ints: leaf sprite draw; resolves image/pixel dimensions and calls Graphics.drawRegion.
+
+Important boundary: these are callee semantics. Caller-side argument values for individual i.D()V callsites, including selected composite group indices, remain unresolved.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

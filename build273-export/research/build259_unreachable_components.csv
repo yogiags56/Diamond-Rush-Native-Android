@@ -1,0 +1,2 @@
+component_id,block_count,first_block,last_block,first_instruction,last_instruction,contains_renderer_callsites,classification
+1,75,6171,8021,aload_0,return,12,UNREACHABLE_FROM_ENTRY_NORMAL_CFG

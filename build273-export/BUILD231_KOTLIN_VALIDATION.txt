@@ -1,0 +1,3 @@
+BUILD231_KOTLIN_MAIN_COMPILE_PASSED
+BUILD231_KOTLIN_CHECKS_PASSED
+Command scope: all legacy main Kotlin sources plus Build231WorldRoomArchiveChecks.kt; standalone check runner executed.

@@ -1,0 +1,20 @@
+BUILD 252 — SYMBOLIC PRODUCER-SLICE REPLAY
+
+Python regression suite: 245 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+New Build252 tests: 3 passed.
+All 25 renderer callsite producer slices were parsed.
+447 bytecode instructions were recognized in the extracted slices; 427 supported operations were symbolically processed.
+32 stack underflows were recorded as UNKNOWN_ENTRY_STACK rather than guessed.
+Control-flow instructions and unsupported instructions are treated as barriers.
+
+Important limitation:
+This is a conservative linear producer-slice symbolic replay, not a complete JVM verifier or whole-method symbolic interpreter. It does not resolve all 25 invocation stacks, receiver slots, or composite groups. No new Kotlin source was added, so no new Kotlin compilation is claimed.
+
+Not performed:
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

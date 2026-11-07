@@ -1,0 +1,26 @@
+BUILD 240 — ORIGINAL ROOM RENDER ASSEMBLY
+
+Python regression suite: 215 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations in Build213 tests.
+
+Kotlin:
+- All production and test sources compiled together with kotlinc.
+- Build223–240 regression runner passed: BUILD223_TO_240_KOTLIN_REGRESSION_PASS.
+- Build240 room assembly audit executed against the actual original.jar w0.bin room 0.
+
+Actual room sample:
+- Archive: w0.bin, room index 0.
+- Dimensions: 26 x 21.
+- Camera: (0,0).
+- Candidate scan: 160 cells; 135 in bounds; 25 out of bounds.
+- Overlay route requests: 10 (5 route f[3], 5 direct route f[42]).
+- Manifest: research/build240_w0_room0_camera0_manifest.csv.
+
+All 41 original room records were inspected across w0.bin/w1.bin/w2.bin.
+Selectors 31, 32 and 36 do not occur in the third serialized plane in these archives. Their dispatch paths remain covered only by synthetic unit fixtures; no original-room occurrence is claimed.
+
+Not performed:
+- Full sprite-to-cell semantic mapping for main dispatch switch targets.
+- Animation table extraction and complete frame resolution for all actual overlay requests.
+- Rasterization of the complete room.
+- Android Gradle build, Android device runtime, screenshot parity, APK packaging.

@@ -1,0 +1,15 @@
+BUILD 255 — TEST RESULTS
+
+Original classfile: original.jar
+Exact method: i.D()V (private void D(); descriptor ()V)
+Instructions: 3925
+Basic blocks: 325
+CFG edges: 566
+Switch instructions: 10
+Renderer callsites mapped: 25/25
+Renderer invoke opcode verified: 25/25
+
+Python pytest: 248 passed, 4 warnings.
+Warnings: existing Pillow Image.getdata deprecations in Build213 tests.
+
+No Kotlin compilation, Android Gradle build, device runtime, full room rendering, visual parity, or APK packaging is claimed.

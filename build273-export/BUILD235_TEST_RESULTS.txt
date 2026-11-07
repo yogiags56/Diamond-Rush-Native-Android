@@ -1,0 +1,24 @@
+Build 235 Python regression tests
+=================================
+Command: pytest -q --disable-warnings
+Result: 191 passed, 4 warnings
+
+The four warnings are the existing Pillow deprecation warnings from older raster tests.
+
+Audit totals
+------------
+Static global f[] slots: 10
+Mapped sprite records: 87
+Composite component references: 843
+Expanded composite-group leaf references: 843
+Animation frame records referenced by sequences: 85
+Valid animation-frame composite-group references: 82
+Explicit 0xFF no-group sentinels: 3
+Animation-derived leaf sprite references: 719
+Invalid component record positions: 0
+Out-of-range component targets: 0
+Out-of-range animation group references: 0
+
+Direct i.D()V render consumers among the ten static slots: f[9], f[10]
+
+Kotlin validation is recorded separately in BUILD235_KOTLIN_VALIDATION.txt.

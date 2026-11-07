@@ -1,0 +1,18 @@
+Diamond Rush Native Android — Build 215 Test Results
+
+Command: pytest -q
+Result: 77 passed, 4 warnings in 0.85s
+
+Breakdown:
+- Existing Build 214 baseline and prior regression tests: 69 passed.
+- New Build 215 gameplay scene bytecode audit tests: 8 passed.
+
+Warnings: four Pillow deprecation warnings from the existing Build 213 transform tests (`Image.getdata`). No test failures.
+
+Validation boundary:
+- Python static-bytecode assertions: PASS.
+- Kotlin compilation: NOT RUN.
+- Android Gradle build: NOT RUN.
+- Emulator/device runtime: NOT RUN.
+- Full scene visual parity: NOT VERIFIED.
+- APK: NOT BUILT.

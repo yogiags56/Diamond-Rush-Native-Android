@@ -1,0 +1,19 @@
+BUILD 217 CENTRAL MAP SETTER EXCERPT
+Source: i_build214_full.javap.txt
+
+  public static void a(short, short, byte, int);
+    descriptor: (SSBI)V
+    Code:
+       0: getstatic     #397                // Field a:[[B
+       3: iload_0
+       4: aaload
+       5: iload_1
+       6: iload_2
+       7: bastore
+       8: getstatic     #493                // Field b:[[I
+      11: iload_0
+      12: aaload
+      13: iload_1
+      14: iload_3
+      15: iastore
+      16: return

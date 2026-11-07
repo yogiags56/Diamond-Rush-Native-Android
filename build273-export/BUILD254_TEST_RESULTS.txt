@@ -1,0 +1,8 @@
+BUILD 254 — STRUCTURAL AUDIT
+
+Callsites: 25
+CFG method labels: W, aa, aj, as, j
+Exact method identity matches: 0
+Block assignments: 0 (withheld due to method identity mismatch)
+
+This is a fail-closed audit, not a JVM interpreter or runtime test.

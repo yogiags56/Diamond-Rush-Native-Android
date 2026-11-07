@@ -1,0 +1,3 @@
+renderer_offset,renderer_argument,source_local,store_offset,expression,definitions,arithmetic,confidence
+873,integer argument 2 (first coordinate-like value),local 0,817,S16((v6 * m + v2 * (v14 - m)) / v14),"v2=S16(i.a(data,index+2)); v6=S16(i.a(data,index+6)); v14=S16(i.a(data,index+14)); m=min(this.b,v14)",JVM int multiply/add/subtract/divide; then signed-short narrowing via i2s,BYTECODE_PROVEN_EXPRESSION; runtime integer not known
+873,integer argument 3 (second coordinate-like value),local 4,836,S16((v6b * m + v4 * (v14 - m)) / v14),"v4=S16(i.a(data,index+4)); v6b=S16(i.a(data,index+6)); v14=S16(i.a(data,index+14)); m=min(this.b,v14)",JVM int multiply/add/subtract/divide; then signed-short narrowing via i2s,BYTECODE_PROVEN_EXPRESSION; runtime integer not known

@@ -1,0 +1,6 @@
+method,instruction_count,basic_block_count,array_store_count,edges_extracted,linear_stack_store_rows,direct_row_field_hits
+aj,4098,454,112,345,112,100
+as,1371,108,54,76,54,51
+W,3966,491,35,372,35,33
+aa,1541,148,33,113,33,18
+j,25,1,2,0,2,0

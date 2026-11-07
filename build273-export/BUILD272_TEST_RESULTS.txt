@@ -1,0 +1,15 @@
+Build272 validation
+===================
+Full pytest: 338 passed, 4 warnings (6.92 seconds).
+Warnings: four pre-existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+
+Focused Build272 tests: 5 passed.
+Source candidate rows audited: 1,530.
+Raw bJ selector values: 6 (3, 4, 5, 6, 7, 8).
+Room cells represented: 90.
+Cells with multiple candidate resource alternatives: 90.
+Exclusive runtime selector-to-resource bindings proven: 0.
+Runtime resource selection remains unresolved.
+
+No Kotlin compilation, Android Gradle build, device runtime, full-room rasterization,
+visual parity, or playable APK is claimed.

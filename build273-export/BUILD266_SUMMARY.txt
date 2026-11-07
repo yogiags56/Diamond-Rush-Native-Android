@@ -1,0 +1,8 @@
+Build266 — JVM stack-shape contracts and local provenance
+
+The Build265 abstract interpreter was rerun and its eight cross-class renderer callsites remain reachable with sufficient descriptor stack depth. Callsite records now include local-variable snapshots. At c.a(Graphics, byte[], int), offset 873, local slots 0 and 4 remain UNKNOWN; local slots 2 and 5 have symbolic i.a(...) producers. No concrete values are guessed.
+
+Added a standalone category-aware stack-shape helper for pop/pop2/dup/dup_x1/dup_x2/dup2/dup2_x1/dup2_x2/swap. It explicitly rejects illegal category forms and underflow. This helper is tested independently and is not yet integrated into the Build265 string-based worklist.
+
+Full pytest: 307 passed, 4 existing Pillow deprecation warnings.
+No Android compilation, Gradle build, device runtime, full room render, visual parity, or playable APK is claimed.

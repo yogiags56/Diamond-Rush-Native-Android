@@ -1,0 +1,1 @@
+BUILD232_PYTHON_TESTS_PASSED\n171 passed, 4 warnings\nWarnings: existing Pillow deprecation warnings from legacy raster tests.\n

@@ -1,0 +1,10 @@
+Build266 validation
+
+Full project pytest: 307 passed, 4 warnings.
+Warnings: existing Pillow Image.getdata() deprecations in Build213 tests.
+Build265 interpreter rerun: 8/8 renderer callsites reachable; 8/8 descriptor stack depths sufficient; 7/8 callsites have all operands symbolically expressed.
+New focused JVM stack-shape tests: 15 passed.
+New local provenance tests: 5 passed.
+Scope: callsite local snapshots and standalone category-aware JVM stack-shape contracts.
+Limitations: category-aware helper is not yet integrated into the legacy abstract interpreter; exception-table CFG and full verifier semantics remain pending.
+No Kotlin/Gradle/device/APK validation claimed.

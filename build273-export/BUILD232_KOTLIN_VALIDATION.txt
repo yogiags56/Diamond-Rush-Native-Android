@@ -1,0 +1,1 @@
+BUILD232_KOTLIN_COMPILE_NOT_RUN\nReason: kotlinc executable unavailable in this environment.\nNo Kotlin compilation or runtime-check success is claimed for Build232.\n

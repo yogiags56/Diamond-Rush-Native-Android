@@ -1,0 +1,2 @@
+KOTLINC_NOT_AVAILABLE
+Kotlin test source is present but was not compiled or executed.

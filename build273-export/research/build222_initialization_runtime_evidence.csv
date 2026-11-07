@@ -1,0 +1,5 @@
+path,evidence,phase_class,confidence,semantic_limit
+Room loader (Build 217 evidence),Reads room header and three width×height payload planes; skips non-selected room payloads,ROOM_INITIALIZATION,BYTECODE/RESOURCE_TRACE_SUPPORTED,Does not classify every later write in the same method
+"Setter a(short, short, byte, int) (Build 217 evidence)",Writes a:[[B and b:[[I,MUTATION_PRIMITIVE,DIRECT_FIELD_WRITE_SUPPORTED,Universal caller coverage not proven
+D()V (Build 216/222 evidence),Contains separate bJ:I and bI:I render switches,RENDER_DISPATCH,DIRECT_SWITCH_SELECTOR_SUPPORTED,Does not prove map mutation or object semantics
+"aj(), as(), W(), aa(), j() (Build 218–221 evidence)",Contain array stores with unresolved array/stack provenance,UNCLASSIFIED_MIXED,STATIC_STORE_INVENTORY_ONLY,Cannot label all writes as initialization or gameplay mutation

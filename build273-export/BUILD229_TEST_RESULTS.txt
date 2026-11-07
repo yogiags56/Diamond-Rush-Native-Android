@@ -1,0 +1,5 @@
+Build 229 Python regression results
+
+Command: python -m pytest -q
+Result: 161 passed, 4 warnings
+Warnings: four existing Pillow Image.getdata() deprecations in tests/test_build213_draw_flags_palette.py.

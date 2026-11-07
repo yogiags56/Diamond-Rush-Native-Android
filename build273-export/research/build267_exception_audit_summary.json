@@ -1,0 +1,13 @@
+{
+  "target_methods": 4,
+  "exception_table_entries": 4,
+  "methods_without_handlers": 3,
+  "exception_cfg_edges_emitted": 116,
+  "handler_offsets": [
+    939,
+    964,
+    1132,
+    1157
+  ],
+  "note": "Instruction-level conservative exception edges are emitted from every instruction offset within each protected Code range. These are potential edges, not proof that every instruction throws."
+}

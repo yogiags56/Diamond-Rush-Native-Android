@@ -1,0 +1,72 @@
+caller_class,caller_method,target_descriptor,renderer_family,invoke_count
+b,public final boolean a();,(I)I,other,1
+b,public final boolean a();,(II)I,other,1
+b,public final void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIII)V,leaf_4int,1
+b,public final void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+b,public final void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+b,public final void b();,(I)I,other,1
+b,public final void b();,(II)I,other,1
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+c,public final void a(int);,(IIII)V,other,1
+c,public final void a(int);,([BI)V,other,1
+c,public final void a(javax.microedition.lcdui.Graphics);,(I)I,other,1
+c,public final void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,2
+c,public final void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+g,public static void a(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private boolean h();,(I)I,other,1
+i,private boolean h();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,5
+i,"private static f a(java.lang.String, int, int, int);",(IIII)V,other,1
+i,"private static f a(java.lang.String, int, int, int);",([BI)V,other,1
+i,"private static int a(f, int, int);",(II)I,other,1
+i,"private static int b(f, int, int);",(II)I,other,1
+i,"private static javax.microedition.lcdui.Image[] a(java.lang.String, int, int);",(IIII)V,other,1
+i,"private static javax.microedition.lcdui.Image[] a(java.lang.String, int, int);",([BI)V,other,1
+i,"private static void a(f, boolean);",(Z)V,other,1
+i,private void A();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,3
+i,private void B();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,7
+i,private void B();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,3
+i,private void D();,(I)I,other,5
+i,private void D();,(II)I,other,2
+i,private void D();,(Ljavax/microedition/lcdui/Graphics;IIII)V,leaf_4int,1
+i,private void D();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,9
+i,private void D();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,16
+i,private void E();,(I)I,other,1
+i,private void E();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+i,private void G();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,8
+i,private void H();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,3
+i,private void I();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private void J();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private void L();,(I)I,other,1
+i,private void L();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+i,private void M();,(I)I,other,1
+i,private void M();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+i,private void N();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private void O();,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,1
+i,private void P();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,2
+i,private void Q();,(I)I,other,1
+i,private void W();,(I)I,other,1
+i,private void a(boolean);,(IIII)V,other,2
+i,private void a(boolean);,([BI)V,other,2
+i,"private void a(int, int, int, int, boolean);",(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,4
+i,"private void a(javax.microedition.lcdui.Graphics, boolean, int, int);",(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,2
+i,private void aA();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,2
+i,private void aj();,(I)I,other,3
+i,private void aj();,(II)I,other,1
+i,private void am();,(I)I,other,1
+i,private void av();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private void az();,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,5
+i,private void b(int);,(IIII)V,other,2
+i,private void c(byte);,(I)I,other,1
+i,private void c(int);,(IIII)V,other,1
+i,private void c(int);,([BI)V,other,1
+i,private void d(int);,(IIII)V,other,1
+i,private void d(int);,([BI)V,other,1
+i,"private void d(int, int);",(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,3
+i,private void f(int);,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,1
+i,private void j();,(I)V,other,1
+i,private void j();,(IIII)V,other,11
+i,private void j();,([BI)V,other,4
+i,private void n(int);,(I)I,other,1
+i,public final void paint(javax.microedition.lcdui.Graphics);,(I)I,other,4
+i,public final void paint(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,composite_6int,15
+i,public final void paint(javax.microedition.lcdui.Graphics);,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,component_7int,6

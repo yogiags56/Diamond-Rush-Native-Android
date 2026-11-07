@@ -1,0 +1,2233 @@
+
+===== i.paint(Graphics): dispatch into gameplay state | javap source lines 13729-13880 =====
+  public final void paint(javax.microedition.lcdui.Graphics);
+    descriptor: (Ljavax/microedition/lcdui/Graphics;)V
+    Code:
+       0: aload_0
+       1: invokevirtual #1127               // Method javax/microedition/lcdui/Displayable.getWidth:()I
+       4: aload_0
+       5: invokevirtual #1126               // Method javax/microedition/lcdui/Displayable.getHeight:()I
+       8: if_icmpge     109
+      11: aload_0
+      12: aload_1
+      13: astore_2
+      14: astore_1
+      15: aload_2
+      16: iconst_0
+      17: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+      20: aload_2
+      21: iconst_0
+      22: iconst_0
+      23: aload_1
+      24: invokevirtual #1127               // Method javax/microedition/lcdui/Displayable.getWidth:()I
+      27: aload_1
+      28: invokevirtual #1126               // Method javax/microedition/lcdui/Displayable.getHeight:()I
+      31: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+      34: aload_2
+      35: iconst_0
+      36: iconst_0
+      37: aload_1
+      38: invokevirtual #1127               // Method javax/microedition/lcdui/Displayable.getWidth:()I
+      41: aload_1
+      42: invokevirtual #1126               // Method javax/microedition/lcdui/Displayable.getHeight:()I
+      45: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+      48: aload_2
+      49: ldc           #55                 // int 16777215
+      51: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+      54: aload_1
+      55: invokevirtual #1127               // Method javax/microedition/lcdui/Displayable.getWidth:()I
+      58: iconst_1
+      59: ishr
+      60: istore_3
+      61: aload_1
+      62: invokevirtual #1126               // Method javax/microedition/lcdui/Displayable.getHeight:()I
+      65: iconst_1
+      66: ishr
+      67: bipush        40
+      69: isub
+      70: istore        4
+      72: aload_2
+      73: bipush        34
+      75: invokestatic  #822                // Method d.a:(I)Ljava/lang/String;
+      78: iload_3
+      79: iload         4
+      81: aload_1
+      82: invokevirtual #1127               // Method javax/microedition/lcdui/Displayable.getWidth:()I
+      85: bipush        100
+      87: isub
+      88: invokestatic  #819                // Method c.a:(Ljavax/microedition/lcdui/Graphics;Ljava/lang/String;III)I
+      91: pop
+      92: goto          96
+      95: pop
+      96: aload_0
+      97: invokevirtual #1033               // Method hideNotify:()V
+     100: aload_0
+     101: invokevirtual #1061               // Method showNotify:()V
+     104: return
+     105: invokevirtual #1118               // Method java/lang/Throwable.printStackTrace:()V
+     108: return
+     109: aload_0
+     110: aload_1
+     111: putfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+     114: aload_0
+     115: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+     118: iconst_0
+     119: iconst_0
+     120: sipush        320
+     123: sipush        240
+     126: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+     129: getstatic     #477                // Field b:B
+     132: tableswitch   { // 0 to 35
+                     0: 3016
+                     1: 2804
+                     2: 2450
+                     3: 3016
+                     4: 2381
+                     5: 2457
+                     6: 2551
+                     7: 2390
+                     8: 2544
+                     9: 2544
+                    10: 5372
+                    11: 5372
+                    12: 2811
+                    13: 5372
+                    14: 5372
+                    15: 3019
+                    16: 5361
+                    17: 1283
+                    18: 5164
+                    19: 5372
+                    20: 1251
+                    21: 2544
+                    22: 1060
+                    23: 5372
+                    24: 292
+                    25: 5261
+                    26: 5268
+                    27: 5271
+                    28: 2531
+                    29: 5368
+                    30: 2397
+                    31: 5278
+                    32: 5372
+                    33: 1067
+                    34: 834
+                    35: 2544
+               default: 5372
+          }
+     292: aload_0
+     293: astore_1
+     294: aconst_null
+     295: astore_2
+     296: getstatic     #380                // Field a:Lh;
+     299: dup
+     300: astore_3
+     301: bipush        15
+     303: putfield      #320                // Field h.d:I
+     306: aload_1
+     307: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+     310: iconst_0
+     311: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+     314: aload_1
+     315: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+     318: iconst_0
+     319: iconst_0
+     320: sipush        320
+     323: sipush        240
+     326: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+     329: iconst_0
+     330: istore        4
+     332: iload         4
+     334: bipush        6
+     336: if_icmpge     699
+     339: iconst_m1
+     340: istore        5
+     342: iload         4
+     344: tableswitch   { // 0 to 5
+                     0: 384
+                     1: 416
+                     2: 448
+                     3: 498
+                     4: 541
+                     5: 584
+               default: 590
+
+
+===== i.D(): gameplay viewport and camera setup | javap source lines 18381-18690 =====
+  private void D();
+    descriptor: ()V
+    Code:
+       0: aload_0
+       1: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+       4: astore_1
+       5: getstatic     #420                // Field aS:I
+       8: istore_2
+       9: aload_0
+      10: aload_0
+      11: getfield      #742                // Field k:I
+      14: sipush        4096
+      17: iand
+      18: ifne          28
+      21: aload_0
+      22: getfield      #746                // Field l:B
+      25: goto          29
+      28: iconst_0
+      29: putfield      #511                // Field bQ:I
+      32: aload_1
+      33: iconst_0
+      34: bipush        31
+      36: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+      39: aload_0
+      40: iconst_0
+      41: putfield      #531                // Field bk:I
+      44: aload_0
+      45: invokespecial #850                // Method C:()V
+      48: aload_0
+      49: getfield      #530                // Field bj:I
+      52: ifle          77
+      55: aload_0
+      56: aload_0
+      57: getfield      #530                // Field bj:I
+      60: iload_2
+      61: imul
+      62: aload_0
+      63: getfield      #530                // Field bj:I
+      66: iconst_1
+      67: ishr
+      68: iconst_1
+      69: iadd
+      70: irem
+      71: bipush        12
+      73: irem
+      74: putfield      #531                // Field bk:I
+      77: aload_0
+      78: getfield      #531                // Field bk:I
+      81: aload_0
+      82: getfield      #478                // Field b:I
+      85: if_icmple     96
+      88: aload_0
+      89: aload_0
+      90: getfield      #478                // Field b:I
+      93: putfield      #531                // Field bk:I
+      96: aload_0
+      97: dup
+      98: getfield      #478                // Field b:I
+     101: aload_0
+     102: getfield      #531                // Field bk:I
+     105: isub
+     106: putfield      #478                // Field b:I
+     109: aload_0
+     110: aload_0
+     111: getfield      #375                // Field a:I
+     114: bipush        24
+     116: idiv
+     117: putfield      #570                // Field cI:I
+     120: aload_0
+     121: aload_0
+     122: getfield      #478                // Field b:I
+     125: bipush        24
+     127: idiv
+     128: putfield      #571                // Field cJ:I
+     131: aload_0
+     132: aload_0
+     133: getfield      #375                // Field a:I
+     136: bipush        24
+     138: irem
+     139: putfield      #572                // Field cK:I
+     142: aload_0
+     143: aload_0
+     144: getfield      #478                // Field b:I
+     147: bipush        24
+     149: irem
+     150: putfield      #573                // Field cL:I
+     153: aload_0
+     154: iload_2
+     155: bipush        63
+     157: iand
+     158: iconst_1
+     159: ishr
+     160: putfield      #512                // Field bR:I
+     163: aload_0
+     164: getfield      #512                // Field bR:I
+     167: iconst_4
+     168: if_icmplt     176
+     171: aload_0
+     172: iconst_0
+     173: putfield      #512                // Field bR:I
+     176: aload_0
+     177: getfield      #375                // Field a:I
+     180: aload_0
+     181: getfield      #572                // Field cK:I
+     184: isub
+     185: istore_3
+     186: aload_0
+     187: getfield      #478                // Field b:I
+     190: aload_0
+     191: getfield      #573                // Field cL:I
+     194: isub
+     195: istore        4
+     197: aload_0
+     198: getfield      #375                // Field a:I
+     201: getstatic     #564                // Field cC:I
+     204: iadd
+     205: bipush        24
+     207: isub
+     208: aload_0
+     209: getfield      #375                // Field a:I
+     212: getstatic     #564                // Field cC:I
+     215: iadd
+     216: bipush        24
+     218: isub
+     219: bipush        24
+     221: irem
+     222: isub
+     223: istore        5
+     225: aload_0
+     226: getfield      #478                // Field b:I
+     229: getstatic     #565                // Field cD:I
+     232: iadd
+     233: bipush        24
+     235: isub
+     236: aload_0
+     237: getfield      #478                // Field b:I
+     240: getstatic     #565                // Field cD:I
+     243: iadd
+     244: bipush        24
+     246: isub
+     247: bipush        24
+     249: irem
+     250: isub
+     251: istore        6
+     253: getstatic     #566                // Field cE:I
+     256: iconst_m1
+     257: if_icmpne     291
+     260: aload_0
+     261: iload_3
+     262: iload         4
+     264: iload         5
+     266: iload         6
+     268: iconst_0
+     269: invokespecial #906                // Method a:(IIIIZ)V
+     272: iload_3
+     273: putstatic     #566                // Field cE:I
+     276: iload         5
+     278: putstatic     #567                // Field cF:I
+     281: iload         4
+     283: putstatic     #568                // Field cG:I
+     286: iload         6
+     288: putstatic     #569                // Field cH:I
+     291: getstatic     #566                // Field cE:I
+     294: iload_3
+     295: if_icmpeq     351
+     298: getstatic     #566                // Field cE:I
+     301: iload_3
+     302: if_icmpge     318
+     305: getstatic     #567                // Field cF:I
+     308: bipush        24
+     310: iadd
+     311: istore        7
+     313: iload         5
+     315: goto          327
+     318: iload_3
+     319: istore        7
+     321: getstatic     #566                // Field cE:I
+     324: bipush        24
+     326: isub
+     327: istore        8
+     329: aload_0
+     330: iload         7
+     332: iload         4
+     334: iload         8
+     336: iload         6
+     338: iconst_0
+     339: invokespecial #906                // Method a:(IIIIZ)V
+     342: iload_3
+     343: putstatic     #566                // Field cE:I
+     346: iload         5
+     348: putstatic     #567                // Field cF:I
+     351: getstatic     #568                // Field cG:I
+     354: iload         4
+     356: if_icmpeq     414
+     359: getstatic     #568                // Field cG:I
+     362: iload         4
+     364: if_icmpge     380
+     367: getstatic     #569                // Field cH:I
+     370: bipush        24
+     372: iadd
+     373: istore        7
+     375: iload         6
+     377: goto          390
+     380: iload         4
+     382: istore        7
+     384: getstatic     #568                // Field cG:I
+     387: bipush        24
+     389: isub
+     390: istore        8
+     392: aload_0
+     393: iload_3
+     394: iload         7
+     396: iload         5
+     398: iload         8
+     400: iconst_0
+     401: invokespecial #906                // Method a:(IIIIZ)V
+     404: iload         4
+     406: putstatic     #568                // Field cG:I
+     409: iload         6
+     411: putstatic     #569                // Field cH:I
+     414: aload_0
+     415: aload_1
+     416: astore        4
+     418: dup
+     419: astore_3
+     420: getfield      #375                // Field a:I
+     423: getstatic     #564                // Field cC:I
+     426: irem
+     427: istore        5
+     429: aload_3
+     430: getfield      #478                // Field b:I
+     433: getstatic     #565                // Field cD:I
+     436: irem
+     437: istore        6
+     439: aload_3
+     440: getfield      #375                // Field a:I
+     443: sipush        320
+     446: iadd
+     447: getstatic     #564                // Field cC:I
+     450: irem
+     451: istore        7
+     453: aload_3
+     454: getfield      #478                // Field b:I
+     457: sipush        178
+     460: iadd
+     461: getstatic     #565                // Field cD:I
+     464: irem
+     465: istore        8
+     467: iload         7
+     469: iload         5
+     471: if_icmple     512
+     474: iload         8
+     476: iload         6
+     478: if_icmple     492
+     481: aload         4
+     483: iload         5
+     485: iload         6
+     487: iconst_0
+     488: iconst_0
+     489: goto          602
+     492: aload         4
+     494: iload         5
+     496: iload         6
+     498: iconst_0
+     499: iconst_0
+     500: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     503: aload         4
+     505: iload         5
+     507: iconst_0
+     508: iconst_0
+     509: goto          596
+     512: iload         8
+     514: iload         6
+     516: if_icmple     545
+     519: aload         4
+     521: iload         5
+     523: iload         6
+     525: iconst_0
+     526: iconst_0
+     527: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     530: aload         4
+     532: iconst_0
+     533: iload         6
+     535: sipush        320
+     538: iload         7
+     540: isub
+     541: iconst_0
+     542: goto          602
+     545: aload         4
+     547: iload         5
+     549: iload         6
+     551: iconst_0
+     552: iconst_0
+     553: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     556: aload         4
+     558: iload         5
+     560: iconst_0
+     561: iconst_0
+     562: sipush        178
+     565: iload         8
+     567: isub
+     568: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     571: aload         4
+     573: iconst_0
+     574: iload         6
+     576: sipush        320
+     579: iload         7
+     581: isub
+     582: iconst_0
+     583: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+
+
+===== i.a(int,int,int,int,boolean): map-region redraw helper | javap source lines 17804-18065 =====
+  private void a(int, int, int, int, boolean);
+    descriptor: (IIIIZ)V
+    Code:
+       0: getstatic     #484                // Field b:Ljavax/microedition/lcdui/Graphics;
+       3: astore        5
+       5: getstatic     #564                // Field cC:I
+       8: istore        6
+      10: getstatic     #565                // Field cD:I
+      13: istore        7
+      15: iload_1
+      16: iload         6
+      18: irem
+      19: istore        8
+      21: iload_2
+      22: iload         7
+      24: irem
+      25: istore        9
+      27: aload_0
+      28: iload         9
+      30: bipush        24
+      32: isub
+      33: putfield      #545                // Field by:I
+      36: aload_0
+      37: iload_2
+      38: bipush        24
+      40: idiv
+      41: iconst_1
+      42: isub
+      43: putfield      #502                // Field bH:I
+      46: iload_2
+      47: istore_2
+      48: iload_2
+      49: iload         4
+      51: if_icmpgt     1132
+      54: aload_0
+      55: iload         8
+      57: bipush        24
+      59: isub
+      60: putfield      #544                // Field bx:I
+      63: aload_0
+      64: iload_1
+      65: bipush        24
+      67: idiv
+      68: iconst_1
+      69: isub
+      70: putfield      #501                // Field bG:I
+      73: aload_0
+      74: dup
+      75: getfield      #545                // Field by:I
+      78: bipush        24
+      80: iadd
+      81: putfield      #545                // Field by:I
+      84: aload_0
+      85: dup
+      86: getfield      #502                // Field bH:I
+      89: iconst_1
+      90: iadd
+      91: putfield      #502                // Field bH:I
+      94: aload_0
+      95: getfield      #545                // Field by:I
+      98: iload         7
+     100: if_icmplt     108
+     103: aload_0
+     104: iconst_0
+     105: putfield      #545                // Field by:I
+     108: iload_1
+     109: istore        9
+     111: iload         9
+     113: iload_3
+     114: if_icmpgt     1126
+     117: aload_0
+     118: dup
+     119: getfield      #544                // Field bx:I
+     122: bipush        24
+     124: iadd
+     125: putfield      #544                // Field bx:I
+     128: aload_0
+     129: dup
+     130: getfield      #501                // Field bG:I
+     133: iconst_1
+     134: iadd
+     135: putfield      #501                // Field bG:I
+     138: aload_0
+     139: getfield      #544                // Field bx:I
+     142: iload         6
+     144: if_icmplt     152
+     147: aload_0
+     148: iconst_0
+     149: putfield      #544                // Field bx:I
+     152: aload_0
+     153: getfield      #501                // Field bG:I
+     156: iflt          1120
+     159: aload_0
+     160: getfield      #501                // Field bG:I
+     163: aload_0
+     164: getfield      #681                // Field e:I
+     167: if_icmpge     1120
+     170: aload_0
+     171: getfield      #502                // Field bH:I
+     174: iflt          1120
+     177: aload_0
+     178: getfield      #502                // Field bH:I
+     181: aload_0
+     182: getfield      #711                // Field f:I
+     185: if_icmpge     1120
+     188: aload_0
+     189: getstatic     #397                // Field a:[[B
+     192: aload_0
+     193: getfield      #501                // Field bG:I
+     196: aaload
+     197: aload_0
+     198: getfield      #502                // Field bH:I
+     201: baload
+     202: putfield      #503                // Field bI:I
+     205: aload_0
+     206: getstatic     #398                // Field a:[[I
+     209: aload_0
+     210: getfield      #501                // Field bG:I
+     213: aaload
+     214: aload_0
+     215: getfield      #502                // Field bH:I
+     218: iaload
+     219: sipush        255
+     222: iand
+     223: putfield      #504                // Field bJ:I
+     226: aload_0
+     227: getfield      #503                // Field bI:I
+     230: bipush        80
+     232: if_icmpge     257
+     235: aload         5
+     237: getstatic     #494                // Field b:[[Ljavax/microedition/lcdui/Image;
+     240: bipush        8
+     242: aaload
+     243: iconst_0
+     244: aaload
+     245: aload_0
+     246: getfield      #544                // Field bx:I
+     249: aload_0
+     250: getfield      #545                // Field by:I
+     253: iconst_0
+     254: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+     257: aload_0
+     258: getfield      #504                // Field bJ:I
+     261: iconst_m1
+     262: if_icmple     439
+     265: aload_0
+     266: getfield      #504                // Field bJ:I
+     269: bipush        38
+     271: if_icmpge     439
+     274: aload_0
+     275: getfield      #504                // Field bJ:I
+     278: lookupswitch  { // 4
+                     4: 320
+                    15: 369
+                    16: 397
+                    27: 345
+               default: 439
+          }
+     320: aload_0
+     321: bipush        20
+     323: putfield      #411                // Field aJ:I
+     326: aload_0
+     327: bipush        7
+     329: putfield      #412                // Field aK:I
+     332: aload_0
+     333: aload_0
+     334: iconst_0
+     335: dup_x1
+     336: putfield      #509                // Field bO:I
+     339: putfield      #508                // Field bN:I
+     342: goto          439
+     345: aload_0
+     346: bipush        21
+     348: putfield      #411                // Field aJ:I
+     351: aload_0
+     352: iconst_0
+     353: putfield      #412                // Field aK:I
+     356: aload_0
+     357: aload_0
+     358: iconst_0
+     359: dup_x1
+     360: putfield      #509                // Field bO:I
+     363: putfield      #508                // Field bN:I
+     366: goto          439
+     369: aload_0
+     370: getfield      #592                // Field ce:I
+     373: ifne          439
+     376: aload_0
+     377: bipush        14
+     379: putfield      #411                // Field aJ:I
+     382: aload_0
+     383: iconst_0
+     384: aload_0
+     385: getfield      #592                // Field ce:I
+     388: iconst_5
+     389: imul
+     390: bipush        10
+     392: idiv
+     393: iadd
+     394: goto          436
+     397: aload_0
+     398: getfield      #592                // Field ce:I
+     401: bipush        9
+     403: if_icmpne     439
+     406: aload_0
+     407: bipush        15
+     409: putfield      #411                // Field aJ:I
+     412: aload_0
+     413: iconst_4
+     414: aload_0
+     415: getfield      #592                // Field ce:I
+     418: iconst_5
+     419: imul
+     420: bipush        10
+     422: idiv
+     423: isub
+     424: putfield      #412                // Field aK:I
+     427: aload_0
+     428: getfield      #412                // Field aK:I
+     431: ifge          439
+     434: aload_0
+     435: iconst_0
+     436: putfield      #412                // Field aK:I
+     439: aload_0
+     440: getfield      #411                // Field aJ:I
+     443: iconst_m1
+     444: if_icmpeq     565
+     447: getstatic     #494                // Field b:[[Ljavax/microedition/lcdui/Image;
+     450: aload_0
+     451: getfield      #411                // Field aJ:I
+     454: aaload
+     455: ifnonnull     505
+     458: getstatic     #394                // Field a:[Lf;
+     461: aload_0
+     462: getfield      #411                // Field aJ:I
+     465: invokestatic  #883                // Method a:(I)I
+     468: aaload
+     469: aload         5
+     471: aload_0
+     472: getfield      #412                // Field aK:I
+     475: aload_0
+     476: getfield      #544                // Field bx:I
+     479: aload_0
+     480: getfield      #508                // Field bN:I
+     483: iadd
+     484: aload_0
+     485: getfield      #545                // Field by:I
+     488: aload_0
+     489: getfield      #509                // Field bO:I
+     492: iadd
+     493: aload_0
+     494: getfield      #510                // Field bP:I
+     497: iconst_0
+     498: iconst_0
+     499: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+     502: goto          545
+     505: aload         5
+     507: getstatic     #494                // Field b:[[Ljavax/microedition/lcdui/Image;
+     510: aload_0
+     511: getfield      #411                // Field aJ:I
+     514: aaload
+     515: aload_0
+
+
+===== i.D(): visible map-cell processing | javap source lines 18690-18980 =====
+     583: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     586: aload         4
+     588: iconst_0
+     589: iconst_0
+     590: sipush        320
+     593: iload         7
+     595: isub
+     596: sipush        178
+     599: iload         8
+     601: isub
+     602: invokestatic  #927                // Method a:(Ljavax/microedition/lcdui/Graphics;IIII)V
+     605: aload_0
+     606: invokespecial #850                // Method C:()V
+     609: aload_0
+     610: aload_1
+     611: astore        4
+     613: astore_3
+     614: iconst_m1
+     615: istore        5
+     617: iload         5
+     619: bipush        9
+     621: if_icmpge     5988
+     624: iconst_m1
+     625: istore        6
+     627: iload         6
+     629: bipush        15
+     631: if_icmpge     5982
+     634: aload_3
+     635: iload         6
+     637: aload_3
+     638: getfield      #570                // Field cI:I
+     641: iadd
+     642: putfield      #501                // Field bG:I
+     645: aload_3
+     646: iload         5
+     648: aload_3
+     649: getfield      #571                // Field cJ:I
+     652: iadd
+     653: putfield      #502                // Field bH:I
+     656: aload_3
+     657: getfield      #501                // Field bG:I
+     660: iflt          5976
+     663: aload_3
+     664: getfield      #501                // Field bG:I
+     667: aload_3
+     668: getfield      #681                // Field e:I
+     671: if_icmpge     5976
+     674: aload_3
+     675: getfield      #502                // Field bH:I
+     678: iflt          5976
+     681: aload_3
+     682: getfield      #502                // Field bH:I
+     685: aload_3
+     686: getfield      #711                // Field f:I
+     689: if_icmpge     5976
+     692: aload_3
+     693: getstatic     #397                // Field a:[[B
+     696: aload_3
+     697: getfield      #501                // Field bG:I
+     700: aaload
+     701: aload_3
+     702: getfield      #502                // Field bH:I
+     705: baload
+     706: putfield      #503                // Field bI:I
+     709: aload_3
+     710: getstatic     #398                // Field a:[[I
+     713: aload_3
+     714: getfield      #501                // Field bG:I
+     717: aaload
+     718: aload_3
+     719: getfield      #502                // Field bH:I
+     722: iaload
+     723: sipush        255
+     726: iand
+     727: putfield      #504                // Field bJ:I
+     730: aload_3
+     731: iload         6
+     733: bipush        24
+     735: imul
+     736: aload_3
+     737: getfield      #572                // Field cK:I
+     740: isub
+     741: putfield      #544                // Field bx:I
+     744: aload_3
+     745: iload         5
+     747: bipush        24
+     749: imul
+     750: aload_3
+     751: getfield      #573                // Field cL:I
+     754: isub
+     755: putfield      #545                // Field by:I
+     758: aload_3
+     759: invokespecial #850                // Method C:()V
+     762: aload_3
+     763: getfield      #504                // Field bJ:I
+     766: iconst_m1
+     767: if_icmple     2201
+     770: aload_3
+     771: getfield      #504                // Field bJ:I
+     774: bipush        38
+     776: if_icmpge     2201
+     779: aload_3
+     780: getfield      #504                // Field bJ:I
+     783: tableswitch   { // 3 to 37
+                     3: 1890
+                     4: 1549
+                     5: 1632
+                     6: 1064
+                     7: 1416
+                     8: 1796
+                     9: 1796
+                    10: 1995
+                    11: 1995
+                    12: 1995
+                    13: 1995
+                    14: 967
+                    15: 1324
+                    16: 1363
+                    17: 1995
+                    18: 1995
+                    19: 1995
+                    20: 1995
+                    21: 1995
+                    22: 1995
+                    23: 1995
+                    24: 1995
+                    25: 1995
+                    26: 1995
+                    27: 1995
+                    28: 1640
+                    29: 1995
+                    30: 1995
+                    31: 1995
+                    32: 1995
+                    33: 967
+                    34: 940
+                    35: 936
+                    36: 1995
+                    37: 1930
+               default: 1995
+          }
+     936: aload_3
+     937: goto          1955
+     940: getstatic     #394                // Field a:[Lf;
+     943: bipush        27
+     945: aaload
+     946: aload         4
+     948: iconst_2
+     949: iconst_0
+     950: aload_3
+     951: getfield      #544                // Field bx:I
+     954: aload_3
+     955: getfield      #545                // Field by:I
+     958: iconst_0
+     959: iconst_0
+     960: iconst_0
+     961: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+     964: goto          1995
+     967: aload_3
+     968: aload_3
+     969: getfield      #504                // Field bJ:I
+     972: istore        8
+     974: astore        7
+     976: getstatic     #398                // Field a:[[I
+     979: aload         7
+     981: getfield      #501                // Field bG:I
+     984: aaload
+     985: aload         7
+     987: getfield      #502                // Field bH:I
+     990: iaload
+     991: bipush        8
+     993: ishr
+     994: dup
+     995: istore        9
+     997: sipush        255
+    1000: if_icmpne     1006
+    1003: iconst_0
+    1004: istore        9
+    1006: bipush        14
+    1008: iload         8
+    1010: if_icmpne     1018
+    1013: bipush        8
+    1015: goto          1020
+    1018: bipush        22
+    1020: istore        10
+    1022: getstatic     #394                // Field a:[Lf;
+    1025: iload         10
+    1027: aaload
+    1028: ifnull        1061
+    1031: getstatic     #394                // Field a:[Lf;
+    1034: iload         10
+    1036: aaload
+    1037: aload         7
+    1039: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    1042: iconst_0
+    1043: iload         9
+    1045: aload         7
+    1047: getfield      #544                // Field bx:I
+    1050: aload         7
+    1052: getfield      #545                // Field by:I
+    1055: iconst_0
+    1056: iconst_0
+    1057: iconst_0
+    1058: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    1061: goto          1995
+    1064: aload_3
+    1065: dup
+    1066: astore        7
+    1068: getfield      #501                // Field bG:I
+    1071: istore        8
+    1073: aload         7
+    1075: getfield      #502                // Field bH:I
+    1078: istore        9
+    1080: aload         7
+    1082: bipush        26
+    1084: putfield      #411                // Field aJ:I
+    1087: aload         7
+    1089: iconst_0
+    1090: putfield      #412                // Field aK:I
+    1093: iload         8
+    1095: iload         9
+    1097: invokestatic  #1037               // Method i:(II)Z
+    1100: ifeq          1135
+    1103: getstatic     #492                // Field b:[[B
+    1106: iload         8
+    1108: aaload
+    1109: iload         9
+    1111: baload
+    1112: bipush        12
+    1114: if_icmpgt     1135
+    1117: aload         7
+    1119: getstatic     #492                // Field b:[[B
+    1122: iload         8
+    1124: aaload
+    1125: iload         9
+    1127: baload
+    1128: bipush        12
+    1130: isub
+    1131: ineg
+    1132: goto          1269
+    1135: aload         7
+    1137: iload         8
+    1139: iload         9
+    1141: invokespecial #991                // Method c:(II)Z
+    1144: ifeq          1190
+    1147: aload         7
+    1149: getfield      #742                // Field k:I
+    1152: sipush        4096
+    1155: iand
+    1156: ifne          1183
+    1159: aload         7
+    1161: getfield      #737                // Field j:I
+    1164: bipush        12
+    1166: if_icmpgt     1272
+    1169: aload         7
+    1171: aload         7
+    1173: getfield      #737                // Field j:I
+    1176: bipush        12
+    1178: isub
+    1179: ineg
+    1180: goto          1269
+    1183: aload         7
+    1185: bipush        12
+    1187: goto          1269
+    1190: aload         7
+    1192: iload         8
+    1194: iconst_1
+    1195: isub
+    1196: iload         9
+    1198: invokespecial #991                // Method c:(II)Z
+    1201: ifeq          1226
+    1204: aload         7
+    1206: getfield      #511                // Field bQ:I
+    1209: iconst_4
+    1210: if_icmpne     1272
+    1213: aload         7
+    1215: getfield      #737                // Field j:I
+    1218: bipush        12
+    1220: if_icmple     1272
+    1223: goto          1259
+    1226: aload         7
+    1228: iload         8
+    1230: iconst_1
+    1231: iadd
+    1232: iload         9
+    1234: invokespecial #991                // Method c:(II)Z
+    1237: ifeq          1272
+    1240: aload         7
+    1242: getfield      #511                // Field bQ:I
+    1245: iconst_2
+    1246: if_icmpne     1272
+
+
+===== i.D(): late gameplay passes and viewport exit | javap source lines 21300-22329 =====
+    6020: getfield      #436                // Field ae:I
+    6023: if_icmpeq     6144
+    6026: aload_0
+    6027: getfield      #434                // Field ad:I
+    6030: dup
+    6031: istore_3
+    6032: aload_0
+    6033: getfield      #436                // Field ae:I
+    6036: if_icmpeq     6144
+    6039: getstatic     #389                // Field a:[B
+    6042: iload_3
+    6043: iconst_1
+    6044: ishl
+    6045: baload
+    6046: bipush        24
+    6048: imul
+    6049: aload_0
+    6050: getfield      #375                // Field a:I
+    6053: isub
+    6054: istore        4
+    6056: getstatic     #389                // Field a:[B
+    6059: iload_3
+    6060: iconst_1
+    6061: ishl
+    6062: iconst_1
+    6063: iadd
+    6064: baload
+    6065: bipush        24
+    6067: imul
+    6068: aload_0
+    6069: getfield      #478                // Field b:I
+    6072: isub
+    6073: istore        5
+    6075: getstatic     #556                // Field c:[B
+    6078: iload_3
+    6079: baload
+    6080: ifge          6107
+    6083: getstatic     #394                // Field a:[Lf;
+    6086: iconst_2
+    6087: aaload
+    6088: dup
+    6089: astore        6
+    6091: aload_1
+    6092: iconst_0
+    6093: aload         6
+    6095: iconst_0
+    6096: getstatic     #487                // Field b:[B
+    6099: iload_3
+    6100: baload
+    6101: invokestatic  #912                // Method a:(Lf;II)I
+    6104: goto          6124
+    6107: getstatic     #394                // Field a:[Lf;
+    6110: bipush        9
+    6112: aaload
+    6113: aload_1
+    6114: getstatic     #556                // Field c:[B
+    6117: iload_3
+    6118: baload
+    6119: getstatic     #487                // Field b:[B
+    6122: iload_3
+    6123: baload
+    6124: iload         4
+    6126: iload         5
+    6128: iconst_0
+    6129: iconst_0
+    6130: iconst_0
+    6131: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6134: iinc          3, 1
+    6137: iload_3
+    6138: bipush        7
+    6140: iand
+    6141: goto          6030
+    6144: aload_0
+    6145: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6148: iconst_0
+    6149: iconst_0
+    6150: sipush        320
+    6153: sipush        240
+    6156: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    6159: aload_1
+    6160: iconst_0
+    6161: bipush        -31
+    6163: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    6166: aload_0
+    6167: invokespecial #854                // Method G:()V
+    6170: return
+    6171: aload_0
+    6172: invokespecial #863                // Method P:()V
+    6175: aload_0
+    6176: getfield      #749                // Field l:Z
+    6179: ifeq          6194
+    6182: aload_0
+    6183: aload_0
+    6184: getfield      #572                // Field cK:I
+    6187: aload_0
+    6188: getfield      #573                // Field cL:I
+    6191: invokespecial #1003               // Method d:(II)V
+    6194: aload_0
+    6195: getfield      #472                // Field aw:I
+    6198: ifle          6205
+    6201: aload_0
+    6202: invokespecial #852                // Method E:()V
+    6205: aload_0
+    6206: getfield      #741                // Field k:B
+    6209: ifeq          6489
+    6212: aload_0
+    6213: dup
+    6214: astore_3
+    6215: getfield      #741                // Field k:B
+    6218: tableswitch   { // 1 to 5
+                     1: 6464
+                     2: 6252
+                     3: 6471
+                     4: 6478
+                     5: 6485
+               default: 6489
+          }
+    6252: aload_3
+    6253: dup
+    6254: astore        4
+    6256: getfield      #783                // Field t:Z
+    6259: ifeq          6317
+    6262: aload         4
+    6264: getfield      #378                // Field a:Lc;
+    6267: ifnonnull     6317
+    6270: aload         4
+    6272: getfield      #533                // Field bm:I
+    6275: iconst_m1
+    6276: if_icmpne     6317
+    6279: getstatic     #394                // Field a:[Lf;
+    6282: bipush        15
+    6284: aaload
+    6285: aload         4
+    6287: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6290: iconst_0
+    6291: getstatic     #420                // Field aS:I
+    6294: iconst_1
+    6295: ishr
+    6296: iconst_3
+    6297: iand
+    6298: aload         4
+    6300: getfield      #542                // Field bv:I
+    6303: aload         4
+    6305: getfield      #543                // Field bw:I
+    6308: bipush        24
+    6310: isub
+    6311: iconst_0
+    6312: iconst_0
+    6313: iconst_0
+    6314: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6317: aload_3
+    6318: dup
+    6319: astore        4
+    6321: getfield      #375                // Field a:I
+    6324: sipush        320
+    6327: iadd
+    6328: sipush        1440
+    6331: if_icmple     6430
+    6334: aload         4
+    6336: getfield      #478                // Field b:I
+    6339: sipush        240
+    6342: iadd
+    6343: bipush        48
+    6345: if_icmple     6430
+    6348: getstatic     #394                // Field a:[Lf;
+    6351: bipush        10
+    6353: aaload
+    6354: ifnonnull     6369
+    6357: getstatic     #394                // Field a:[Lf;
+    6360: bipush        10
+    6362: ldc           #92                 // String /mmv.f
+    6364: iconst_0
+    6365: invokestatic  #918                // Method a:(Ljava/lang/String;I)Lf;
+    6368: aastore
+    6369: getstatic     #394                // Field a:[Lf;
+    6372: bipush        10
+    6374: aaload
+    6375: astore        5
+    6377: aload         4
+    6379: bipush        60
+    6381: iconst_3
+    6382: invokespecial #991                // Method c:(II)Z
+    6385: ifne          6399
+    6388: aload         4
+    6390: bipush        61
+    6392: iconst_3
+    6393: invokespecial #991                // Method c:(II)Z
+    6396: ifeq          6430
+    6399: aload         5
+    6401: aload         4
+    6403: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6406: iconst_1
+    6407: sipush        1440
+    6410: aload         4
+    6412: getfield      #375                // Field a:I
+    6415: isub
+    6416: bipush        48
+    6418: aload         4
+    6420: getfield      #478                // Field b:I
+    6423: isub
+    6424: iconst_0
+    6425: iconst_0
+    6426: iconst_0
+    6427: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    6430: aload         4
+    6432: getfield      #726                // Field h:I
+    6435: bipush        55
+    6437: if_icmple     6461
+    6440: aload         4
+    6442: getfield      #685                // Field e:Z
+    6445: ifeq          6461
+    6448: getstatic     #392                // Field a:[Lb;
+    6451: iconst_0
+    6452: aaload
+    6453: aload         4
+    6455: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6458: invokevirtual #809                // Method b.a:(Ljavax/microedition/lcdui/Graphics;)V
+    6461: goto          6489
+    6464: aload_3
+    6465: invokespecial #862                // Method O:()V
+    6468: goto          6489
+    6471: aload_3
+    6472: invokespecial #860                // Method M:()V
+    6475: goto          6489
+    6478: aload_3
+    6479: invokespecial #861                // Method N:()V
+    6482: goto          6489
+    6485: aload_3
+    6486: invokespecial #859                // Method L:()V
+    6489: iconst_m1
+    6490: istore_3
+    6491: iload_3
+    6492: bipush        9
+    6494: if_icmpge     6988
+    6497: iconst_m1
+    6498: istore        4
+    6500: iload         4
+    6502: bipush        15
+    6504: if_icmpge     6982
+    6507: iload         4
+    6509: aload_0
+    6510: getfield      #570                // Field cI:I
+    6513: iadd
+    6514: istore        7
+    6516: iload_3
+    6517: aload_0
+    6518: getfield      #571                // Field cJ:I
+    6521: iadd
+    6522: istore        8
+    6524: iload         7
+    6526: iflt          6976
+    6529: iload         7
+    6531: aload_0
+    6532: getfield      #681                // Field e:I
+    6535: if_icmpge     6976
+    6538: iload         8
+    6540: iflt          6976
+    6543: iload         8
+    6545: aload_0
+    6546: getfield      #711                // Field f:I
+    6549: if_icmpge     6976
+    6552: getstatic     #398                // Field a:[[I
+    6555: iload         7
+    6557: aaload
+    6558: iload         8
+    6560: iaload
+    6561: sipush        255
+    6564: iand
+    6565: istore        5
+    6567: getstatic     #397                // Field a:[[B
+    6570: iload         7
+    6572: aaload
+    6573: iload         8
+    6575: baload
+    6576: istore        6
+    6578: iload         5
+    6580: bipush        38
+    6582: if_icmplt     6592
+    6585: iload         5
+    6587: bipush        80
+    6589: if_icmplt     6976
+    6592: iload         4
+    6594: bipush        24
+    6596: imul
+    6597: aload_0
+    6598: getfield      #572                // Field cK:I
+    6601: isub
+    6602: istore        9
+    6604: iload_3
+    6605: bipush        24
+    6607: imul
+    6608: aload_0
+    6609: getfield      #573                // Field cL:I
+    6612: isub
+    6613: istore        10
+    6615: iload         5
+    6617: bipush        20
+    6619: if_icmplt     6666
+    6622: iload         5
+    6624: bipush        26
+    6626: if_icmpge     6666
+    6629: iload         5
+    6631: bipush        20
+    6633: isub
+    6634: istore        5
+    6636: getstatic     #394                // Field a:[Lf;
+    6639: iconst_3
+    6640: aaload
+    6641: aload_1
+    6642: iload         5
+    6644: iload_2
+    6645: iconst_2
+    6646: ishr
+    6647: getstatic     #394                // Field a:[Lf;
+    6650: iconst_3
+    6651: aaload
+    6652: getfield      #308                // Field f.b:[B
+    6655: iload         5
+    6657: baload
+    6658: sipush        255
+    6661: iand
+    6662: irem
+    6663: goto          6922
+    6666: iload         5
+    6668: lookupswitch  { // 3
+                    31: 6755
+                    32: 6820
+                    36: 6704
+               default: 6860
+          }
+    6704: getstatic     #398                // Field a:[[I
+    6707: iload         7
+    6709: aaload
+    6710: iload         8
+    6712: iaload
+    6713: bipush        8
+    6715: ishr
+    6716: iconst_1
+    6717: isub
+    6718: istore        5
+    6720: iconst_0
+    6721: iload         5
+    6723: bipush        7
+    6725: imul
+    6726: iadd
+    6727: bipush        16
+    6729: idiv
+    6730: istore        5
+    6732: getstatic     #394                // Field a:[Lf;
+    6735: bipush        20
+    6737: aaload
+    6738: aload_1
+    6739: iconst_0
+    6740: iload         5
+    6742: iload         9
+    6744: iload         10
+    6746: iconst_0
+    6747: iconst_0
+    6748: iconst_0
+    6749: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6752: goto          6891
+    6755: getstatic     #398                // Field a:[[I
+    6758: iload         7
+    6760: aaload
+    6761: iload         8
+    6763: iaload
+    6764: bipush        8
+    6766: ishr
+    6767: istore        5
+    6769: getstatic     #394                // Field a:[Lf;
+    6772: bipush        15
+    6774: aaload
+    6775: astore        11
+    6777: getstatic     #420                // Field aS:I
+    6780: iconst_1
+    6781: ishr
+    6782: aload         11
+    6784: getfield      #308                // Field f.b:[B
+    6787: iload         5
+    6789: baload
+    6790: sipush        255
+    6793: iand
+    6794: irem
+    6795: istore        12
+    6797: aload         11
+    6799: aload_0
+    6800: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6803: iload         5
+    6805: iload         12
+    6807: iload         9
+    6809: iload         10
+    6811: iconst_0
+    6812: iconst_0
+    6813: iconst_0
+    6814: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6817: goto          6891
+    6820: getstatic     #394                // Field a:[Lf;
+    6823: bipush        16
+    6825: aaload
+    6826: aload_0
+    6827: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    6830: iconst_0
+    6831: getstatic     #398                // Field a:[[I
+    6834: iload         7
+    6836: aaload
+    6837: iload         8
+    6839: iaload
+    6840: bipush        8
+    6842: ishr
+    6843: sipush        255
+    6846: iand
+    6847: iload         9
+    6849: iload         10
+    6851: iconst_0
+    6852: iconst_0
+    6853: iconst_0
+    6854: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6857: goto          6891
+    6860: iload         5
+    6862: bipush        80
+    6864: isub
+    6865: i2b
+    6866: dup
+    6867: istore        5
+    6869: iflt          6891
+    6872: getstatic     #394                // Field a:[Lf;
+    6875: bipush        42
+    6877: aaload
+    6878: aload_1
+    6879: iload         5
+    6881: iload         9
+    6883: iload         10
+    6885: iconst_0
+    6886: iconst_0
+    6887: iconst_0
+    6888: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    6891: getstatic     #398                // Field a:[[I
+    6894: iload         7
+    6896: aaload
+    6897: iload         8
+    6899: iaload
+    6900: ldc           #5                  // int -268435456
+    6902: iand
+    6903: bipush        28
+    6905: ishr
+    6906: dup
+    6907: istore        5
+    6909: ifle          6932
+    6912: getstatic     #394                // Field a:[Lf;
+    6915: bipush        13
+    6917: aaload
+    6918: aload_1
+    6919: iconst_0
+    6920: iload         5
+    6922: iload         9
+    6924: iload         10
+    6926: iconst_0
+    6927: iconst_0
+    6928: iconst_0
+    6929: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6932: iload         6
+    6934: bipush        54
+    6936: if_icmpne     6976
+    6939: getstatic     #394                // Field a:[Lf;
+    6942: bipush        7
+    6944: aaload
+    6945: aload_1
+    6946: iconst_0
+    6947: getstatic     #394                // Field a:[Lf;
+    6950: bipush        7
+    6952: aaload
+    6953: iconst_0
+    6954: getstatic     #493                // Field b:[[I
+    6957: iload         7
+    6959: aaload
+    6960: iload         8
+    6962: iaload
+    6963: invokestatic  #912                // Method a:(Lf;II)I
+    6966: iload         9
+    6968: iload         10
+    6970: iconst_0
+    6971: iconst_0
+    6972: iconst_0
+    6973: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    6976: iinc          4, 1
+    6979: goto          6500
+    6982: iinc          3, 1
+    6985: goto          6491
+    6988: aload_0
+    6989: getfield      #323                // Field A:Z
+    6992: ifeq          7075
+    6995: aload_0
+    6996: getfield      #496                // Field bB:I
+    6999: aload_0
+    7000: getfield      #570                // Field cI:I
+    7003: isub
+    7004: bipush        24
+    7006: imul
+    7007: aload_0
+    7008: getfield      #572                // Field cK:I
+    7011: isub
+    7012: aload_0
+    7013: getfield      #546                // Field bz:I
+    7016: iadd
+    7017: istore_3
+    7018: aload_0
+    7019: getfield      #497                // Field bC:I
+    7022: aload_0
+    7023: getfield      #571                // Field cJ:I
+    7026: isub
+    7027: iconst_1
+    7028: iadd
+    7029: bipush        24
+    7031: imul
+    7032: aload_0
+    7033: getfield      #573                // Field cL:I
+    7036: isub
+    7037: aload_0
+    7038: getfield      #495                // Field bA:I
+    7041: iadd
+    7042: istore        4
+    7044: aload_1
+    7045: getstatic     #394                // Field a:[Lf;
+    7048: bipush        13
+    7050: aaload
+    7051: getfield      #307                // Field f.a:[[Ljavax/microedition/lcdui/Image;
+    7054: iconst_0
+    7055: aaload
+    7056: iconst_0
+    7057: aload_0
+    7058: getfield      #498                // Field bD:I
+    7061: iadd
+    7062: aaload
+    7063: iload_3
+    7064: iload         4
+    7066: iconst_0
+    7067: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7070: aload_0
+    7071: iconst_0
+    7072: putfield      #323                // Field A:Z
+    7075: aload_0
+    7076: getfield      #405                // Field aD:I
+    7079: iconst_m1
+    7080: if_icmpeq     7144
+    7083: aload_1
+    7084: getstatic     #494                // Field b:[[Ljavax/microedition/lcdui/Image;
+    7087: bipush        13
+    7089: aaload
+    7090: iconst_0
+    7091: aaload
+    7092: aload_0
+    7093: getfield      #542                // Field bv:I
+    7096: bipush        -12
+    7098: iadd
+    7099: aload_0
+    7100: getfield      #543                // Field bw:I
+    7103: bipush        -24
+    7105: iadd
+    7106: iconst_2
+    7107: iadd
+    7108: iconst_3
+    7109: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7112: aload_1
+    7113: getstatic     #494                // Field b:[[Ljavax/microedition/lcdui/Image;
+    7116: aload_0
+    7117: getfield      #405                // Field aD:I
+    7120: aaload
+    7121: aload_0
+    7122: getfield      #406                // Field aE:I
+    7125: aaload
+    7126: aload_0
+    7127: getfield      #542                // Field bv:I
+    7130: bipush        -12
+    7132: iadd
+    7133: aload_0
+    7134: getfield      #543                // Field bw:I
+    7137: bipush        -24
+    7139: iadd
+    7140: iconst_3
+    7141: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+    7144: aload_0
+    7145: getfield      #434                // Field ad:I
+    7148: aload_0
+    7149: getfield      #436                // Field ae:I
+    7152: if_icmpeq     7273
+    7155: aload_0
+    7156: getfield      #434                // Field ad:I
+    7159: dup
+    7160: istore_3
+    7161: aload_0
+    7162: getfield      #436                // Field ae:I
+    7165: if_icmpeq     7273
+    7168: getstatic     #389                // Field a:[B
+    7171: iload_3
+    7172: iconst_1
+    7173: ishl
+    7174: baload
+    7175: bipush        24
+    7177: imul
+    7178: aload_0
+    7179: getfield      #375                // Field a:I
+    7182: isub
+    7183: istore        4
+    7185: getstatic     #389                // Field a:[B
+    7188: iload_3
+    7189: iconst_1
+    7190: ishl
+    7191: iconst_1
+    7192: iadd
+    7193: baload
+    7194: bipush        24
+    7196: imul
+    7197: aload_0
+    7198: getfield      #478                // Field b:I
+    7201: isub
+    7202: istore        5
+    7204: getstatic     #556                // Field c:[B
+    7207: iload_3
+    7208: baload
+    7209: ifge          7236
+    7212: getstatic     #394                // Field a:[Lf;
+    7215: iconst_2
+    7216: aaload
+    7217: dup
+    7218: astore        6
+    7220: aload_1
+    7221: iconst_0
+    7222: aload         6
+    7224: iconst_0
+    7225: getstatic     #487                // Field b:[B
+    7228: iload_3
+    7229: baload
+    7230: invokestatic  #912                // Method a:(Lf;II)I
+    7233: goto          7253
+    7236: getstatic     #394                // Field a:[Lf;
+    7239: bipush        9
+    7241: aaload
+    7242: aload_1
+    7243: getstatic     #556                // Field c:[B
+    7246: iload_3
+    7247: baload
+    7248: getstatic     #487                // Field b:[B
+    7251: iload_3
+    7252: baload
+    7253: iload         4
+    7255: iload         5
+    7257: iconst_0
+    7258: iconst_0
+    7259: iconst_0
+    7260: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7263: iinc          3, 1
+    7266: iload_3
+    7267: bipush        7
+    7269: iand
+    7270: goto          7159
+    7273: aload_0
+    7274: dup
+    7275: getfield      #478                // Field b:I
+    7278: aload_0
+    7279: getfield      #531                // Field bk:I
+    7282: iadd
+    7283: putfield      #478                // Field b:I
+    7286: aload_0
+    7287: getfield      #795                // Field x:Z
+    7290: ifeq          7316
+    7293: aload_1
+    7294: getstatic     #481                // Field b:Lh;
+    7297: getstatic     #395                // Field a:[Ljava/lang/String;
+    7300: bipush        15
+    7302: aaload
+    7303: sipush        160
+    7306: bipush        120
+    7308: bipush        17
+    7310: bipush        19
+    7312: iconst_0
+    7313: invokestatic  #930                // Method a:(Ljavax/microedition/lcdui/Graphics;Lh;Ljava/lang/String;IIIIZ)V
+    7316: aload_0
+    7317: getfield      #534                // Field bn:I
+    7320: getstatic     #420                // Field aS:I
+    7323: if_icmple     7476
+    7326: aload_0
+    7327: getfield      #741                // Field k:B
+    7330: iconst_2
+    7331: if_icmpeq     7476
+    7334: aload_0
+    7335: getfield      #447                // Field aj:Z
+    7338: ifne          7546
+    7341: aload_0
+    7342: getfield      #729                // Field h:Z
+    7345: ifne          7546
+    7348: aload_0
+    7349: getfield      #534                // Field bn:I
+    7352: getstatic     #420                // Field aS:I
+    7355: isub
+    7356: dup
+    7357: istore_3
+    7358: bipush        20
+    7360: if_icmpge     7377
+    7363: iload_3
+    7364: bipush        10
+    7366: isub
+    7367: sipush        320
+    7370: imul
+    7371: bipush        20
+    7373: idiv
+    7374: goto          7400
+    7377: iload_3
+    7378: bipush        50
+    7380: if_icmplt     7397
+    7383: bipush        60
+    7385: iload_3
+    7386: isub
+    7387: sipush        320
+    7390: imul
+    7391: bipush        15
+    7393: idiv
+    7394: goto          7400
+    7397: sipush        160
+    7400: istore        4
+    7402: sipush        320
+    7405: iload         4
+    7407: isub
+    7408: istore        5
+    7410: aload_1
+    7411: getstatic     #481                // Field b:Lh;
+    7414: getstatic     #395                // Field a:[Ljava/lang/String;
+    7417: getstatic     #623                // Field d:[I
+    7420: aload_0
+    7421: getfield      #402                // Field aA:I
+    7424: iaload
+    7425: aaload
+    7426: iload         4
+    7428: bipush        15
+    7430: bipush        17
+    7432: bipush        20
+    7434: iconst_0
+    7435: invokestatic  #930                // Method a:(Ljavax/microedition/lcdui/Graphics;Lh;Ljava/lang/String;IIIIZ)V
+    7438: aload_1
+    7439: getstatic     #481                // Field b:Lh;
+    7442: getstatic     #559                // Field c:[Ljava/lang/String;
+    7445: getstatic     #724                // Field g:[[I
+    7448: aload_0
+    7449: getfield      #402                // Field aA:I
+    7452: aaload
+    7453: aload_0
+    7454: getfield      #403                // Field aB:I
+    7457: iaload
+    7458: iconst_1
+    7459: isub
+    7460: aaload
+    7461: iload         5
+    7463: bipush        50
+    7465: bipush        17
+    7467: bipush        20
+    7469: iconst_0
+    7470: invokestatic  #930                // Method a:(Ljavax/microedition/lcdui/Graphics;Lh;Ljava/lang/String;IIIIZ)V
+    7473: goto          7546
+    7476: aload_0
+    7477: getfield      #448                // Field ak:I
+    7480: getstatic     #420                // Field aS:I
+    7483: if_icmple     7513
+    7486: aload_1
+    7487: getstatic     #481                // Field b:Lh;
+    7490: getstatic     #395                // Field a:[Ljava/lang/String;
+    7493: bipush        13
+    7495: aaload
+    7496: sipush        160
+    7499: getstatic     #284                // Field a.c:I
+    7502: bipush        17
+    7504: bipush        20
+    7506: iconst_0
+    7507: invokestatic  #930                // Method a:(Ljavax/microedition/lcdui/Graphics;Lh;Ljava/lang/String;IIIIZ)V
+    7510: goto          7546
+    7513: aload_0
+    7514: getfield      #448                // Field ak:I
+    7517: getstatic     #420                // Field aS:I
+    7520: if_icmpne     7546
+    7523: aload_0
+    7524: getfield      #773                // Field r:B
+    7527: iconst_2
+    7528: if_icmpgt     7546
+    7531: aload_0
+    7532: dup
+    7533: getfield      #773                // Field r:B
+    7536: iconst_1
+    7537: iadd
+    7538: i2b
+    7539: putfield      #773                // Field r:B
+    7542: aload_0
+    7543: invokespecial #1065               // Method w:()V
+    7546: aload_0
+    7547: getfield      #741                // Field k:B
+    7550: tableswitch   { // 3 to 5
+                     3: 7713
+                     4: 7576
+                     5: 7736
+               default: 7777
+          }
+    7576: aload_0
+    7577: dup
+    7578: astore_3
+    7579: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+    7582: astore        4
+    7584: getstatic     #392                // Field a:[Lb;
+    7587: iconst_5
+    7588: aaload
+    7589: astore        5
+    7591: aload_3
+    7592: getfield      #456                // Field ao:I
+    7595: bipush        7
+    7597: if_icmpne     7687
+    7600: aload         5
+    7602: getfield      #293                // Field b.a:I
+    7605: getstatic     #420                // Field aS:I
+    7608: aload_3
+    7609: getfield      #458                // Field ap:I
+    7612: imul
+    7613: bipush        48
+    7615: irem
+    7616: iadd
+    7617: istore        6
+    7619: aload         5
+    7621: getfield      #295                // Field b.b:I
+    7624: istore        7
+    7626: aload_3
+    7627: getfield      #358                // Field S:I
+    7630: bipush        10
+    7632: if_icmpne     7643
+    7635: iload         7
+    7637: sipush        144
+    7640: isub
+    7641: istore        7
+    7643: getstatic     #394                // Field a:[Lf;
+    7646: bipush        7
+    7648: aaload
+    7649: aload         4
+    7651: iconst_1
+    7652: getstatic     #420                // Field aS:I
+    7655: getstatic     #394                // Field a:[Lf;
+    7658: bipush        7
+    7660: aaload
+    7661: iconst_1
+    7662: invokevirtual #826                // Method f.a:(I)I
+    7665: irem
+    7666: iload         6
+    7668: iload         7
+    7670: iconst_0
+    7671: iconst_0
+    7672: iconst_0
+    7673: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7676: aload_3
+    7677: iload         6
+    7679: iload         7
+    7681: invokespecial #1026               // Method g:(II)V
+    7684: goto          7777
+    7687: aload_3
+    7688: getfield      #456                // Field ao:I
+    7691: bipush        8
+    7693: if_icmpeq     7710
+    7696: aload_3
+    7697: getfield      #456                // Field ao:I
+    7700: ifeq          7710
+    7703: aload_3
+    7704: aload         4
+    7706: iconst_3
+    7707: invokespecial #926                // Method a:(Ljavax/microedition/lcdui/Graphics;I)V
+    7710: goto          7777
+    7713: aload_0
+    7714: getfield      #456                // Field ao:I
+    7717: iconst_m1
+    7718: if_icmpeq     7777
+    7721: aload_0
+    7722: getfield      #456                // Field ao:I
+    7725: bipush        15
+    7727: if_icmpeq     7777
+    7730: aload_0
+    7731: aload_1
+    7732: iconst_5
+    7733: goto          7774
+    7736: aload_0
+    7737: getfield      #456                // Field ao:I
+    7740: iconst_m1
+    7741: if_icmpeq     7777
+    7744: aload_0
+    7745: getfield      #456                // Field ao:I
+    7748: bipush        15
+    7750: if_icmpeq     7777
+    7753: aload_0
+    7754: getfield      #456                // Field ao:I
+    7757: bipush        13
+    7759: if_icmpeq     7777
+    7762: aload_0
+    7763: getfield      #456                // Field ao:I
+    7766: bipush        12
+    7768: if_icmpeq     7777
+    7771: aload_0
+    7772: aload_1
+    7773: iconst_4
+    7774: invokespecial #926                // Method a:(Ljavax/microedition/lcdui/Graphics;I)V
+    7777: aload_1
+    7778: iconst_0
+    7779: bipush        -31
+    7781: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    7784: aload_1
+    7785: iconst_0
+    7786: iconst_0
+    7787: sipush        320
+    7790: sipush        240
+    7793: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+    7796: aload_0
+    7797: getfield      #378                // Field a:Lc;
+    7800: ifnonnull     7807
+    7803: aload_0
+    7804: invokespecial #854                // Method G:()V
+    7807: aload_0
+    7808: getfield      #683                // Field e:Ljava/lang/String;
+    7811: ifnull        7843
+    7814: aload_0
+    7815: iconst_1
+    7816: putfield      #763                // Field o:Z
+    7819: aload_1
+    7820: getstatic     #380                // Field a:Lh;
+    7823: aload_0
+    7824: getfield      #683                // Field e:Ljava/lang/String;
+    7827: invokestatic  #916                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+    7830: sipush        160
+    7833: sipush        152
+    7836: bipush        17
+    7838: iconst_4
+    7839: iconst_1
+    7840: invokestatic  #930                // Method a:(Ljavax/microedition/lcdui/Graphics;Lh;Ljava/lang/String;IIIIZ)V
+    7843: aload_0
+    7844: getfield      #378                // Field a:Lc;
+    7847: ifnull        7869
+    7850: getstatic     #388                // Field a:Z
+    7853: ifne          7869
+    7856: aload_0
+    7857: iconst_1
+    7858: putfield      #763                // Field o:Z
+    7861: aload_0
+    7862: getfield      #378                // Field a:Lc;
+    7865: aload_1
+    7866: invokevirtual #818                // Method c.a:(Ljavax/microedition/lcdui/Graphics;)V
+    7869: aload_0
+    7870: getfield      #532                // Field bl:I
+    7873: ifle          8028
+    7876: aload_0
+    7877: iconst_1
+    7878: putfield      #763                // Field o:Z
+    7881: aload_1
+    7882: iconst_0
+    7883: invokevirtual #1142               // Method javax/microedition/lcdui/Graphics.setColor:(I)V
+    7886: aload_1
+    7887: iconst_0
+    7888: iconst_0
+    7889: sipush        320
+    7892: aload_0
+    7893: getfield      #532                // Field bl:I
+    7896: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    7899: aload_1
+    7900: iconst_0
+    7901: sipush        240
+    7904: aload_0
+    7905: getfield      #532                // Field bl:I
+    7908: isub
+    7909: sipush        320
+    7912: aload_0
+    7913: getfield      #532                // Field bl:I
+    7916: invokevirtual #1135               // Method javax/microedition/lcdui/Graphics.fillRect:(IIII)V
+    7919: aload_1
+    7920: iconst_0
+    7921: bipush        31
+    7923: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    7926: aload_0
+    7927: invokespecial #863                // Method P:()V
+    7930: getstatic     #550                // Field c:Lf;
+    7933: ifnull        8021
+    7936: aload_0
+    7937: getfield      #607                // Field ct:I
+    7940: iconst_m1
+    7941: if_icmpeq     7999
+    7944: getstatic     #550                // Field c:Lf;
+    7947: aload_1
+    7948: aload_0
+    7949: getfield      #607                // Field ct:I
+    7952: aload_0
+    7953: getfield      #606                // Field cs:I
+    7956: aload_0
+    7957: getfield      #602                // Field co:I
+    7960: aload_0
+    7961: getfield      #570                // Field cI:I
+    7964: isub
+    7965: bipush        24
+    7967: imul
+    7968: aload_0
+    7969: getfield      #572                // Field cK:I
+    7972: isub
+    7973: aload_0
+    7974: getfield      #603                // Field cp:I
+    7977: aload_0
+    7978: getfield      #571                // Field cJ:I
+    7981: isub
+    7982: bipush        24
+    7984: imul
+    7985: aload_0
+    7986: getfield      #573                // Field cL:I
+    7989: isub
+    7990: iconst_0
+    7991: iconst_0
+    7992: iconst_0
+    7993: invokevirtual #832                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIIII)V
+    7996: goto          8021
+    7999: getstatic     #550                // Field c:Lf;
+    8002: aload_1
+    8003: aload_0
+    8004: getfield      #606                // Field cs:I
+    8007: aload_0
+    8008: getfield      #605                // Field cr:I
+    8011: aload_0
+    8012: getfield      #604                // Field cq:I
+    8015: iconst_0
+    8016: iconst_0
+    8017: iconst_0
+    8018: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+    8021: aload_1
+    8022: iconst_0
+    8023: bipush        -31
+    8025: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+    8028: return
+
+
+
+===== i.G(): HUD rendering entry | javap source lines 22980-23150 =====
+  private void G();
+    descriptor: ()V
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: aload_0
+       3: getfield      #386                // Field a:Ljavax/microedition/lcdui/Graphics;
+       6: astore_2
+       7: getstatic     #394                // Field a:[Lf;
+      10: iconst_0
+      11: aaload
+      12: dup
+      13: astore_3
+      14: ifnonnull     18
+      17: return
+      18: aload_2
+      19: sipush        160
+      22: sipush        240
+      25: invokevirtual #1144               // Method javax/microedition/lcdui/Graphics.translate:(II)V
+      28: aload_0
+      29: getfield      #763                // Field o:Z
+      32: ifne          42
+      35: getstatic     #477                // Field b:B
+      38: iconst_2
+      39: if_icmpne     78
+      42: aload_3
+      43: aload_2
+      44: iconst_0
+      45: iconst_0
+      46: iconst_0
+      47: iconst_0
+      48: iconst_0
+      49: iconst_0
+      50: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+      53: aload_0
+      54: getfield      #363                // Field U:Z
+      57: ifeq          74
+      60: aload_3
+      61: aload_2
+      62: bipush        19
+      64: sipush        -159
+      67: iconst_0
+      68: iconst_0
+      69: iconst_0
+      70: iconst_0
+      71: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+      74: aload_3
+      75: goto          97
+      78: iconst_1
+      79: istore_1
+      80: aload_2
+      81: sipush        -160
+      84: sipush        -240
+      87: sipush        320
+      90: sipush        240
+      93: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+      96: aload_3
+      97: aload_2
+      98: iconst_1
+      99: iconst_0
+     100: iconst_0
+     101: iconst_0
+     102: iconst_0
+     103: iconst_0
+     104: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+     107: aload_0
+     108: getfield      #767                // Field p:Z
+     111: ifeq          145
+     114: aload_3
+     115: aload_2
+     116: iconst_2
+     117: sipush        -150
+     120: iconst_0
+     121: iconst_0
+     122: iconst_0
+     123: iconst_0
+     124: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+     127: aload_3
+     128: aload_2
+     129: iconst_3
+     130: aload_0
+     131: getfield      #454                // Field an:I
+     134: iadd
+     135: sipush        -150
+     138: iconst_0
+     139: iconst_0
+     140: iconst_0
+     141: iconst_0
+     142: invokevirtual #831                // Method f.a:(Ljavax/microedition/lcdui/Graphics;IIIIII)V
+     145: iload_1
+     146: ifeq          165
+     149: aload_2
+     150: sipush        -160
+     153: sipush        -240
+     156: sipush        320
+     159: sipush        240
+     162: invokevirtual #1141               // Method javax/microedition/lcdui/Graphics.setClip:(IIII)V
+     165: aload_0
+     166: getfield      #756                // Field n:B
+     169: aload_0
+     170: getfield      #577                // Field cP:I
+     173: if_icmpne     191
+     176: aload_0
+     177: getfield      #763                // Field o:Z
+     180: ifne          191
+     183: aload_0
+     184: getfield      #756                // Field n:B
+     187: iconst_1
+     188: if_icmpgt     402
+     191: getstatic     #394                // Field a:[Lf;
+     194: iconst_0
+     195: aaload
+     196: getfield      #307                // Field f.a:[[Ljavax/microedition/lcdui/Image;
+     199: iconst_0
+     200: aaload
+     201: astore_1
+     202: aload_0
+     203: getfield      #756                // Field n:B
+     206: iconst_1
+     207: if_icmpgt     214
+     210: iconst_1
+     211: goto          215
+     214: iconst_0
+     215: istore        5
+     217: bipush        -33
+     219: getstatic     #735                // Field i:[B
+     222: bipush        8
+     224: baload
+     225: iconst_4
+     226: isub
+     227: aload_1
+     228: iload         5
+     230: bipush        11
+     232: iadd
+     233: aaload
+     234: invokevirtual #1148               // Method javax/microedition/lcdui/Image.getWidth:()I
+     237: imul
+     238: iconst_2
+     239: idiv
+     240: isub
+     241: istore        6
+     243: aload_2
+     244: aload_1
+     245: iload         5
+     247: bipush        11
+     249: iadd
+     250: aaload
+     251: iload         6
+     253: bipush        -25
+     255: iconst_0
+     256: invokevirtual #1131               // Method javax/microedition/lcdui/Graphics.drawImage:(Ljavax/microedition/lcdui/Image;III)V
+     259: iconst_0
+     260: aload_1
+     261: iload         5
+     263: bipush        11
+     265: iadd
+     266: aaload
+     267: invokevirtual #1148               // Method javax/microedition/lcdui/Image.getWidth:()I
+     270: iadd
+     271: istore        4
+     273: aload_1
+     274: bipush        15
+     276: aaload
+     277: invokevirtual #1148               // Method javax/microedition/lcdui/Image.getWidth:()I
+     280: istore        7
+     282: iconst_0
+     283: istore        8
+     285: iload         8
+     287: getstatic     #735                // Field i:[B
+     290: bipush        8
+     292: baload

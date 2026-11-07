@@ -1,0 +1,16 @@
+BUILD 249 — TEST RESULTS
+
+Python regression suite: 237 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+Build249 evidence join:
+- 25 sprite draw callsites from Build248.
+- 4 callsites have matching Build221 instruction-entry worklist snapshots.
+- 21 callsites have no matching snapshot in the prior worklist export.
+- 0 composite groups resolved.
+
+Kotlin implementation was not changed in this milestone. Build248 Kotlin production/test compilation remains applicable; no new Kotlin compile is claimed.
+
+Important: matching instruction-entry stack state is not a complete invocation-argument proof. The existing abstract interpreter has known unmodeled-opcode limitations. No candidate was promoted to a concrete draw operation.
+
+Not performed: Android Gradle build, device runtime, full-room rasterization, screenshot parity, APK packaging.

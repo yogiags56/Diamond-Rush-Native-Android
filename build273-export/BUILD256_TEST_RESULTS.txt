@@ -1,0 +1,4 @@
+Build256 CFG structural audit
+Instructions: 3811; blocks: 322; edges: 564; switches: 10; callsites: 25/25.
+Reachable blocks: 247/322; not reached: 75.
+Worklist symbolic interpretation: not implemented.

@@ -1,0 +1,13 @@
+BUILD 250 — TEST RESULTS
+
+Descriptor-contract generator: PASS (25 callsites).
+Focused pytest: 2 passed.
+
+Two original overloads were distinguished by JVM descriptor:
+- Graphics + six ints: 7 parameters, 8 operand-stack slots including receiver.
+- Graphics + seven ints: 8 parameters, 9 operand-stack slots including receiver.
+
+This is descriptor-contract validation, not full runtime stack interpretation. No composite group or callsite argument value was resolved.
+
+No Kotlin source was added in this milestone. No full Build223–249 regression rerun is claimed.
+No Android Gradle build, device runtime, full-room rasterization, visual parity, or APK packaging was performed.

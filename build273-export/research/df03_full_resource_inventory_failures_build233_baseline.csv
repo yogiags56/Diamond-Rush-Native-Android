@@ -1,0 +1,76 @@
+bundle,entry,error
+0.f,0,palette count 167 exceeds 16
+0.f,1,"truncated at 1262, need 1, size 1262"
+0.f,2,"truncated at 6657, need 24614, size 8995"
+1.f,0,unpack_from requires a buffer of at least 1106 bytes for unpacking 2 bytes at offset 1104 (actual buffer size is 1105)
+1.f,1,unpack_from requires a buffer of at least 1060 bytes for unpacking 2 bytes at offset 1058 (actual buffer size is 1059)
+1.f,2,palette count 18 exceeds 16
+2.f,0,palette count 68 exceeds 16
+2.f,1,unpack_from requires a buffer of at least 1140 bytes for unpacking 2 bytes at offset 1138 (actual buffer size is 1139)
+2.f,2,palette count 85 exceeds 16
+b0.f,0,unpack_from requires a buffer of at least 4004 bytes for unpacking 2 bytes at offset 4002 (actual buffer size is 4003)
+b0.f,1,"truncated at 34, need 2560, size 350"
+b1.f,0,negative sprite length -4317 at sprite 1
+cm.f,1,unpack_from requires a buffer of at least 1260 bytes for unpacking 2 bytes at offset 1258 (actual buffer size is 1258)
+cm.f,2,palette count 24 exceeds 16
+cm.f,3,"truncated at 1098, need 1052, size 1236"
+cm.f,5,unpack_from requires a buffer of at least 336 bytes for unpacking 2 bytes at offset 334 (actual buffer size is 335)
+cm.f,6,"truncated at 36, need 3840, size 1026"
+cm.f,7,unpack_from requires a buffer of at least 4154 bytes for unpacking 2 bytes at offset 4152 (actual buffer size is 4153)
+gen0.f,0,"truncated at 34, need 24335, size 323"
+gen0.f,1,"truncated at 50, need 21790, size 382"
+gen0.f,3,unpack_from requires a buffer of at least 2787 bytes for unpacking 2 bytes at offset 2785 (actual buffer size is 2785)
+gen0.f,4,"truncated at 1119, need 4352, size 2542"
+gen0.f,5,"truncated at 96, need 66295, size 406"
+gen0.f,6,unpack_from requires a buffer of at least 352 bytes for unpacking 2 bytes at offset 350 (actual buffer size is 350)
+gen0.f,7,"truncated at 186, need 2645, size 1244"
+gen0.f,8,"truncated at 208, need 152995, size 1205"
+gen0.f,9,palette count 24 exceeds 16
+gen1.f,0,palette count 39 exceeds 16
+gen1.f,1,unpack_from requires a buffer of at least 496 bytes for unpacking 2 bytes at offset 494 (actual buffer size is 494)
+gen1.f,3,"truncated at 2410, need 2040, size 4024"
+gen1.f,5,"truncated at 4247, need 1, size 4247"
+gen1.f,6,"truncated at 146, need 148560, size 281"
+gen1.f,7,unpack_from requires a buffer of at least 1598 bytes for unpacking 2 bytes at offset 1596 (actual buffer size is 1596)
+gen1.f,8,"truncated at 80, need 4352, size 232"
+gen2.f,0,unpack_from requires a buffer of at least 779 bytes for unpacking 2 bytes at offset 777 (actual buffer size is 778)
+gen2.f,1,"truncated at 1119, need 8192, size 2542"
+gen2.f,2,unpack_from requires a buffer of at least 528 bytes for unpacking 2 bytes at offset 526 (actual buffer size is 527)
+gen2.f,3,"truncated at 1846, need 1, size 1846"
+gen2.f,4,"truncated at 906, need 1, size 906"
+gen2.f,6,palette count 24 exceeds 16
+gen2.f,8,unpack_from requires a buffer of at least 729 bytes for unpacking 2 bytes at offset 727 (actual buffer size is 727)
+gen3.f,0,"truncated at 1371, need 1, size 1371"
+gen3.f,2,unpack_from requires a buffer of at least 984 bytes for unpacking 2 bytes at offset 982 (actual buffer size is 983)
+gen3.f,3,"truncated at 592, need 1, size 592"
+gen3.f,4,"truncated at 114, need 24335, size 754"
+gen3.f,5,"truncated at 3006, need 2212, size 4421"
+gen3.f,6,"truncated at 130, need 87380, size 316"
+gen3.f,7,unpack_from requires a buffer of at least 3878 bytes for unpacking 2 bytes at offset 3876 (actual buffer size is 3876)
+gen3.f,8,"truncated at 146, need 43855, size 355"
+gen3.f,9,"truncated at 808, need 1, size 808"
+gen4.f,0,unpack_from requires a buffer of at least 1140 bytes for unpacking 2 bytes at offset 1138 (actual buffer size is 1138)
+gen4.f,1,"truncated at 930, need 1, size 930"
+gen4.f,2,palette count 127 exceeds 16
+mm0.f,0,"truncated at 3421, need 1, size 3421"
+mm0.f,1,"truncated at 2324, need 103705, size 4223"
+mm1.f,0,"truncated at 13945, need 1, size 13945"
+mmv.f,0,"truncated at 5287, need 1, size 5287"
+mmv.f,1,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+mmv.f,2,unpack_from requires a buffer of at least 461 bytes for unpacking 2 bytes at offset 459 (actual buffer size is 460)
+mmv.f,3,unpack_from requires a buffer of at least 453 bytes for unpacking 2 bytes at offset 451 (actual buffer size is 452)
+mmv.f,4,"truncated at 66, need 8965, size 296"
+mmv.f,5,"truncated at 636, need 1, size 636"
+ms.f,0,"truncated at 1114, need 1016, size 2000"
+ms.f,1,unpack_from requires a buffer of at least 1597 bytes for unpacking 2 bytes at offset 1595 (actual buffer size is 1595)
+o.f,0,palette count 169 exceeds 16
+o.f,1,palette count 255 exceeds 16
+tips.f,0,unpack_from requires a buffer of at least 2220 bytes for unpacking 2 bytes at offset 2218 (actual buffer size is 2219)
+tips.f,1,"truncated at 470, need 1, size 470"
+tips.f,2,"truncated at 141, need 1037, size 632"
+tips.f,3,"truncated at 1001, need 1, size 1001"
+tips.f,4,unpack_from requires a buffer of at least 1312 bytes for unpacking 2 bytes at offset 1310 (actual buffer size is 1311)
+ui.f,0,"truncated at 2182, need 21775, size 3356"
+ui.f,1,unpack_from requires a buffer of at least 5720 bytes for unpacking 2 bytes at offset 5718 (actual buffer size is 5719)
+ui.f,2,palette count 35 exceeds 16
+ui.f,3,"truncated at 597, need 1, size 597"

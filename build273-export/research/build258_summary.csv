@@ -1,0 +1,14 @@
+metric,value
+class_file,i.class
+method,i.D()V
+code_length_bytes,8029
+max_stack,9
+max_locals,14
+exception_table_entries,0
+exception_cfg_edges,0
+normal_cfg_blocks,322
+blocks_reachable_after_exception_edge_audit,247
+unreachable_blocks_after_exception_edge_audit,75
+renderer_callsites_total,25
+renderer_callsites_reachable_after_exception_edge_audit,13
+exception_edges_added,0

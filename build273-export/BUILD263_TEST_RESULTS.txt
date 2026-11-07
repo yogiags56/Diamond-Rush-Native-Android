@@ -1,0 +1,3 @@
+Build263 full pytest: 277 passed, 4 warnings (Pillow getdata deprecations in existing Build213 tests).
+Build263 generator: python research/build263_cross_class_operand_provenance.py
+No Kotlin/Gradle/device/APK validation claimed.

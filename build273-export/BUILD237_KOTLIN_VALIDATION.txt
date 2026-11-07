@@ -1,0 +1,5 @@
+BUILD237_KOTLIN_CHECKS_PASSED
+All pure legacy package sources compiled with kotlinc.
+Build234, Build236 and Build237 Kotlin check suites executed successfully.
+Full original-JAR Kotlin parser/pixel audit: 94 DF03 resources, 1,372 sprites, 112 palette rows, 2,604 sprite/palette decodes, 415,896 ARGB pixels, zero failures.
+Android Gradle and device runtime not performed.

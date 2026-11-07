@@ -1,0 +1,9 @@
+Build267 validation
+
+Full project pytest: 310 passed, 4 warnings.
+Warnings: four existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+New Build267 tests: 3 passed.
+Direct original.class Code-attribute parse: 4 exception handlers found in c.a(Graphics, byte[], int); the other 3 selected methods have no handlers.
+Conservative instruction-level potential exception edges: 116 across protected intervals [912,936), [945,961), [1105,1129), [1138,1154), targeting handlers 939, 964, 1132, 1157.
+
+No Android Gradle build, Kotlin compilation, device runtime, full room render, visual parity, or APK packaging claimed.

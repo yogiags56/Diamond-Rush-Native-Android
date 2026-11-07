@@ -1,0 +1,25 @@
+BUILD 248 — TEST RESULTS
+
+Python regression suite: 237 passed, 4 warnings.
+The four warnings are existing Pillow Image.getdata deprecations from Build213 tests.
+
+Kotlin: all production and test sources in BUILD247_KOTLIN_SOURCE_LIST.txt compiled together successfully with kotlinc. Build248 introduces no Kotlin implementation changes.
+
+Caller-side evidence audit:
+- 25 unique sprite draw callsites retained.
+- 13 explicit f[] receivers, 12 unresolved, matching Build246.
+- 25 callsites have visible constant producers in the local bytecode excerpt.
+- 17 callsites have visible primitive field producers.
+- 22 callsites have visible arithmetic/array operations.
+- All 25 preserve PARTIAL_PRODUCER_EVIDENCE_NOT_FULL_STACK_PROOF.
+- All 25 composite group values remain UNKNOWN.
+
+ZIP integrity: passed.
+
+Not performed:
+- full JVM operand-stack worklist proof;
+- Android Gradle build;
+- Android device/emulator runtime;
+- full original-room rasterization;
+- screenshot visual parity;
+- APK packaging.

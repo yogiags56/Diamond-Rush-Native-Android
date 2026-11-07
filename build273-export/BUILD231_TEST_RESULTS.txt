@@ -1,0 +1,11 @@
+BUILD 231 TEST RESULTS
+
+Python: 167 passed, 4 warnings.
+Warnings: four pre-existing Pillow Image.getdata() deprecation warnings in Build 213 transform tests.
+Original JAR archive audit: w0.bin 14/14 records; w1.bin 13/13 records; w2.bin 14/14 records; total 41/41 records; all archive bytes consumed; no trailing bytes.
+Kotlin main source compilation: PASSED.
+Build231WorldRoomArchiveChecks.runAll(): PASSED.
+Android Gradle build: NOT RUN.
+APK: NOT BUILT.
+Device runtime: NOT TESTED.
+Visual parity / gameplay rasterization: NOT TESTED.

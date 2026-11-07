@@ -1,0 +1,64 @@
+loader,bundle,global_record_index,local_record_index,header_entry_offset,length_field_offset,payload_length,payload_signature,global_f_slot,secondary_destination,branch_offset,condition,source_status
+A_A_STREAM,/0.f,0,0,1,5,2486,df030101,60,,5672,d bit 0 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/0.f,1,1,9,13,1262,df030101,16,,5693,d bit 1 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/0.f,2,2,17,21,8995,df030101,42,,5716,record-enabled by state path,BYTECODE_CONFIRMED
+A_A_STREAM,/0.f,3,3,25,29,336,df030101,,image cache 8,5732,"image cache b[8], no f[] slot",BYTECODE_CONFIRMED
+A_A_STREAM,/1.f,0,0,1,5,1105,df030101,60,,5672,d bit 0 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/1.f,1,1,9,13,1059,df030101,16,,5693,d bit 1 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/1.f,2,2,17,21,9077,df030101,42,,5716,record-enabled by state path,BYTECODE_CONFIRMED
+A_A_STREAM,/1.f,3,3,25,29,332,df030101,,image cache 8,5732,"image cache b[8], no f[] slot",BYTECODE_CONFIRMED
+A_A_STREAM,/2.f,0,0,1,5,2470,df030101,60,,5672,d bit 0 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/2.f,1,1,9,13,1139,df030101,16,,5693,d bit 1 must be set,BYTECODE_CONFIRMED
+A_A_STREAM,/2.f,2,2,17,21,9290,df030101,42,,5716,record-enabled by state path,BYTECODE_CONFIRMED
+A_A_STREAM,/2.f,3,3,25,29,328,df030101,,image cache 8,5732,"image cache b[8], no f[] slot",BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,0,0,1,5,323,df030101,33,,6214,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,1,1,9,13,382,df030101,34,,6228,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,2,2,17,21,254,df030101,,24/25,,aA/ah conditional image-cache copies,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,3,3,25,29,2785,df030101,7,,6414,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,4,4,33,37,2542,df030101,3,,6475,record-enabled-by-c-bit; only when aA!=2,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,5,5,41,45,406,df030101,58,,6407,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,6,6,49,53,350,df030101,21,,6385,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,7,7,57,61,1244,df030101,20,,6489,record-enabled-by-c-bit; aA==2 adds image-state initialization,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,8,8,65,69,1205,df030101,5,,6428,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen0.f,9,9,73,77,370,df030101,12,,6555,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,10,0,1,5,5175,df030101,,4,,constructs b[4] wrapper; no f[] assignment,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,11,1,9,13,494,df030101,11,,6676,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,12,2,17,21,1386,df030101,10,,6688,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,13,3,25,29,4024,df030101,1,,6670,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,14,4,33,37,1991,df030101,6,,6522,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,15,5,41,45,4247,df030101,,conditional f[4] and f[21],,bu bit 1 creates f[21]; bu bit 2 binds f[4],BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,16,6,49,53,281,df030101,37,,6242,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,17,7,57,61,1596,df030101,,conditional f[4] and f[21],,same shared handler as record 15,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,18,8,65,69,232,df030101,37,,6242,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen1.f,19,9,73,77,808,df030101,7,,6683,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,20,0,1,5,778,df030101,13,,6470,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,21,1,9,13,2542,df030101,3,,6475,record-enabled-by-c-bit; only when aA!=2,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,22,2,17,21,527,df030101,8,,6463,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,23,3,25,29,1846,df030101,30,,6262,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,24,4,33,37,906,df030101,57,,6434,record-enabled-by-c-bit; image cache 15 cleared and helper called,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,25,5,41,45,1216,df030101,17,,6402,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,26,6,49,53,3326,df030101,,static d field,,"object assigned to static d, not f[]",BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,27,7,57,61,336,df030101,19,,6390,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,28,8,65,69,727,df030101,45,,6309,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen2.f,29,9,73,77,214,df030101,26,,6331,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,30,0,1,5,1371,df030101,15,,6302,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,31,1,9,13,346,df030101,29,,6297,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,32,2,17,21,983,df030101,32,,6255,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,33,3,25,29,592,df030101,22,,6290,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,34,4,33,37,754,df030101,27,,6283,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,35,5,41,45,4421,df030101,28,,6276,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,36,6,49,53,316,df030101,35,,6221,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,37,7,57,61,3876,df030101,29,,6269,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,38,8,65,69,355,df030101,36,,6235,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen3.f,39,9,73,77,808,df030101,6,,6421,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen4.f,40,0,1,5,1138,df030101,2,,6249,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen4.f,41,1,9,13,930,df030101,38,,6200,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+GEN_STREAM,/gen4.f,42,2,17,21,280,df030101,39,,6207,record-enabled-by-c-bit,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,0,0,1,5,634,df030101,,image cache 11,,,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,1,1,9,13,1258,df030101,56,,6964,record-enabled-by-bu-bit; aA==1-or-2 applies extra initialization,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,2,2,17,21,805,df030101,59,,6945,record-enabled-by-bu-bit,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,3,3,25,29,1236,df030101,13,,7040,record-enabled-by-bu-bit; invokes r(),BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,4,4,33,37,632,df030101,,image cache 5,,,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,5,5,41,45,335,df030101,,image cache 18,,,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,6,6,49,53,1026,df030101,43,image cache 20 cleared,6920,record-enabled-by-bu-bit,BYTECODE_CONFIRMED
+CM_STREAM,/cm.f,7,7,57,61,4153,df030101,,,,,RECORD_PARSED_NO_SLOT_BINDING_IN_SWITCH

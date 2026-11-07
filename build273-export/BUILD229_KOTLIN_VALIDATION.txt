@@ -1,0 +1,8 @@
+Build 229 Kotlin validation
+
+Compiler: kotlinc (available)
+Compilation: all production Kotlin sources plus Build228PerCellTraceChecks.kt and Build229RoomSceneTraceChecks.kt compiled successfully.
+Execution: Build228PerCellTraceChecks.runAll() and Build229RoomSceneTraceChecks.runAll() completed.
+Output: BUILD229_KOTLIN_CHECKS_PASSED
+
+Not performed: Android Gradle build, APK packaging, Android-device runtime, original-room rasterization, or visual parity.

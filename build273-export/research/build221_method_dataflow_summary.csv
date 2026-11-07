@@ -1,0 +1,6 @@
+method,instruction_count,reachable_instruction_states,array_store_sites,known_map_plane_targets,unresolved_targets,unsupported_opcode_observations
+aj,4098,1089,34,3,31,457
+as,1371,1265,53,21,32,237
+W,3966,2077,29,15,14,572
+aa,1541,505,8,0,8,239
+j,3698,1171,24,0,24,479

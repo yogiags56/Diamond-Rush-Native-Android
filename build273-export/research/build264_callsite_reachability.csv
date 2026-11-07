@@ -1,0 +1,9 @@
+class,method,callsite_offset,opcode,instruction_count,reachable_instruction_count,reachable,predecessor_count,cfg_edge_count
+b,public final void a(javax.microedition.lcdui.Graphics),87,invokevirtual,83,83,True,1,83
+b,public final void a(javax.microedition.lcdui.Graphics),113,invokevirtual,83,83,True,1,83
+b,public final void a(javax.microedition.lcdui.Graphics),141,invokevirtual,83,83,True,1,83
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int)",873,invokevirtual,503,499,True,1,510
+c,public final void a(javax.microedition.lcdui.Graphics),280,invokevirtual,199,199,True,1,207
+c,public final void a(javax.microedition.lcdui.Graphics),304,invokevirtual,199,199,True,1,207
+c,public final void a(javax.microedition.lcdui.Graphics),382,invokevirtual,199,199,True,1,207
+g,public static void a(javax.microedition.lcdui.Graphics),80,invokevirtual,62,62,True,1,62

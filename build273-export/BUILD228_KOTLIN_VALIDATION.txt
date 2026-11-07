@@ -1,0 +1,7 @@
+Build 228 Kotlin validation
+
+- Kotlin compiler: available.
+- Compiled all 18 production Kotlin source files plus Build228PerCellTraceChecks.kt successfully with kotlinc.
+- Executed Build228PerCellTraceChecks.runAll(): BUILD228_KOTLIN_CHECKS_PASSED.
+- Compilation exposed an extra closing brace at the end of the inherited Build227 LegacyRenderDispatchResolver.kt; Build228 removes that unmatched brace. This is a source syntax repair, not a change to dispatch behavior.
+- Android Gradle build, device runtime, visual parity, and APK are not claimed.

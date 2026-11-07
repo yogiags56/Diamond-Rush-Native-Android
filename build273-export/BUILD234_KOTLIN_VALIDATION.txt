@@ -1,0 +1,1 @@
+BUILD234_KOTLIN_COMPILE_NOT_RUN\nReason: kotlinc executable unavailable in this environment.\nThe new LegacySpriteResourceBundleParser.kt and Build234SpriteResourceParserChecks.kt are source artifacts only; no Kotlin compilation or runtime success is claimed.\nAndroid Gradle build/device runtime/APK not performed.\n

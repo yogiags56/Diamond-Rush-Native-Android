@@ -1,0 +1,16 @@
+Build271 validation
+===================
+Full pytest: 333 passed, 4 warnings (6.07 seconds).
+Warnings: four pre-existing Pillow Image.getdata() deprecation warnings in Build213 tests.
+
+Focused Build271 tests: 5 passed.
+Candidate draw plan:
+- 4,110 component-level candidate rows
+- 90 room cells with candidate rows
+- 21 resource/group pairs
+- component destination = room-cell screen anchor + signed composite offset
+- all rows explicitly retain candidate-only resource/group selection status
+- final renderer transform remains unresolved
+
+No Kotlin compilation, Android Gradle build, device runtime, full-room rasterization,
+visual parity, or playable APK is claimed.

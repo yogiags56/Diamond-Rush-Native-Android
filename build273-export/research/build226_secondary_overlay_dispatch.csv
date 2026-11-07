@@ -1,0 +1,7 @@
+raw_id_condition,resource_index,frame_index_expression,animation_phase_expression,branch_offset,notes
+20..25,3,raw_id - 20,(aS >> 2) % (f[3].b[frame_index] & 255),6636,special range checked before lookupswitch
+31,15,(packed_cell_value >> 8),(aS >> 1) % (f[15].b[frame_index] & 255),6755,lookupswitch case 31
+32,16,((packed_cell_value >> 8) & 255),none in this branch,6820,lookupswitch case 32
+36,20,(((packed_cell_value >> 8) - 1) * 7) / 16,none in this branch,6704,lookupswitch case 36
+80..207,42,(raw_id - 80) converted to signed byte; nonnegative required,none in this branch,6860,default branch; i2b then iflt skips negative results
+other,,none,none,6860,default computes (raw_id - 80) as signed byte; negative result skips f[42]

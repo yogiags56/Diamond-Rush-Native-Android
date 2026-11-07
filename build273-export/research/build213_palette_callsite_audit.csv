@@ -1,0 +1,14 @@
+class,invoke_offset,palette_index,argument_evidence,context
+c,424,0,literal iconst_0,initialization path
+i,522,0,literal iconst_0,initialization path
+i,530,1,literal iconst_1,alternate palette path
+i,5638,0,literal iconst_0,resource initialization
+i,6003,0,literal iconst_0,resource initialization
+i,6321,1,literal iconst_1,conditional palette switch
+i,6366,1,literal iconst_1,conditional palette switch
+i,6446,1,literal iconst_1,conditional palette switch
+i,6507,1,literal iconst_1,palette state reset
+i,6589,2,literal iconst_2,palette state switch
+i,6644,1,literal iconst_1,resource initialization
+i,6951,1,literal iconst_1,resource initialization
+i,7012,dynamic,field aA:I,state-dependent palette selection

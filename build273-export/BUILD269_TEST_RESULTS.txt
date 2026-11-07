@@ -1,0 +1,14 @@
+Build269 full validation
+========================
+pytest: 319 passed, 4 warnings
+Warnings: four existing Pillow Image.getdata() deprecation warnings from Build213 tests.
+
+Focused Build269 audit:
+- 94 original-classfile instruction offsets/opcodes verified against javap output.
+- Renderer invoke at bytecode offset 873 verified.
+- Renderer integer operand sourced from local 0: expression proven from instructions 799-817.
+- Renderer integer operand sourced from local 4: expression proven from instructions 818-836.
+- Both results narrowed using i2s (signed 16-bit).
+- Concrete runtime integers remain unknown; they depend on byte-array values, input index, and this.b.
+
+No Kotlin compilation, Android Gradle build, device runtime, full-room rendering, visual parity, or playable APK is claimed.

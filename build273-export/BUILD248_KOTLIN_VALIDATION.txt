@@ -1,0 +1,4 @@
+Build248 Kotlin validation
+
+All Kotlin production and test sources from the Build247 source list compiled together successfully with kotlinc.
+No Kotlin implementation source changed in Build248; this milestone adds a Python bytecode-producer evidence audit and regression tests.

@@ -1,0 +1,9 @@
+caller_class,caller_method,bytecode_offset,invoke_opcode,renderer_family,descriptor,integer_arguments,receiver_plus_argument_slots,context_instruction_count,operand_values_decoded,cfg_reachability_claimed
+b,public final void a(javax.microedition.lcdui.Graphics);,87,invokevirtual,component_7int,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,7,9,19,False,False
+b,public final void a(javax.microedition.lcdui.Graphics);,113,invokevirtual,leaf_4int,(Ljavax/microedition/lcdui/Graphics;IIII)V,4,6,19,False,False
+b,public final void a(javax.microedition.lcdui.Graphics);,141,invokevirtual,composite_6int,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,6,8,19,False,False
+c,"private void a(javax.microedition.lcdui.Graphics, byte[], int);",873,invokevirtual,composite_6int,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,6,8,19,False,False
+c,public final void a(javax.microedition.lcdui.Graphics);,280,invokevirtual,component_7int,(Ljavax/microedition/lcdui/Graphics;IIIIIII)V,7,9,19,False,False
+c,public final void a(javax.microedition.lcdui.Graphics);,304,invokevirtual,composite_6int,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,6,8,19,False,False
+c,public final void a(javax.microedition.lcdui.Graphics);,382,invokevirtual,composite_6int,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,6,8,19,False,False
+g,public static void a(javax.microedition.lcdui.Graphics);,80,invokevirtual,composite_6int,(Ljavax/microedition/lcdui/Graphics;IIIIII)V,6,8,19,False,False

@@ -1,0 +1,9 @@
+BUILD 251 — DESCRIPTOR STACK CONTRACTS
+
+Build251 verifies JVM descriptor parameter counts and operand-slot consumption for all 25 renderer callsites.
+- Seven-int overload: 9 consumed JVM slots including receiver.
+- Six-int overload: 8 consumed JVM slots including receiver.
+- Category-2 long/double slot accounting covered by a synthetic test.
+
+This is descriptor contract validation, NOT a full operand-stack interpreter. No runtime argument values or composite groups are resolved. Existing Kotlin validation from Build250 is unchanged; no Kotlin source was added.
+No Android Gradle build, device runtime, full-room rasterization, visual parity, or APK packaging is claimed.
