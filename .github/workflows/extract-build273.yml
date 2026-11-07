@@ -1,0 +1,42 @@
+
+name: Extract Build 273 Export
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout integration branch
+        uses: actions/checkout@v4
+
+      - name: Extract Build 273 archive
+        run: |
+          mkdir -p /tmp/build273
+          unzip -q Diamond_Rush_Build273_GitHub_Upload.zip \
+            -d /tmp/build273
+
+          mkdir -p build273-export
+          cp -a /tmp/build273/diamond_rush_github_repo/. \
+            build273-export/
+
+      - name: Commit extracted files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add build273-export
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Extract Build 273 source export"
+            git push
+          else
+            echo "No extracted file changes."
+          fi
+          
